@@ -27,7 +27,7 @@ function ShapPanel({ shap, home, away }) {
       <div className="space-y-2.5">
         {shap.map((s, i) => (
           <div key={i} className="flex items-center gap-3 text-sm">
-            <span className="w-40 truncate text-white/70">{s.feature}</span>
+            <span className="w-44 truncate text-white/70" title={s.feature}>{s.feature}</span>
             <div className="flex-1 h-4 relative bg-white/5 rounded">
               <div className="absolute top-0 bottom-0 left-1/2 w-px bg-white/15" />
               <div className="prob-fill absolute top-0 bottom-0 rounded"
@@ -84,19 +84,25 @@ export default function MatchDetail() {
       </div>
 
       {m.venue && (
-        <div className="card p-5 mb-6 border-l-2" style={{ borderLeftColor: "var(--color-warn)" }}>
+        <div className="card p-5 mb-6" style={{ borderColor: "rgba(255,179,0,0.3)", background: "linear-gradient(rgba(255,179,0,0.05), rgba(255,179,0,0.02)), linear-gradient(180deg, #151c1a, #111715)" }}>
           <div className="flex items-start gap-3">
-            <span className="text-2xl">⛰️</span>
+            <span className="text-2xl mt-0.5">⛰️</span>
             <div className="text-sm">
               <div className="font-display text-white mb-1">
                 Altitude factor — {m.venue.city} ({m.venue.altitude_m.toLocaleString()} m)
               </div>
               <p className="text-white/60">
                 {m.venue.favours
-                  ? <>This match is played at altitude. <span className="text-white">{m.venue.favours}</span> is
-                     the more acclimatised side — the visiting team climbs{" "}
-                     {Math.max(m.venue.ascent_home_m, m.venue.ascent_away_m).toLocaleString()} m above the
-                     elevation it usually plays at, a documented physical disadvantage the model accounts for.</>
+                  ? (() => {
+                      const disadvantaged = m.venue.favours === m.home_team ? m.away_team : m.home_team;
+                      const ascent = m.venue.favours === m.home_team ? m.venue.ascent_away_m : m.venue.ascent_home_m;
+                      return <>
+                        This match is played at altitude.{" "}
+                        <span className="text-white">{m.venue.favours}</span> is the more acclimatised side.{" "}
+                        <span className="text-white">{disadvantaged}</span> climbs{" "}
+                        {ascent.toLocaleString()} m above their usual playing elevation, a documented physical disadvantage the model accounts for.
+                      </>;
+                    })()
                   : <>Both teams ascend a similar amount to reach this venue, so altitude is roughly neutral here.</>}
               </p>
             </div>

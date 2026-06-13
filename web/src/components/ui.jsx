@@ -94,9 +94,3 @@ export function StaggerItem({ children, className }) {
     </motion.div>
   );
 }
-
-export function CountUp({ value, suffix = "", duration = 1 }) {
-  // Lightweight count-up without extra deps.
-  const display = value;
-  return <span className="tabular">{display}{suffix}</span>;
-}

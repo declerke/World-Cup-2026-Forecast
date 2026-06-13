@@ -92,7 +92,7 @@ export default function Performance() {
           The model uses Elo ratings, recent form, strength of schedule, head-to-head history and
           match importance. It does <span className="text-white/70">not</span> see injuries, suspensions,
           lineups, weather or in-tournament morale. International match prediction tops out around
-          55–60% accuracy for anyone — bookmakers included — because football is low-scoring and
+          55–60% accuracy for anyone (bookmakers included), because football is low-scoring and
           high-variance. Treat every number as a probability, not a promise.
         </p>
       </div>
@@ -113,7 +113,7 @@ export default function Performance() {
               <tbody>
                 {acc.data.receipts.slice().reverse().map((r) => (
                   <tr key={r.match_id} className="border-t border-[var(--color-line)]">
-                    <td className="py-2 pr-4">{r.home} v {r.away}</td>
+                    <td className="py-2 pr-4">{r.home} vs {r.away}</td>
                     <td className="py-2 pr-4 tabular text-white/60">{r.pred_score_home}–{r.pred_score_away}</td>
                     <td className="py-2 pr-4 tabular">{r.actual_home}–{r.actual_away}</td>
                     <td className="py-2">

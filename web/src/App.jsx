@@ -49,12 +49,12 @@ function Footer() {
         <p className="text-white/70 font-display">CupCast 2026</p>
         <p>
           Forecasts are probabilistic and for interest only. Match-level prediction in
-          international football tops out near 55–60% accuracy — see the Model page.
+          international football tops out near 55–60% accuracy; see the Model page.
         </p>
         <p>
           Data: martj42 international results · eloratings.net · football-data.org.
           Built by Ian Mwendwa ·{" "}
-          <a className="text-[var(--color-accent)]" href="https://github.com/declerke/World-Cup-2026-Forecast">
+          <a className="text-[var(--color-accent)] hover:text-white transition-colors" href="https://github.com/declerke/World-Cup-2026-Forecast">
             source
           </a>
         </p>
