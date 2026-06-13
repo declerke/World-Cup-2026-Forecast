@@ -1,0 +1,14 @@
+{
+  "generated_at_utc": "2026-06-13T11:28:54.777860+00:00",
+  "model_version": "uncommitted",
+  "summary": {
+    "n_scored": 0,
+    "mean_brier": null,
+    "mean_logloss": null,
+    "favorite_accuracy": null,
+    "exact_accuracy": null
+  },
+  "history": [],
+  "calibration": [],
+  "receipts": []
+}

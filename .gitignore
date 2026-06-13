@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+mlruns/
+
+# Data (raw + processed are regenerated; frozen is committed)
+pipeline/data/raw/
+pipeline/data/processed/
+pipeline/models/
+
+# Secrets
+.env
+
+# Personal (Ian's rule: never push)
+projectsummary.md
+namecheck.txt
+namefrags.txt
+
+# Node / frontend
+web/node_modules/
+web/dist/
+web/.vercel/
+
+# OS
+.DS_Store
+Thumbs.db

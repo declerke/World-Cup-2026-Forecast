@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pitch: #0a0e0d;
+  --color-pitch-2: #111715;
+  --color-card: #151c1a;
+  --color-line: #1f2926;
+  --color-accent: #00e676;
+  --color-accent-dim: #00b85f;
+  --color-warn: #ffb300;
+  --color-loss: #ff5252;
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(1200px 600px at 50% -10%, rgba(0, 230, 118, 0.08), transparent 60%),
+    var(--color-pitch);
+  color: #e6efec;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+/* Animated probability bar fill */
+@keyframes growX {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+.prob-fill {
+  transform-origin: left;
+  animation: growX 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Subtle card hover lift (GPU-accelerated transform only) */
+.lift {
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.25s ease;
+  will-change: transform;
+}
+.lift:hover {
+  transform: translateY(-3px);
+  border-color: rgba(0, 230, 118, 0.4);
+}
+
+.card {
+  background: linear-gradient(180deg, var(--color-card), var(--color-pitch-2));
+  border: 1px solid var(--color-line);
+  border-radius: 16px;
+}
+
+.accent-glow {
+  box-shadow: 0 0 0 1px rgba(0, 230, 118, 0.25),
+    0 8px 30px -10px rgba(0, 230, 118, 0.35);
+}
+
+/* scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--color-pitch); }
+::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover { background: #2c3a36; }
+
+.tabular { font-variant-numeric: tabular-nums; }

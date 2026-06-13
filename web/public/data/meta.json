@@ -1,0 +1,17 @@
+{
+  "generated_at_utc": "2026-06-13T11:28:54.266615+00:00",
+  "model_version": "uncommitted",
+  "n_sims": 10000,
+  "training_rows": 32292,
+  "metrics": {
+    "test_logloss": 0.8600753545761108,
+    "test_brier": 0.50563645362854,
+    "test_accuracy": 0.6004718836020448,
+    "n_test": 2543,
+    "n_dev": 29743,
+    "base_rate_logloss": 1.05372807016407,
+    "elo_only_logloss": 0.8675813253398976,
+    "beats_elo_only": true,
+    "beats_base_rate": true
+  }
+}

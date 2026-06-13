@@ -1,0 +1,48 @@
+name: Daily forecast update
+
+on:
+  schedule:
+    - cron: "0 9 * * *"      # 09:00 UTC daily (after North-American kickoffs end)
+  workflow_dispatch: {}        # allow manual runs
+
+permissions:
+  contents: write              # commit refreshed forecast JSON + frozen predictions
+
+concurrency:
+  group: daily-forecast
+  cancel-in-progress: false
+
+jobs:
+  forecast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Set up Python
+        run: uv python install 3.12
+
+      - name: Install dependencies
+        run: |
+          uv venv
+          uv pip install -r requirements.txt
+
+      - name: Run pipeline (refit on fresh data + 10k simulations)
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: uv run python run_pipeline.py --refit --sims 10000
+
+      - name: Commit updated forecast
+        run: |
+          git config user.name "cupcast-bot"
+          git config user.email "actions@github.com"
+          git add web/public/data pipeline/data/frozen pipeline/best_params.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Daily forecast update $(date -u +%Y-%m-%d)"
+            git push
+          fi

@@ -1,0 +1,16 @@
+# CupCast 2026 — pipeline dependencies
+# CVE-safe floors per known-safe-versions reference.
+xgboost>=2.0.0
+scikit-learn>=1.5.0
+shap>=0.45.0
+optuna>=3.6.0
+mlflow>=2.15.0
+pandas>=2.2.0
+numpy>=1.26.0
+scipy>=1.13.0
+requests>=2.33.0
+python-dotenv>=1.2.2
+joblib>=1.4.0
+jsonschema>=4.21.0
+pytest>=9.0.3
+pip-audit
