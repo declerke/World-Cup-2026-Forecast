@@ -1,10 +1,13 @@
+import { lazy, Suspense } from "react";
 import { NavLink, Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import Home from "./pages/Home.jsx";
-import Bracket from "./pages/Bracket.jsx";
-import Groups from "./pages/Groups.jsx";
-import MatchDetail from "./pages/MatchDetail.jsx";
-import Performance from "./pages/Performance.jsx";
+import { SkeletonPage } from "./components/ui.jsx";
+
+const Bracket = lazy(() => import("./pages/Bracket.jsx"));
+const Groups = lazy(() => import("./pages/Groups.jsx"));
+const MatchDetail = lazy(() => import("./pages/MatchDetail.jsx"));
+const Performance = lazy(() => import("./pages/Performance.jsx"));
 
 const NAV = [
   { to: "/", label: "Home", end: true },
@@ -82,15 +85,17 @@ export default function App() {
     <div className="min-h-full flex flex-col">
       <Header />
       <main className="flex-1">
-        <AnimatePresence mode="wait">
-          <Routes location={location} key={location.pathname}>
-            <Route path="/" element={<Page><Home /></Page>} />
-            <Route path="/groups" element={<Page><Groups /></Page>} />
-            <Route path="/bracket" element={<Page><Bracket /></Page>} />
-            <Route path="/match/:id" element={<Page><MatchDetail /></Page>} />
-            <Route path="/performance" element={<Page><Performance /></Page>} />
-          </Routes>
-        </AnimatePresence>
+        <Suspense fallback={<SkeletonPage />}>
+          <AnimatePresence mode="wait">
+            <Routes location={location} key={location.pathname}>
+              <Route path="/" element={<Page><Home /></Page>} />
+              <Route path="/groups" element={<Page><Groups /></Page>} />
+              <Route path="/bracket" element={<Page><Bracket /></Page>} />
+              <Route path="/match/:id" element={<Page><MatchDetail /></Page>} />
+              <Route path="/performance" element={<Page><Performance /></Page>} />
+            </Routes>
+          </AnimatePresence>
+        </Suspense>
       </main>
       <Footer />
     </div>
