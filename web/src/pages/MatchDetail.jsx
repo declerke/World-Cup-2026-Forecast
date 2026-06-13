@@ -83,6 +83,27 @@ export default function MatchDetail() {
         </div>
       </div>
 
+      {m.venue && (
+        <div className="card p-5 mb-6 border-l-2" style={{ borderLeftColor: "var(--color-warn)" }}>
+          <div className="flex items-start gap-3">
+            <span className="text-2xl">⛰️</span>
+            <div className="text-sm">
+              <div className="font-display text-white mb-1">
+                Altitude factor — {m.venue.city} ({m.venue.altitude_m.toLocaleString()} m)
+              </div>
+              <p className="text-white/60">
+                {m.venue.favours
+                  ? <>This match is played at altitude. <span className="text-white">{m.venue.favours}</span> is
+                     the more acclimatised side — the visiting team climbs{" "}
+                     {Math.max(m.venue.ascent_home_m, m.venue.ascent_away_m).toLocaleString()} m above the
+                     elevation it usually plays at, a documented physical disadvantage the model accounts for.</>
+                  : <>Both teams ascend a similar amount to reach this venue, so altitude is roughly neutral here.</>}
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
+
       <div className="grid md:grid-cols-2 gap-6">
         <ShapPanel shap={m.shap} home={m.home_team} away={m.away_team} />
 

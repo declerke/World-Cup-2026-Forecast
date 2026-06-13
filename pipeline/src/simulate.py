@@ -20,6 +20,7 @@ import config as C
 import knockout as KO
 import predict
 import team_names as tn
+import venues
 
 
 class Simulator:
@@ -27,6 +28,7 @@ class Simulator:
         self.states = art["states"]
         self.h2h = art["h2h"]
         self.final_elo = art["final_elo"]
+        self.baselines = art.get("altitude_baselines", {})
         self.n = n_sims
         self.rng = np.random.default_rng(seed if seed is not None else C.run_seed())
 
@@ -55,9 +57,11 @@ class Simulator:
                 ag = np.full(self.n, int(m["away_score"]), dtype=np.int16)
             else:
                 neutral = predict.is_neutral(m["home_team"])
+                v_alt = venues.wc2026_altitude(m["home_team"], m["away_team"])
                 mat = predict.scoreline_matrix(
                     m["home_team"], m["away_team"], neutral=neutral,
-                    states=self.states, h2h=self.h2h, importance=4)
+                    states=self.states, h2h=self.h2h, importance=4,
+                    baselines=self.baselines, venue_altitude=v_alt)
                 cells = self.rng.choice(mat.size, size=self.n, p=mat.ravel())
                 hg = (cells // n).astype(np.int16)
                 ag = (cells % n).astype(np.int16)

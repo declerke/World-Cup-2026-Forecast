@@ -253,3 +253,23 @@ Footer: data attributions (martj42, eloratings.net, football-data.org), "Built b
 3. Allow GitHub Actions to push (default GITHUB_TOKEN write permission in workflow `permissions: contents: write`).
 
 **Risks & mitigations:** martj42 lag on same-day results → football-data.org results are authoritative for WC 2026 matches (merge both, prefer official). football-data.org payload surprises → VERIFY shape first, parser behind one module. Group-stage clock → ship Home+Groups pages with v1, Bracket page can follow 1–2 days later. Draw rate over-prediction in KO sims → covered by §7.5. Cold start with zero scored predictions → accuracy page shows "first matchday pending" empty state.
+
+---
+
+## ADDENDUM — Venue Altitude Feature (2026-06-13)
+
+Added after launch at Ian's request ("the arena/stadium where they play matters").
+
+**Investigation findings (verified):**
+- football-data.org free tier exposes **no venue field** (0/104 fixtures) — per-fixture stadiums are not available from the API.
+- The real, documented venue effect is **altitude**, not the stadium itself. Mexico vs South Africa history: 5 meetings, Mexico 3W-1D-1L (so "never lost" is folklore), 4 of 5 in North America, most recent a 2-0 win in Mexico City.
+- Of the 16 WC 2026 host cities, only **Mexico City (Estadio Azteca, 2,240 m)** and **Guadalajara (Estadio Akron, 1,566 m)** are materially elevated. Monterrey (~540 m) and all US/Canada cities are sea-level class. **Denver was eliminated** during host selection — it is not a 2026 venue.
+
+**Implementation:**
+- `venues.py`: curated city→altitude lookup (high-altitude football cities worldwide + 16 host cities); per-team altitude baseline = median elevation of a team's home venues; WC 2026 elevated-fixture venue map (7 group matches at Azteca/Akron, by team pair, from the official schedule).
+- Two new features (`alt_gap_home`, `alt_gap_away`) = max(0, venue_altitude − team_baseline). Ascent is penalised; descending is not. 30 → **32 features**. 1,098 historical matches carry altitude signal.
+- Threaded venue altitude through `features` → `predict` → `simulate` → `publish`. Match-detail JSON gains a `venue` block; the UI shows an altitude panel naming the acclimatised side.
+
+**Result:** held-out log loss improved 0.8601 → **0.8583** (Brier 0.5056 → 0.5043), still beating both baselines — a small but genuine gain. Champion odds: Spain 27.7% → 26.3%. The baselines are realistically nuanced: Mexico 2,240 m (plays at Azteca) but Colombia 0 m (deliberately plays qualifiers in coastal Barranquilla). At Azteca the model now sees Mexico climbing 0 m and a sea-level visitor climbing the full 2,240 m — exactly the home-altitude edge Ian's peers described.
+
+**Honest limitation:** the seven elevated 2026 fixtures are mapped from the official FIFA schedule; every other fixture is treated as sea-level class (accurate to first order, since altitude effects are negligible below ~1,000 m and no other host city is elevated). Knockout venues are left sea-level (only 2 knockout games are at Azteca, with uncertain participants).

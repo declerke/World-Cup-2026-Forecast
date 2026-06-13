@@ -35,22 +35,26 @@ def _vec(feat: dict) -> np.ndarray:
     return np.array([[feat[c] for c in F.FEATURE_COLUMNS]], dtype=float)
 
 
-def wdl(home, away, *, neutral, states, h2h, importance=4, ref_date=None):
+def wdl(home, away, *, neutral, states, h2h, importance=4, ref_date=None,
+        baselines=None, venue_altitude=0.0):
     """Return (p_home_win, p_draw, p_away_win) for a directed fixture."""
     m = load_models()
     feat = F.features_for_pair(home, away, neutral=neutral, states=states,
-                               h2h_log=h2h, importance=importance, ref_date=ref_date)
+                               h2h_log=h2h, importance=importance, ref_date=ref_date,
+                               baselines=baselines, venue_altitude=venue_altitude)
     p = m["wdl"].predict_proba(_vec(feat))[0]   # order: [home_win, draw, away_win]
     return float(p[0]), float(p[1]), float(p[2])
 
 
-def wdl_neutral(a, b, *, states, h2h, importance=4):
+def wdl_neutral(a, b, *, states, h2h, importance=4, baselines=None, venue_altitude=0.0):
     """Symmetric neutral-venue probabilities (a vs b), averaging both orderings.
 
     Returns (p_a_win, p_draw, p_b_win).
     """
-    ph, pd1, pa = wdl(a, b, neutral=True, states=states, h2h=h2h, importance=importance)
-    ph2, pd2, pa2 = wdl(b, a, neutral=True, states=states, h2h=h2h, importance=importance)
+    ph, pd1, pa = wdl(a, b, neutral=True, states=states, h2h=h2h, importance=importance,
+                      baselines=baselines, venue_altitude=venue_altitude)
+    ph2, pd2, pa2 = wdl(b, a, neutral=True, states=states, h2h=h2h, importance=importance,
+                        baselines=baselines, venue_altitude=venue_altitude)
     # second call is from b's perspective: ph2 = P(b win), pa2 = P(a win)
     p_a = (ph + pa2) / 2
     p_b = (pa + ph2) / 2
@@ -59,10 +63,12 @@ def wdl_neutral(a, b, *, states, h2h, importance=4):
     return p_a / s, p_d / s, p_b / s
 
 
-def goal_lambdas(home, away, *, neutral, states, h2h, importance=4, ref_date=None):
+def goal_lambdas(home, away, *, neutral, states, h2h, importance=4, ref_date=None,
+                 baselines=None, venue_altitude=0.0):
     m = load_models()
     feat = F.features_for_pair(home, away, neutral=neutral, states=states,
-                               h2h_log=h2h, importance=importance, ref_date=ref_date)
+                               h2h_log=h2h, importance=importance, ref_date=ref_date,
+                               baselines=baselines, venue_altitude=venue_altitude)
     x = _vec(feat)
     lh = float(np.clip(m["pois_home"].predict(x)[0], C.LAMBDA_MIN, C.LAMBDA_MAX))
     la = float(np.clip(m["pois_away"].predict(x)[0], C.LAMBDA_MIN, C.LAMBDA_MAX))
@@ -70,11 +76,12 @@ def goal_lambdas(home, away, *, neutral, states, h2h, importance=4, ref_date=Non
 
 
 def scoreline_matrix(home, away, *, neutral, states, h2h, importance=4, ref_date=None,
-                     wdl_probs=None):
+                     wdl_probs=None, baselines=None, venue_altitude=0.0):
     """(MAX_GOALS+1) square joint scoreline matrix from independent Poissons,
     region-renormalised so its W/D/L mass matches the classifier (authoritative)."""
     lh, la = goal_lambdas(home, away, neutral=neutral, states=states, h2h=h2h,
-                          importance=importance, ref_date=ref_date)
+                          importance=importance, ref_date=ref_date,
+                          baselines=baselines, venue_altitude=venue_altitude)
     n = C.MAX_GOALS + 1
     ph = poisson.pmf(np.arange(n), lh)
     pa = poisson.pmf(np.arange(n), la)
@@ -83,7 +90,8 @@ def scoreline_matrix(home, away, *, neutral, states, h2h, importance=4, ref_date
 
     if wdl_probs is None:
         wdl_probs = wdl(home, away, neutral=neutral, states=states, h2h=h2h,
-                        importance=importance, ref_date=ref_date)
+                        importance=importance, ref_date=ref_date,
+                        baselines=baselines, venue_altitude=venue_altitude)
     p_home, p_draw, p_away = wdl_probs
     idx = np.arange(n)
     home_mask = idx[:, None] > idx[None, :]

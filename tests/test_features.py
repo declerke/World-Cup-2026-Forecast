@@ -27,13 +27,13 @@ def _toy_history():
 
 
 def test_feature_columns_count_and_order():
-    assert len(F.FEATURE_COLUMNS) == 30
+    assert len(F.FEATURE_COLUMNS) == 32
     assert F.FEATURE_COLUMNS[0] == "elo_home"
     assert "elo_diff" in F.FEATURE_COLUMNS
 
 
 def test_first_match_has_default_form():
-    train, _, _ = F.build(_toy_history().assign(date=lambda d: d["date"]))
+    train, _, _, _ = F.build(_toy_history().assign(date=lambda d: d["date"]))
     # all toy matches are >= TRAIN_FROM (1995 > 1990), so first row present
     first = train.iloc[0]
     # No prior history -> default form (0.5 win rate)
@@ -51,9 +51,9 @@ def test_no_future_leakage():
     the past).
     """
     hist = _toy_history()
-    full, _, _ = F.build(hist)
+    full, _, _, _ = F.build(hist)
     for k in range(1, len(hist)):
-        truncated, _, _ = F.build(hist.iloc[: k + 1].reset_index(drop=True))
+        truncated, _, _, _ = F.build(hist.iloc[: k + 1].reset_index(drop=True))
         row_full = full.iloc[k][F.FEATURE_COLUMNS].astype(float).to_numpy()
         row_trunc = truncated.iloc[k][F.FEATURE_COLUMNS].astype(float).to_numpy()
         np.testing.assert_allclose(row_full, row_trunc, rtol=1e-9,
@@ -61,7 +61,7 @@ def test_no_future_leakage():
 
 
 def test_outcome_labels_match_scores():
-    train, _, _ = F.build(_toy_history())
+    train, _, _, _ = F.build(_toy_history())
     # match 0: A 2-0 B -> home_win
     assert train.iloc[0]["outcome"] == "home_win"
     # match 1: B 1-1 C -> draw
@@ -69,13 +69,13 @@ def test_outcome_labels_match_scores():
 
 
 def test_form_reflects_prior_result():
-    train, _, _ = F.build(_toy_history())
+    train, _, _, _ = F.build(_toy_history())
     # By match 2 (A vs C), A has played one match (won) -> win rate 1.0
     assert train.iloc[2]["form10_win_h"] == 1.0
 
 
 def test_features_for_pair_uses_final_state():
-    _, states, h2h = F.build(_toy_history())
+    _, states, h2h, _ = F.build(_toy_history())
     feat = F.features_for_pair("A", "B", neutral=True, states=states, h2h_log=h2h)
     assert set(F.FEATURE_COLUMNS).issubset(feat.keys())
     assert feat["neutral"] == 1

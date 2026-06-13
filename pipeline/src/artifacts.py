@@ -18,7 +18,7 @@ _CACHE = C.PROCESSED / "artifacts.joblib"
 def build(refresh: bool = False) -> dict:
     history = ingest.build_history(refresh=refresh)
     matches_elo, final_elo, timeline = elo.run_elo(history)
-    train, states, h2h = features.build(history)
+    train, states, h2h, baselines = features.build(history)
     art = {
         "history": history,
         "final_elo": final_elo,
@@ -26,6 +26,7 @@ def build(refresh: bool = False) -> dict:
         "train": train,
         "states": states,
         "h2h": h2h,
+        "altitude_baselines": baselines,
     }
     joblib.dump(art, _CACHE)
     return art

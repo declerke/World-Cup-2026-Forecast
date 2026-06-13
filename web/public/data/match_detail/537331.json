@@ -6,67 +6,67 @@
   "group": "A",
   "utc_date": "2026-06-25T01:00:00Z",
   "probs": {
-    "p_home": 0.2062,
-    "p_draw": 0.3198,
-    "p_away": 0.474
+    "p_home": 0.2006,
+    "p_draw": 0.2506,
+    "p_away": 0.5488
   },
   "top_scorelines": [
     {
+      "home": 0,
+      "away": 1,
+      "prob": 0.1382
+    },
+    {
       "home": 1,
       "away": 1,
-      "prob": 0.1516
+      "prob": 0.1182
     },
     {
       "home": 0,
-      "away": 1,
-      "prob": 0.1219
+      "away": 2,
+      "prob": 0.1074
+    },
+    {
+      "home": 1,
+      "away": 2,
+      "prob": 0.0982
     },
     {
       "home": 0,
       "away": 0,
-      "prob": 0.1007
-    },
-    {
-      "home": 1,
-      "away": 2,
-      "prob": 0.0917
-    },
-    {
-      "home": 0,
-      "away": 2,
-      "prob": 0.089
+      "prob": 0.0832
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.4715,
+      "impact": 0.4461,
       "direction": "favors"
     },
     {
       "feature": "head-to-head goal margin",
-      "impact": -0.1228,
+      "impact": -0.133,
       "direction": "against"
     },
     {
       "feature": "neutral venue",
-      "impact": 0.1142,
+      "impact": 0.1119,
+      "direction": "favors"
+    },
+    {
+      "feature": "altitude vs home's norm",
+      "impact": 0.1072,
       "direction": "favors"
     },
     {
       "feature": "away Elo",
-      "impact": 0.0952,
+      "impact": 0.0906,
       "direction": "favors"
     },
     {
       "feature": "away strength of schedule",
-      "impact": 0.0637,
+      "impact": 0.0594,
       "direction": "favors"
-    },
-    {
-      "feature": "away momentum (1yr Elo)",
-      "impact": -0.0608,
-      "direction": "against"
     }
   ],
   "form": {
@@ -298,5 +298,12 @@
         "elo": 1983.0
       }
     ]
+  },
+  "venue": {
+    "city": "Mexico City",
+    "altitude_m": 2240,
+    "ascent_home_m": 2240,
+    "ascent_away_m": 0,
+    "favours": "Mexico"
   }
 }

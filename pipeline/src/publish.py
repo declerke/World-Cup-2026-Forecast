@@ -21,6 +21,7 @@ import predict
 import freeze
 import team_names as tn
 import bracket as B
+import venues
 import sys
 sys.path.insert(0, str(C.SCHEMAS))
 import schemas  # noqa: E402
@@ -36,6 +37,7 @@ FEATURE_LABELS = {
     "h2h_home_winrate": "head-to-head record", "h2h_mean_gd": "head-to-head goal margin",
     "elo_trend_h": "home momentum (1yr Elo)", "elo_trend_a": "away momentum (1yr Elo)",
     "rest_h": "home rest days", "rest_a": "away rest days", "importance": "match importance",
+    "alt_gap_home": "altitude vs home's norm", "alt_gap_away": "altitude vs away's norm",
     "form5_draw_h": "home draw tendency", "form5_draw_a": "away draw tendency",
     "form10_draw_h": "home draw tendency (10)", "form10_draw_a": "away draw tendency (10)",
     "form5_gf_h": "home last-5 scoring", "form5_gf_a": "away last-5 scoring",
@@ -93,6 +95,7 @@ class Publisher:
         self.states = art["states"]
         self.h2h = art["h2h"]
         self.timeline = art["elo_timeline"]
+        self.baselines = art.get("altitude_baselines", {})
         self.fixtures = fixtures
         self.sim = sim_out
         self.metrics = metrics
@@ -104,12 +107,32 @@ class Publisher:
     def _fixture_prediction(self, m):
         home, away = m["home_team"], m["away_team"]
         neutral = predict.is_neutral(home)
+        v_alt = venues.wc2026_altitude(home, away)
         wdl = predict.wdl(home, away, neutral=neutral, states=self.states,
-                          h2h=self.h2h, importance=4)
+                          h2h=self.h2h, importance=4,
+                          baselines=self.baselines, venue_altitude=v_alt)
         mat = predict.scoreline_matrix(home, away, neutral=neutral, states=self.states,
-                                       h2h=self.h2h, importance=4, wdl_probs=wdl)
+                                       h2h=self.h2h, importance=4, wdl_probs=wdl,
+                                       baselines=self.baselines, venue_altitude=v_alt)
         tops = predict.top_scorelines(mat, 5)
         return wdl, mat, tops
+
+    def _venue_context(self, home, away):
+        """Venue city + altitude note for the match page (None if sea-level)."""
+        city = venues.wc2026_venue_city(home, away)
+        if city is None:
+            return None
+        alt = venues.wc2026_altitude(home, away)
+        gap_home = max(0.0, alt - self.baselines.get(home, 0.0))
+        gap_away = max(0.0, alt - self.baselines.get(away, 0.0))
+        # The side with the smaller ascent is the more acclimatised.
+        if abs(gap_home - gap_away) < 50:
+            favours = None
+        else:
+            favours = home if gap_home < gap_away else away
+        return {"city": city, "altitude_m": int(alt),
+                "ascent_home_m": int(gap_home), "ascent_away_m": int(gap_away),
+                "favours": favours}
 
     # -- SHAP ----------------------------------------------------------------
     def _shap_top(self, m, favorite_class: int):
@@ -117,8 +140,10 @@ class Publisher:
         if self._explainer is None:
             self._explainer = shap.TreeExplainer(predict.load_models()["wdl"])
         neutral = predict.is_neutral(m["home_team"])
+        v_alt = venues.wc2026_altitude(m["home_team"], m["away_team"])
         feat = F.features_for_pair(m["home_team"], m["away_team"], neutral=neutral,
-                                   states=self.states, h2h_log=self.h2h, importance=4)
+                                   states=self.states, h2h_log=self.h2h, importance=4,
+                                   baselines=self.baselines, venue_altitude=v_alt)
         x = np.array([[feat[c] for c in F.FEATURE_COLUMNS]], dtype=float)
         sv = self._explainer.shap_values(x)
         if isinstance(sv, list):              # list per class
@@ -235,6 +260,9 @@ class Publisher:
                 row["probs"] = {"p_home": round(wdl[0], 4), "p_draw": round(wdl[1], 4),
                                 "p_away": round(wdl[2], 4)}
                 row["most_likely_score"] = {"home": tops[0]["home"], "away": tops[0]["away"]}
+                vc = self._venue_context(m["home_team"], m["away_team"])
+                if vc:
+                    row["venue"] = vc
             out.append(row)
         _write("matches.json", {"generated_at_utc": _now(),
                                 "model_version": self.version, "matches": out})
@@ -264,6 +292,7 @@ class Publisher:
                 "h2h": self._h2h_summary(m["home_team"], m["away_team"]),
                 "elo_history": {"home": self._elo_history(m["home_team"]),
                                 "away": self._elo_history(m["away_team"])},
+                "venue": self._venue_context(m["home_team"], m["away_team"]),
             }
             detail = _json_safe(detail)
             validate(instance=detail, schema=schemas.MATCH_DETAIL)

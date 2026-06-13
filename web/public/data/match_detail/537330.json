@@ -6,66 +6,66 @@
   "group": "A",
   "utc_date": "2026-06-19T01:00:00Z",
   "probs": {
-    "p_home": 0.5509,
-    "p_draw": 0.2663,
-    "p_away": 0.1828
+    "p_home": 0.5643,
+    "p_draw": 0.277,
+    "p_away": 0.1587
   },
   "top_scorelines": [
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1266
+      "prob": 0.1287
     },
     {
       "home": 1,
       "away": 0,
-      "prob": 0.1049
+      "prob": 0.1183
     },
     {
       "home": 2,
       "away": 0,
-      "prob": 0.0997
-    },
-    {
-      "home": 2,
-      "away": 1,
-      "prob": 0.0891
+      "prob": 0.1163
     },
     {
       "home": 0,
       "away": 0,
-      "prob": 0.0745
+      "prob": 0.1008
+    },
+    {
+      "home": 3,
+      "away": 0,
+      "prob": 0.0762
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.0972,
-      "direction": "favors"
-    },
-    {
-      "feature": "neutral venue",
-      "impact": 0.0763,
+      "impact": 0.1091,
       "direction": "favors"
     },
     {
       "feature": "away Elo",
-      "impact": -0.0709,
+      "impact": -0.0819,
       "direction": "against"
     },
     {
+      "feature": "neutral venue",
+      "impact": 0.0746,
+      "direction": "favors"
+    },
+    {
       "feature": "head-to-head goal margin",
-      "impact": 0.0698,
+      "impact": 0.0548,
       "direction": "favors"
     },
     {
       "feature": "away strength of schedule",
-      "impact": -0.0549,
+      "impact": -0.0547,
       "direction": "against"
     },
     {
-      "feature": "head-to-head record",
-      "impact": 0.0354,
+      "feature": "home strength of schedule",
+      "impact": 0.0226,
       "direction": "favors"
     }
   ],
@@ -298,5 +298,12 @@
         "elo": 1916.2
       }
     ]
+  },
+  "venue": {
+    "city": "Guadalajara",
+    "altitude_m": 1566,
+    "ascent_home_m": 0,
+    "ascent_away_m": 1566,
+    "favours": "Mexico"
   }
 }

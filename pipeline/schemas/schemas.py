@@ -97,6 +97,7 @@ MATCH_DETAIL = {
         },
         "top_scorelines": {"type": "array"},
         "shap": {"type": "array"},
+        "venue": {"type": ["object", "null"]},
     },
 }
 

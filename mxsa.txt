@@ -1,0 +1,6 @@
+=== Mexico vs South Africa all meetings ===
+1993-10-06 Mexico 4.0-0.0 South Africa @ Los Angeles, United States (neutral=True)
+2000-06-07 Mexico 4.0-2.0 South Africa @ Dallas, United States (neutral=True)
+2005-07-08 South Africa 2.0-1.0 Mexico @ Carson, United States (neutral=True)
+2010-06-11 South Africa 1.0-1.0 Mexico @ Johannesburg, South Africa (neutral=False)
+2026-06-11 Mexico 2.0-0.0 South Africa @ Mexico City, Mexico (neutral=False)

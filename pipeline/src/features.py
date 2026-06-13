@@ -16,6 +16,7 @@ import numpy as np
 import pandas as pd
 
 import config as C
+import venues
 
 IMPORTANCE_ORDINAL = {
     "friendly": 0,
@@ -38,6 +39,7 @@ FEATURE_COLUMNS = [
     "h2h_home_winrate", "h2h_mean_gd",
     "importance",
     "elo_trend_h", "elo_trend_a",
+    "alt_gap_home", "alt_gap_away",
 ]
 
 
@@ -97,7 +99,8 @@ def _expected(elo_a, elo_b, home_adv):
 
 
 def _pair_features(hs: TeamState, as_: TeamState, neutral: bool, home_is_host: bool,
-                   importance: int, ref_date, h2h) -> dict:
+                   importance: int, ref_date, h2h,
+                   alt_gap_home: float = 0.0, alt_gap_away: float = 0.0) -> dict:
     f5h = _form(hs.results, hs.gf, hs.ga, 5)
     f5a = _form(as_.results, as_.gf, as_.ga, 5)
     f10h = _form(hs.results, hs.gf, hs.ga, 10)
@@ -119,6 +122,8 @@ def _pair_features(hs: TeamState, as_: TeamState, neutral: bool, home_is_host: b
         "importance": importance,
         "elo_trend_h": _elo_trend(hs, ref_date),
         "elo_trend_a": _elo_trend(as_, ref_date),
+        "alt_gap_home": alt_gap_home,
+        "alt_gap_away": alt_gap_away,
     }
 
 
@@ -154,6 +159,16 @@ def build(history: pd.DataFrame):
     states: dict[str, TeamState] = defaultdict(TeamState)
     h2h_log: dict[tuple, list] = defaultdict(list)
 
+    # Altitude: team baselines (a stable geographic attribute — where a team is
+    # based — so computing it from all history is not outcome leakage) + per-match
+    # venue altitude. Degrades to no-op when the history has no city column.
+    if "city" in history.columns:
+        baselines = venues.team_baselines(history)
+        venue_alt_arr = history["city"].map(venues.altitude).to_numpy()
+    else:
+        baselines = {}
+        venue_alt_arr = np.zeros(len(history))
+
     rows = []
     train_from = np.datetime64(C.TRAIN_FROM)
 
@@ -174,8 +189,11 @@ def build(history: pd.DataFrame):
         h2h = _h2h_lookup(h2h_log, h, a)
 
         if ref >= train_from:
+            v_alt = venue_alt_arr[i]
+            agh = max(0.0, v_alt - baselines.get(h, 0.0))
+            aga = max(0.0, v_alt - baselines.get(a, 0.0))
             feat = _pair_features(hstate, astate, bool(neutral_arr[i]), home_is_host,
-                                  importance, ref, h2h)
+                                  importance, ref, h2h, agh, aga)
             if hs_arr[i] > as_arr[i]:
                 outcome = "home_win"
             elif hs_arr[i] < as_arr[i]:
@@ -215,18 +233,28 @@ def build(history: pd.DataFrame):
         h2h_log[tuple(sorted((h, a)))].append((h, int(hs_arr[i]), int(as_arr[i])))
 
     train = pd.DataFrame(rows)
-    return train, dict(states), dict(h2h_log)
+    return train, dict(states), dict(h2h_log), baselines
 
 
 def features_for_pair(home, away, *, neutral, states, h2h_log,
-                      ref_date=None, importance=4, rest_default=4.0) -> dict:
-    """Feature vector for an upcoming/simulated match from current team state."""
+                      ref_date=None, importance=4, rest_default=4.0,
+                      baselines=None, venue_altitude=0.0) -> dict:
+    """Feature vector for an upcoming/simulated match from current team state.
+
+    venue_altitude (m) and baselines drive the altitude-gap features; both
+    default to a sea-level / no-baseline no-op so callers without venue context
+    behave exactly as before.
+    """
     ref = np.datetime64(ref_date) if ref_date is not None else np.datetime64(C.TEST_TO)
     hstate = states.get(home) or TeamState()
     astate = states.get(away) or TeamState()
     home_is_host = not neutral
     h2h = _h2h_lookup(h2h_log, home, away)
-    feat = _pair_features(hstate, astate, neutral, home_is_host, importance, ref, h2h)
+    baselines = baselines or {}
+    agh = max(0.0, venue_altitude - baselines.get(home, 0.0))
+    aga = max(0.0, venue_altitude - baselines.get(away, 0.0))
+    feat = _pair_features(hstate, astate, neutral, home_is_host, importance, ref, h2h,
+                          agh, aga)
     # For neutral simulated knockouts we don't know exact dates; use a tournament rest.
     if ref_date is None:
         feat["rest_h"] = feat["rest_a"] = rest_default
@@ -235,7 +263,7 @@ def features_for_pair(home, away, *, neutral, states, h2h_log,
 
 if __name__ == "__main__":
     import ingest
-    train, states, h2h = build(ingest.build_history())
+    train, states, h2h, baselines = build(ingest.build_history())
     print(f"training rows: {len(train):,}")
     print(train["outcome"].value_counts(normalize=True).round(3).to_dict())
     print(f"date range: {train['date'].min()} .. {train['date'].max()}")
