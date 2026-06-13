@@ -66,15 +66,15 @@ export default function MatchDetail() {
         {m.stage === "group" ? `Group ${m.group}` : m.stage} ·{" "}
         {new Date(m.utc_date).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })}
       </div>
-      <h1 className="text-3xl sm:text-4xl font-display font-bold mb-6">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-display font-bold mb-6">
         {m.home_team} <span className="text-white/30">vs</span> {m.away_team}
       </h1>
 
       <div className="card p-6 mb-6">
-        <div className="flex justify-between text-sm mb-2">
-          <span className="text-[var(--color-accent)] font-medium">{m.home_team} {pct(p.p_home)}</span>
-          <span className="text-white/50">Draw {pct(p.p_draw)}</span>
-          <span className="text-[var(--color-warn)] font-medium">{pct(p.p_away)} {m.away_team}</span>
+        <div className="flex items-baseline gap-2 text-sm mb-2">
+          <span className="text-[var(--color-accent)] font-medium truncate min-w-0 flex-1">{m.home_team} {pct(p.p_home)}</span>
+          <span className="text-white/50 shrink-0">Draw {pct(p.p_draw)}</span>
+          <span className="text-[var(--color-warn)] font-medium truncate min-w-0 flex-1 text-right">{pct(p.p_away)} {m.away_team}</span>
         </div>
         <TriProbBar pHome={p.p_home} pDraw={p.p_draw} pAway={p.p_away} />
         <div className="mt-4 text-sm text-white/60">

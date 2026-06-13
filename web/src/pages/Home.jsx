@@ -41,14 +41,14 @@ function ChampionRace({ teams }) {
         {top.map((t, i) => (
           <div key={t.team} className="flex items-center gap-3">
             <span className="w-6 text-white/30 text-sm tabular">{i + 1}</span>
-            <span className="w-28 sm:w-36 truncate text-sm">{t.team}</span>
+            <span className="w-20 sm:w-28 lg:w-36 truncate text-sm">{t.team}</span>
             <div className="flex-1 h-6 rounded-lg bg-white/5 overflow-hidden relative">
               <div className="prob-fill h-full rounded-lg bg-gradient-to-r from-[var(--color-accent-dim)] to-[var(--color-accent)]"
                    style={{ width: `${(t.p_champion / max) * 100}%` }} />
             </div>
             <span className="w-16 text-right tabular text-sm font-medium">{pct(t.p_champion)}</span>
             {t.delta_vs_yesterday != null && t.delta_vs_yesterday !== 0 && (
-              <span className={`w-12 text-right text-xs tabular ${t.delta_vs_yesterday > 0 ? "text-[var(--color-accent)]" : "text-[var(--color-loss)]"}`}>
+              <span className={`hidden sm:block w-12 text-right text-xs tabular ${t.delta_vs_yesterday > 0 ? "text-[var(--color-accent)]" : "text-[var(--color-loss)]"}`}>
                 {t.delta_vs_yesterday > 0 ? "▲" : "▼"}{Math.abs(t.delta_vs_yesterday * 100).toFixed(1)}
               </span>
             )}
@@ -85,7 +85,7 @@ export default function Home() {
         <div className="text-xs uppercase tracking-[0.2em] text-[var(--color-accent)] mb-3">
           FIFA World Cup 2026 · Live ML Forecast
         </div>
-        <h1 className="text-4xl sm:text-6xl font-display font-bold leading-[1.05] max-w-3xl">
+        <h1 className="text-3xl sm:text-5xl lg:text-6xl font-display font-bold leading-[1.05] max-w-3xl">
           Every match. Every probability.{" "}
           <span className="text-[var(--color-accent)]">Updated daily.</span>
         </h1>
