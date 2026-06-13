@@ -1,0 +1,2 @@
+match_id,kickoff_utc,home,away,outcome,p_home,p_draw,p_away,brier,logloss,favorite_correct,exact_correct,pred_score_home,pred_score_away,actual_home,actual_away,scored_at_utc
+537334,2026-06-13T19:00:00Z,Qatar,Switzerland,draw,0.1444,0.337,0.5185,0.7293,1.0877,0,1,1,1,1,1,2026-06-13T21:40:32.322710+00:00
