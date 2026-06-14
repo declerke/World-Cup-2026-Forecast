@@ -6,66 +6,66 @@
   "group": "C",
   "utc_date": "2026-06-24T22:00:00Z",
   "probs": {
-    "p_home": 0.1707,
-    "p_draw": 0.2589,
-    "p_away": 0.5704
+    "p_home": 0.1735,
+    "p_draw": 0.2681,
+    "p_away": 0.5584
   },
   "top_scorelines": [
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1231
+      "prob": 0.1275
     },
     {
       "home": 0,
       "away": 2,
-      "prob": 0.1039
+      "prob": 0.0992
     },
     {
       "home": 0,
       "away": 1,
-      "prob": 0.1018
+      "prob": 0.095
     },
     {
       "home": 1,
       "away": 2,
-      "prob": 0.0842
+      "prob": 0.0819
     },
     {
       "home": 0,
       "away": 0,
-      "prob": 0.0744
+      "prob": 0.0739
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.4452,
+      "impact": 0.4198,
       "direction": "favors"
     },
     {
       "feature": "neutral venue",
-      "impact": 0.1093,
+      "impact": 0.1109,
       "direction": "favors"
     },
     {
       "feature": "away Elo",
-      "impact": 0.0943,
+      "impact": 0.0838,
       "direction": "favors"
     },
     {
       "feature": "away strength of schedule",
-      "impact": 0.0559,
+      "impact": 0.0547,
       "direction": "favors"
     },
     {
       "feature": "head-to-head record",
-      "impact": 0.0421,
+      "impact": 0.043,
       "direction": "favors"
     },
     {
       "feature": "home Elo",
-      "impact": -0.0377,
+      "impact": -0.037,
       "direction": "against"
     }
   ],
@@ -73,11 +73,11 @@
     "home": [
       "W",
       "W",
-      "W",
       "L",
       "W",
       "L",
       "L",
+      "W",
       "W",
       "W",
       "W"
@@ -197,7 +197,7 @@
       },
       {
         "date": "2026-06",
-        "elo": 1876.8
+        "elo": 1891.3
       }
     ],
     "away": [
@@ -295,7 +295,7 @@
       },
       {
         "date": "2026-06",
-        "elo": 2053.9
+        "elo": 2061.3
       }
     ]
   },

@@ -6,66 +6,66 @@
   "group": "C",
   "utc_date": "2026-06-20T00:30:00Z",
   "probs": {
-    "p_home": 0.8947,
-    "p_draw": 0.0669,
-    "p_away": 0.0384
+    "p_home": 0.9,
+    "p_draw": 0.0662,
+    "p_away": 0.0339
   },
   "top_scorelines": [
     {
       "home": 3,
       "away": 0,
-      "prob": 0.1271
+      "prob": 0.1259
     },
     {
       "home": 2,
       "away": 0,
-      "prob": 0.1226
+      "prob": 0.1166
     },
     {
       "home": 4,
       "away": 0,
-      "prob": 0.0989
-    },
-    {
-      "home": 1,
-      "away": 0,
-      "prob": 0.0788
+      "prob": 0.102
     },
     {
       "home": 3,
       "away": 1,
-      "prob": 0.0769
+      "prob": 0.0753
+    },
+    {
+      "home": 1,
+      "away": 0,
+      "prob": 0.072
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.9426,
+      "impact": 0.9799,
       "direction": "favors"
     },
     {
       "feature": "head-to-head goal margin",
-      "impact": 0.2557,
+      "impact": 0.2803,
       "direction": "favors"
     },
     {
       "feature": "home strength of schedule",
-      "impact": 0.1321,
+      "impact": 0.1277,
       "direction": "favors"
     },
     {
       "feature": "neutral venue",
-      "impact": -0.0946,
+      "impact": -0.0976,
       "direction": "against"
     },
     {
       "feature": "away strength of schedule",
-      "impact": -0.0807,
+      "impact": -0.0862,
       "direction": "against"
     },
     {
       "feature": "head-to-head record",
-      "impact": 0.0409,
+      "impact": 0.0406,
       "direction": "favors"
     }
   ],
@@ -83,7 +83,6 @@
       "D"
     ],
     "away": [
-      "D",
       "W",
       "L",
       "W",
@@ -91,6 +90,7 @@
       "L",
       "D",
       "W",
+      "L",
       "L",
       "L"
     ]
@@ -197,7 +197,7 @@
       },
       {
         "date": "2026-06",
-        "elo": 2053.9
+        "elo": 2061.3
       }
     ],
     "away": [
@@ -295,7 +295,7 @@
       },
       {
         "date": "2026-06",
-        "elo": 1670.7
+        "elo": 1656.2
       }
     ]
   },
