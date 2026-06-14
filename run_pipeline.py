@@ -59,20 +59,20 @@ def main():
     sim = simulate.Simulator(art, fixtures, n_sims=args.sims, seed=C.run_seed())
     sim_out = sim.run()
 
-    print("[4/6] Publishing JSON contracts ...")
+    print("[4/6] Scoring resolved predictions ...")
+    import freeze
+    n_scored = freeze.score_resolved(fixtures)
+    print(f"      newly scored: {n_scored}")
+
+    print("[5/6] Publishing JSON contracts ...")
     import publish
     version = publish.git_sha()
     pub = publish.Publisher(art, fixtures, sim_out, metrics, version)
     predictions = pub.run()
 
-    print("[5/6] Freezing due predictions (<=72h to kickoff) ...")
-    import freeze
+    print("[6/6] Freezing due predictions (<=72h to kickoff) ...")
     n_frozen = freeze.freeze_due(fixtures, predictions, version)
     print(f"      newly frozen: {n_frozen}")
-
-    print("[6/6] Scoring resolved predictions ...")
-    n_scored = freeze.score_resolved(fixtures)
-    print(f"      newly scored: {n_scored}")
 
     champ = sorted(sim_out["teams"].values(), key=lambda d: -d["p_champion"])[:5]
     print("\nTop 5 champion odds:")
