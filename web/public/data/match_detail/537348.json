@@ -6,66 +6,66 @@
   "group": "D",
   "utc_date": "2026-06-19T19:00:00Z",
   "probs": {
-    "p_home": 0.5653,
-    "p_draw": 0.2445,
-    "p_away": 0.1902
+    "p_home": 0.4971,
+    "p_draw": 0.2677,
+    "p_away": 0.2352
   },
   "top_scorelines": [
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1057
+      "prob": 0.1153
     },
     {
       "home": 2,
       "away": 1,
-      "prob": 0.0936
+      "prob": 0.0908
     },
     {
       "home": 2,
       "away": 2,
-      "prob": 0.0737
+      "prob": 0.0811
+    },
+    {
+      "home": 1,
+      "away": 0,
+      "prob": 0.0646
     },
     {
       "home": 2,
       "away": 0,
-      "prob": 0.073
-    },
-    {
-      "home": 3,
-      "away": 1,
-      "prob": 0.0679
+      "prob": 0.0642
     }
   ],
   "shap": [
     {
-      "feature": "home strength of schedule",
-      "impact": 0.1526,
-      "direction": "favors"
-    },
-    {
       "feature": "Elo rating gap",
-      "impact": -0.0881,
+      "impact": -0.138,
       "direction": "against"
     },
     {
-      "feature": "neutral venue",
-      "impact": 0.0622,
+      "feature": "home strength of schedule",
+      "impact": 0.1302,
       "direction": "favors"
     },
     {
       "feature": "away Elo",
-      "impact": -0.061,
+      "impact": -0.1067,
       "direction": "against"
+    },
+    {
+      "feature": "neutral venue",
+      "impact": 0.0642,
+      "direction": "favors"
     },
     {
       "feature": "away strength of schedule",
-      "impact": -0.0567,
+      "impact": -0.0534,
       "direction": "against"
     },
     {
-      "feature": "home Elo",
-      "impact": 0.0404,
+      "feature": "head-to-head goal margin",
+      "impact": 0.0402,
       "direction": "favors"
     }
   ],
@@ -85,14 +85,14 @@
     "away": [
       "W",
       "W",
-      "W",
       "L",
       "L",
       "L",
       "W",
       "W",
       "L",
-      "D"
+      "D",
+      "W"
     ]
   },
   "h2h": {
@@ -295,7 +295,7 @@
       },
       {
         "date": "2026-06",
-        "elo": 1898.9
+        "elo": 1940.6
       }
     ]
   },

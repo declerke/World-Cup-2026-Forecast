@@ -1,2 +1,5 @@
 match_id,kickoff_utc,home,away,outcome,p_home,p_draw,p_away,brier,logloss,favorite_correct,exact_correct,pred_score_home,pred_score_away,actual_home,actual_away,scored_at_utc
 537334,2026-06-13T19:00:00Z,Qatar,Switzerland,draw,0.1444,0.337,0.5185,0.7293,1.0877,0,1,1,1,1,1,2026-06-13T21:40:32.322710+00:00
+537339,2026-06-13T22:00:00Z,Brazil,Morocco,draw,0.4784,0.252,0.2696,0.8611,1.3783,0,1,1,1,1,1,2026-06-14T09:10:04.008235+00:00
+537340,2026-06-14T01:00:00Z,Haiti,Scotland,away_win,0.2251,0.267,0.5079,0.3641,0.6775,1,1,0,1,0,1,2026-06-14T09:10:04.008235+00:00
+537346,2026-06-14T04:00:00Z,Australia,Turkey,home_win,0.2186,0.2973,0.4841,0.9333,1.5205,0,0,1,1,2,0,2026-06-14T09:10:04.008235+00:00

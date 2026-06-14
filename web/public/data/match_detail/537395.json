@@ -6,25 +6,25 @@
   "group": "I",
   "utc_date": "2026-06-26T19:00:00Z",
   "probs": {
-    "p_home": 0.1948,
-    "p_draw": 0.3098,
-    "p_away": 0.4954
+    "p_home": 0.194,
+    "p_draw": 0.3091,
+    "p_away": 0.4969
   },
   "top_scorelines": [
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1471
+      "prob": 0.1468
     },
     {
       "home": 0,
       "away": 1,
-      "prob": 0.1146
+      "prob": 0.1132
     },
     {
       "home": 0,
       "away": 0,
-      "prob": 0.0946
+      "prob": 0.0936
     },
     {
       "home": 0,
@@ -34,38 +34,38 @@
     {
       "home": 1,
       "away": 2,
-      "prob": 0.0891
+      "prob": 0.0888
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.3653,
+      "impact": 0.3824,
       "direction": "favors"
     },
     {
       "feature": "neutral venue",
-      "impact": 0.1119,
+      "impact": 0.1061,
       "direction": "favors"
     },
     {
       "feature": "away Elo",
-      "impact": 0.084,
+      "impact": 0.0878,
       "direction": "favors"
     },
     {
       "feature": "home Elo",
-      "impact": -0.0597,
+      "impact": -0.0604,
       "direction": "against"
     },
     {
       "feature": "away strength of schedule",
-      "impact": 0.0438,
+      "impact": 0.0442,
       "direction": "favors"
     },
     {
       "feature": "home defensive form",
-      "impact": -0.0415,
+      "impact": -0.0376,
       "direction": "against"
     }
   ],

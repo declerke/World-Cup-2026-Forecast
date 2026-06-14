@@ -1,14 +1,103 @@
 {
-  "generated_at_utc": "2026-06-13T21:40:32.318693+00:00",
-  "model_version": "a62979f",
+  "generated_at_utc": "2026-06-14T09:10:16.639150+00:00",
+  "model_version": "af55933",
   "summary": {
-    "n_scored": 0,
-    "mean_brier": null,
-    "mean_logloss": null,
-    "favorite_accuracy": null,
-    "exact_accuracy": null
+    "n_scored": 4,
+    "mean_brier": 0.7219,
+    "mean_logloss": 1.166,
+    "favorite_accuracy": 0.25,
+    "exact_accuracy": 0.75
   },
-  "history": [],
-  "calibration": [],
-  "receipts": []
+  "history": [
+    {
+      "match": 1,
+      "kickoff": "2026-06-13T19:00:00Z",
+      "cum_brier": 0.7293,
+      "cum_favorite_accuracy": 0.0
+    },
+    {
+      "match": 2,
+      "kickoff": "2026-06-13T22:00:00Z",
+      "cum_brier": 0.7952,
+      "cum_favorite_accuracy": 0.0
+    },
+    {
+      "match": 3,
+      "kickoff": "2026-06-14T01:00:00Z",
+      "cum_brier": 0.6515,
+      "cum_favorite_accuracy": 0.3333
+    },
+    {
+      "match": 4,
+      "kickoff": "2026-06-14T04:00:00Z",
+      "cum_brier": 0.7219,
+      "cum_favorite_accuracy": 0.25
+    }
+  ],
+  "calibration": [
+    {
+      "bin": 0.474,
+      "predicted": 0.4972,
+      "actual": 0.25,
+      "count": 4
+    }
+  ],
+  "receipts": [
+    {
+      "match_id": "537334",
+      "home": "Qatar",
+      "away": "Switzerland",
+      "p_home": "0.1444",
+      "p_draw": "0.337",
+      "p_away": "0.5185",
+      "pred_score_home": "1",
+      "pred_score_away": "1",
+      "actual_home": "1",
+      "actual_away": "1",
+      "outcome": "draw",
+      "favorite_correct": 0
+    },
+    {
+      "match_id": "537339",
+      "home": "Brazil",
+      "away": "Morocco",
+      "p_home": "0.4784",
+      "p_draw": "0.252",
+      "p_away": "0.2696",
+      "pred_score_home": "1",
+      "pred_score_away": "1",
+      "actual_home": "1",
+      "actual_away": "1",
+      "outcome": "draw",
+      "favorite_correct": 0
+    },
+    {
+      "match_id": "537340",
+      "home": "Haiti",
+      "away": "Scotland",
+      "p_home": "0.2251",
+      "p_draw": "0.267",
+      "p_away": "0.5079",
+      "pred_score_home": "0",
+      "pred_score_away": "1",
+      "actual_home": "0",
+      "actual_away": "1",
+      "outcome": "away_win",
+      "favorite_correct": 1
+    },
+    {
+      "match_id": "537346",
+      "home": "Australia",
+      "away": "Turkey",
+      "p_home": "0.2186",
+      "p_draw": "0.2973",
+      "p_away": "0.4841",
+      "pred_score_home": "1",
+      "pred_score_away": "1",
+      "actual_home": "2",
+      "actual_away": "0",
+      "outcome": "home_win",
+      "favorite_correct": 0
+    }
+  ]
 }
