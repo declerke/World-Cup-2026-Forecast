@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-06-15T15:17:03.309936+00:00",
-  "model_version": "3b6a260",
+  "generated_at_utc": "2026-06-15T19:38:37.463596+00:00",
+  "model_version": "c4867e2",
   "n_sims": 10000,
-  "training_rows": 32303,
+  "training_rows": 32304,
   "metrics": {
-    "test_logloss": 0.8590783476829529,
-    "test_brier": 0.5049446821212769,
-    "test_accuracy": 0.6004718836020448,
+    "test_logloss": 0.8590760231018066,
+    "test_brier": 0.5049743056297302,
+    "test_accuracy": 0.6008651199370821,
     "n_test": 2543,
     "n_dev": 29743,
     "base_rate_logloss": 1.05372807016407,
