@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-06-15T19:38:37.620739+00:00",
-  "model_version": "c4867e2",
+  "generated_at_utc": "2026-06-16T12:20:55.567564+00:00",
+  "model_version": "0bae2da",
   "summary": {
-    "n_scored": 9,
-    "mean_brier": 0.7304,
-    "mean_logloss": 1.1937,
-    "favorite_accuracy": 0.4444,
-    "exact_accuracy": 0.3333
+    "n_scored": 12,
+    "mean_brier": 0.761,
+    "mean_logloss": 1.214,
+    "favorite_accuracy": 0.3333,
+    "exact_accuracy": 0.25
   },
   "history": [
     {
@@ -62,6 +62,24 @@
       "kickoff": "2026-06-15T16:00:00Z",
       "cum_brier": 0.7304,
       "cum_favorite_accuracy": 0.4444
+    },
+    {
+      "match": 10,
+      "kickoff": "2026-06-15T19:00:00Z",
+      "cum_brier": 0.7332,
+      "cum_favorite_accuracy": 0.4
+    },
+    {
+      "match": 11,
+      "kickoff": "2026-06-15T22:00:00Z",
+      "cum_brier": 0.7482,
+      "cum_favorite_accuracy": 0.3636
+    },
+    {
+      "match": 12,
+      "kickoff": "2026-06-16T01:00:00Z",
+      "cum_brier": 0.761,
+      "cum_favorite_accuracy": 0.3333
     }
   ],
   "calibration": [
@@ -73,9 +91,15 @@
     },
     {
       "bin": 0.474,
-      "predicted": 0.4909,
-      "actual": 0.3333,
-      "count": 6
+      "predicted": 0.4855,
+      "actual": 0.2857,
+      "count": 7
+    },
+    {
+      "bin": 0.569,
+      "predicted": 0.5888,
+      "actual": 0.0,
+      "count": 2
     },
     {
       "bin": 0.856,
@@ -208,6 +232,48 @@
       "pred_score_away": "0",
       "actual_home": "0",
       "actual_away": "0",
+      "outcome": "draw",
+      "favorite_correct": 0
+    },
+    {
+      "match_id": "537363",
+      "home": "Belgium",
+      "away": "Egypt",
+      "p_home": "0.4532",
+      "p_draw": "0.2991",
+      "p_away": "0.2478",
+      "pred_score_home": "1",
+      "pred_score_away": "0",
+      "actual_home": "1",
+      "actual_away": "1",
+      "outcome": "draw",
+      "favorite_correct": 0
+    },
+    {
+      "match_id": "537370",
+      "home": "Saudi Arabia",
+      "away": "Uruguay",
+      "p_home": "0.1643",
+      "p_draw": "0.2628",
+      "p_away": "0.5728",
+      "pred_score_home": "0",
+      "pred_score_away": "1",
+      "actual_home": "1",
+      "actual_away": "1",
+      "outcome": "draw",
+      "favorite_correct": 0
+    },
+    {
+      "match_id": "537364",
+      "home": "Iran",
+      "away": "New Zealand",
+      "p_home": "0.6049",
+      "p_draw": "0.2776",
+      "p_away": "0.1176",
+      "pred_score_home": "1",
+      "pred_score_away": "0",
+      "actual_home": "2",
+      "actual_away": "2",
       "outcome": "draw",
       "favorite_correct": 0
     }

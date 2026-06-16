@@ -6,66 +6,66 @@
   "group": "J",
   "utc_date": "2026-06-28T02:00:00Z",
   "probs": {
-    "p_home": 0.3266,
-    "p_draw": 0.3414,
-    "p_away": 0.332
+    "p_home": 0.3213,
+    "p_draw": 0.3354,
+    "p_away": 0.3433
   },
   "top_scorelines": [
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1604
+      "prob": 0.1559
     },
     {
       "home": 0,
       "away": 0,
-      "prob": 0.1165
+      "prob": 0.122
+    },
+    {
+      "home": 0,
+      "away": 1,
+      "prob": 0.1125
     },
     {
       "home": 1,
       "away": 0,
-      "prob": 0.1066
+      "prob": 0.1069
     },
     {
-      "home": 0,
-      "away": 1,
-      "prob": 0.0985
-    },
-    {
-      "home": 2,
-      "away": 1,
-      "prob": 0.0734
+      "home": 1,
+      "away": 2,
+      "prob": 0.0719
     }
   ],
   "shap": [
     {
-      "feature": "away defensive form",
-      "impact": 0.0995,
+      "feature": "neutral venue",
+      "impact": 0.093,
       "direction": "favors"
     },
     {
-      "feature": "Elo rating gap",
-      "impact": 0.0751,
+      "feature": "away Elo",
+      "impact": 0.088,
       "direction": "favors"
-    },
-    {
-      "feature": "away last-5 defense",
-      "impact": 0.0731,
-      "direction": "favors"
-    },
-    {
-      "feature": "head-to-head record",
-      "impact": -0.0688,
-      "direction": "against"
     },
     {
       "feature": "home defensive form",
-      "impact": 0.0429,
+      "impact": -0.062,
+      "direction": "against"
+    },
+    {
+      "feature": "head-to-head goal margin",
+      "impact": 0.0478,
       "direction": "favors"
     },
     {
-      "feature": "match importance",
-      "impact": -0.0215,
+      "feature": "away strength of schedule",
+      "impact": -0.0443,
+      "direction": "against"
+    },
+    {
+      "feature": "home last-5 defense",
+      "impact": -0.043,
       "direction": "against"
     }
   ],
