@@ -6,66 +6,66 @@
   "group": "B",
   "utc_date": "2026-06-18T22:00:00Z",
   "probs": {
-    "p_home": 0.8101,
-    "p_draw": 0.1367,
-    "p_away": 0.0532
+    "p_home": 0.8097,
+    "p_draw": 0.1353,
+    "p_away": 0.0549
   },
   "top_scorelines": [
     {
       "home": 2,
       "away": 0,
-      "prob": 0.175
+      "prob": 0.1804
     },
     {
       "home": 1,
       "away": 0,
-      "prob": 0.1545
+      "prob": 0.1612
     },
     {
       "home": 3,
       "away": 0,
-      "prob": 0.1322
-    },
-    {
-      "home": 2,
-      "away": 1,
-      "prob": 0.0779
+      "prob": 0.1345
     },
     {
       "home": 4,
       "away": 0,
-      "prob": 0.0749
+      "prob": 0.0753
+    },
+    {
+      "home": 2,
+      "away": 1,
+      "prob": 0.0746
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.6064,
+      "impact": 0.6026,
       "direction": "favors"
     },
     {
       "feature": "head-to-head goal margin",
-      "impact": 0.2399,
+      "impact": 0.2432,
+      "direction": "favors"
+    },
+    {
+      "feature": "home strength of schedule",
+      "impact": 0.0574,
       "direction": "favors"
     },
     {
       "feature": "away strength of schedule",
-      "impact": -0.0621,
+      "impact": -0.0566,
       "direction": "against"
     },
     {
-      "feature": "home strength of schedule",
-      "impact": 0.0602,
-      "direction": "favors"
-    },
-    {
       "feature": "neutral venue",
-      "impact": 0.0483,
+      "impact": 0.0534,
       "direction": "favors"
     },
     {
       "feature": "home Elo",
-      "impact": 0.044,
+      "impact": 0.0504,
       "direction": "favors"
     }
   ],
@@ -121,11 +121,11 @@
       },
       {
         "date": "2022-11",
-        "elo": 1844.9
+        "elo": 1845.0
       },
       {
         "date": "2022-12",
-        "elo": 1822.7
+        "elo": 1822.8
       },
       {
         "date": "2023-03",
@@ -275,7 +275,7 @@
       },
       {
         "date": "2025-09",
-        "elo": 1621.1
+        "elo": 1621.2
       },
       {
         "date": "2025-10",

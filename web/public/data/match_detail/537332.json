@@ -6,66 +6,66 @@
   "group": "A",
   "utc_date": "2026-06-25T01:00:00Z",
   "probs": {
-    "p_home": 0.1669,
-    "p_draw": 0.266,
-    "p_away": 0.5671
+    "p_home": 0.1654,
+    "p_draw": 0.2528,
+    "p_away": 0.5818
   },
   "top_scorelines": [
     {
       "home": 0,
       "away": 1,
-      "prob": 0.1412
+      "prob": 0.1417
     },
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1244
+      "prob": 0.1187
     },
     {
       "home": 0,
       "away": 2,
-      "prob": 0.1151
+      "prob": 0.1168
     },
     {
       "home": 1,
       "away": 2,
-      "prob": 0.094
+      "prob": 0.0968
     },
     {
       "home": 0,
       "away": 0,
-      "prob": 0.0935
+      "prob": 0.0869
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.6026,
+      "impact": 0.6337,
       "direction": "favors"
     },
     {
       "feature": "neutral venue",
-      "impact": 0.0994,
+      "impact": 0.0977,
       "direction": "favors"
     },
     {
       "feature": "away Elo",
-      "impact": 0.0575,
+      "impact": 0.0541,
       "direction": "favors"
     },
     {
       "feature": "away strength of schedule",
-      "impact": 0.0407,
+      "impact": 0.04,
       "direction": "favors"
     },
     {
       "feature": "home strength of schedule",
-      "impact": -0.0303,
+      "impact": -0.0322,
       "direction": "against"
     },
     {
       "feature": "head-to-head goal margin",
-      "impact": 0.0287,
+      "impact": 0.0294,
       "direction": "favors"
     }
   ],
@@ -109,7 +109,7 @@
       },
       {
         "date": "2023-03",
-        "elo": 1645.3
+        "elo": 1645.2
       },
       {
         "date": "2023-06",
@@ -203,7 +203,7 @@
     "away": [
       {
         "date": "2022-07",
-        "elo": 1883.4
+        "elo": 1883.5
       },
       {
         "date": "2022-09",
@@ -267,7 +267,7 @@
       },
       {
         "date": "2025-03",
-        "elo": 1858.6
+        "elo": 1858.7
       },
       {
         "date": "2025-06",
@@ -291,7 +291,7 @@
       },
       {
         "date": "2026-05",
-        "elo": 1877.4
+        "elo": 1877.5
       },
       {
         "date": "2026-06",

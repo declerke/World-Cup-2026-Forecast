@@ -6,67 +6,67 @@
   "group": "E",
   "utc_date": "2026-06-20T20:00:00Z",
   "probs": {
-    "p_home": 0.4913,
-    "p_draw": 0.2868,
-    "p_away": 0.2219
+    "p_home": 0.4939,
+    "p_draw": 0.304,
+    "p_away": 0.202
   },
   "top_scorelines": [
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1357
+      "prob": 0.1424
     },
     {
       "home": 1,
       "away": 0,
-      "prob": 0.1148
-    },
-    {
-      "home": 2,
-      "away": 0,
-      "prob": 0.0955
+      "prob": 0.125
     },
     {
       "home": 0,
       "away": 0,
-      "prob": 0.0925
+      "prob": 0.1064
+    },
+    {
+      "home": 2,
+      "away": 0,
+      "prob": 0.0997
     },
     {
       "home": 2,
       "away": 1,
-      "prob": 0.0842
+      "prob": 0.0837
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.3027,
+      "impact": 0.2922,
       "direction": "favors"
     },
     {
       "feature": "neutral venue",
-      "impact": -0.109,
+      "impact": -0.125,
+      "direction": "against"
+    },
+    {
+      "feature": "away strength of schedule",
+      "impact": -0.0796,
       "direction": "against"
     },
     {
       "feature": "away momentum (1yr Elo)",
-      "impact": 0.0719,
+      "impact": 0.0598,
       "direction": "favors"
     },
     {
-      "feature": "away strength of schedule",
-      "impact": -0.0685,
-      "direction": "against"
-    },
-    {
       "feature": "away Elo",
-      "impact": -0.0661,
+      "impact": -0.0549,
       "direction": "against"
     },
     {
-      "feature": "host nation at home",
-      "impact": -0.0331,
-      "direction": "against"
+      "feature": "home Elo",
+      "impact": 0.0347,
+      "direction": "favors"
     }
   ],
   "form": {
@@ -181,7 +181,7 @@
       },
       {
         "date": "2025-10",
-        "elo": 1959.1
+        "elo": 1959.2
       },
       {
         "date": "2025-11",
@@ -239,7 +239,7 @@
       },
       {
         "date": "2024-02",
-        "elo": 1723.8
+        "elo": 1723.7
       },
       {
         "date": "2024-03",
