@@ -6,66 +6,66 @@
   "group": "H",
   "utc_date": "2026-06-21T22:00:00Z",
   "probs": {
-    "p_home": 0.6714,
-    "p_draw": 0.2212,
-    "p_away": 0.1074
+    "p_home": 0.6736,
+    "p_draw": 0.2141,
+    "p_away": 0.1123
   },
   "top_scorelines": [
     {
       "home": 2,
       "away": 0,
-      "prob": 0.1201
+      "prob": 0.1299
     },
     {
       "home": 1,
       "away": 0,
-      "prob": 0.116
+      "prob": 0.1299
     },
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1052
+      "prob": 0.1014
     },
     {
       "home": 2,
       "away": 1,
-      "prob": 0.099
+      "prob": 0.0961
     },
     {
       "home": 3,
       "away": 0,
-      "prob": 0.0829
+      "prob": 0.0866
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.6109,
+      "impact": 0.61,
       "direction": "favors"
     },
     {
       "feature": "neutral venue",
-      "impact": -0.1115,
+      "impact": -0.1108,
       "direction": "against"
     },
     {
       "feature": "away strength of schedule",
-      "impact": -0.0774,
+      "impact": -0.0752,
       "direction": "against"
     },
     {
       "feature": "home strength of schedule",
-      "impact": 0.05,
+      "impact": 0.046,
       "direction": "favors"
     },
     {
       "feature": "home Elo",
-      "impact": 0.0452,
+      "impact": 0.0456,
       "direction": "favors"
     },
     {
       "feature": "host nation at home",
-      "impact": -0.0287,
+      "impact": -0.0339,
       "direction": "against"
     }
   ],
@@ -121,11 +121,11 @@
       },
       {
         "date": "2022-12",
-        "elo": 1977.9
+        "elo": 1978.0
       },
       {
         "date": "2023-03",
-        "elo": 1990.0
+        "elo": 1990.1
       },
       {
         "date": "2023-06",
@@ -181,7 +181,7 @@
       },
       {
         "date": "2025-09",
-        "elo": 1985.4
+        "elo": 1985.5
       },
       {
         "date": "2025-10",
@@ -189,7 +189,7 @@
       },
       {
         "date": "2025-11",
-        "elo": 1971.6
+        "elo": 1971.7
       },
       {
         "date": "2026-03",

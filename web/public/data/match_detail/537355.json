@@ -6,66 +6,66 @@
   "group": "E",
   "utc_date": "2026-06-25T20:00:00Z",
   "probs": {
-    "p_home": 0.2592,
-    "p_draw": 0.3208,
-    "p_away": 0.42
+    "p_home": 0.2675,
+    "p_draw": 0.296,
+    "p_away": 0.4365
   },
   "top_scorelines": [
     {
       "home": 1,
       "away": 1,
-      "prob": 0.149
+      "prob": 0.1401
     },
     {
       "home": 0,
       "away": 1,
-      "prob": 0.1339
+      "prob": 0.1194
     },
     {
       "home": 0,
       "away": 0,
-      "prob": 0.117
-    },
-    {
-      "home": 1,
-      "away": 0,
-      "prob": 0.0889
+      "prob": 0.0949
     },
     {
       "home": 1,
       "away": 2,
-      "prob": 0.0853
+      "prob": 0.0881
+    },
+    {
+      "home": 1,
+      "away": 0,
+      "prob": 0.0843
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.1475,
+      "impact": 0.1548,
       "direction": "favors"
     },
     {
       "feature": "head-to-head goal margin",
-      "impact": 0.1168,
+      "impact": 0.1223,
       "direction": "favors"
     },
     {
       "feature": "neutral venue",
-      "impact": 0.0965,
+      "impact": 0.0909,
       "direction": "favors"
     },
     {
       "feature": "home defensive form",
-      "impact": -0.088,
+      "impact": -0.0716,
       "direction": "against"
     },
     {
       "feature": "away Elo",
-      "impact": 0.0663,
+      "impact": 0.0702,
       "direction": "favors"
     },
     {
       "feature": "away momentum (1yr Elo)",
-      "impact": -0.0602,
+      "impact": -0.0691,
       "direction": "against"
     }
   ],
@@ -247,7 +247,7 @@
       },
       {
         "date": "2024-06",
-        "elo": 2020.7
+        "elo": 2020.8
       },
       {
         "date": "2024-07",
@@ -259,7 +259,7 @@
       },
       {
         "date": "2024-10",
-        "elo": 2049.0
+        "elo": 2049.1
       },
       {
         "date": "2024-11",
@@ -271,7 +271,7 @@
       },
       {
         "date": "2025-06",
-        "elo": 1984.6
+        "elo": 1984.7
       },
       {
         "date": "2025-09",

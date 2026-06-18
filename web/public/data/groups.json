@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-17T12:53:09.603740+00:00",
-  "model_version": "e4800f0",
+  "generated_at_utc": "2026-06-18T12:28:38.520734+00:00",
+  "model_version": "d612337",
   "groups": [
     {
       "group": "A",
@@ -12,10 +12,10 @@
           "points": 3,
           "gd": 2,
           "gf": 2,
-          "p_win_group": 0.6866,
-          "p_runner_up": 0.2335,
-          "p_third": 0.0768,
-          "p_advance": 0.99
+          "p_win_group": 0.6981,
+          "p_runner_up": 0.2192,
+          "p_third": 0.0791,
+          "p_advance": 0.9891
         },
         {
           "team": "South Korea",
@@ -24,10 +24,10 @@
           "points": 3,
           "gd": 1,
           "gf": 2,
-          "p_win_group": 0.2659,
-          "p_runner_up": 0.5438,
-          "p_third": 0.1602,
-          "p_advance": 0.9447
+          "p_win_group": 0.2563,
+          "p_runner_up": 0.5412,
+          "p_third": 0.1696,
+          "p_advance": 0.9345
         },
         {
           "team": "Czech Republic",
@@ -36,10 +36,10 @@
           "points": 0,
           "gd": -1,
           "gf": 1,
-          "p_win_group": 0.0395,
-          "p_runner_up": 0.1461,
-          "p_third": 0.5195,
-          "p_advance": 0.4998
+          "p_win_group": 0.0382,
+          "p_runner_up": 0.1529,
+          "p_third": 0.5009,
+          "p_advance": 0.4999
         },
         {
           "team": "South Africa",
@@ -48,10 +48,10 @@
           "points": 0,
           "gd": -2,
           "gf": 0,
-          "p_win_group": 0.008,
-          "p_runner_up": 0.0766,
-          "p_third": 0.2435,
-          "p_advance": 0.2072
+          "p_win_group": 0.0074,
+          "p_runner_up": 0.0867,
+          "p_third": 0.2504,
+          "p_advance": 0.2254
         }
       ]
     },
@@ -65,10 +65,10 @@
           "points": 1,
           "gd": 0,
           "gf": 1,
-          "p_win_group": 0.4364,
-          "p_runner_up": 0.339,
-          "p_third": 0.1679,
-          "p_advance": 0.907
+          "p_win_group": 0.4224,
+          "p_runner_up": 0.3496,
+          "p_third": 0.1713,
+          "p_advance": 0.9027
         },
         {
           "team": "Switzerland",
@@ -77,10 +77,10 @@
           "points": 1,
           "gd": 0,
           "gf": 1,
-          "p_win_group": 0.4069,
-          "p_runner_up": 0.2976,
-          "p_third": 0.2279,
-          "p_advance": 0.8373
+          "p_win_group": 0.4226,
+          "p_runner_up": 0.296,
+          "p_third": 0.2147,
+          "p_advance": 0.8467
         },
         {
           "team": "Bosnia and Herzegovina",
@@ -89,10 +89,10 @@
           "points": 1,
           "gd": 0,
           "gf": 1,
-          "p_win_group": 0.115,
-          "p_runner_up": 0.2378,
-          "p_third": 0.3421,
-          "p_advance": 0.5752
+          "p_win_group": 0.116,
+          "p_runner_up": 0.2301,
+          "p_third": 0.3513,
+          "p_advance": 0.5811
         },
         {
           "team": "Qatar",
@@ -101,10 +101,10 @@
           "points": 1,
           "gd": 0,
           "gf": 1,
-          "p_win_group": 0.0417,
-          "p_runner_up": 0.1256,
-          "p_third": 0.2621,
-          "p_advance": 0.3283
+          "p_win_group": 0.039,
+          "p_runner_up": 0.1243,
+          "p_third": 0.2627,
+          "p_advance": 0.3223
         }
       ]
     },
@@ -118,10 +118,10 @@
           "points": 3,
           "gd": 1,
           "gf": 1,
-          "p_win_group": 0.1927,
-          "p_runner_up": 0.2575,
-          "p_third": 0.5266,
-          "p_advance": 0.8233
+          "p_win_group": 0.1804,
+          "p_runner_up": 0.2597,
+          "p_third": 0.5376,
+          "p_advance": 0.8277
         },
         {
           "team": "Brazil",
@@ -130,10 +130,10 @@
           "points": 1,
           "gd": 0,
           "gf": 1,
-          "p_win_group": 0.5431,
-          "p_runner_up": 0.2941,
-          "p_third": 0.1471,
-          "p_advance": 0.9732
+          "p_win_group": 0.5297,
+          "p_runner_up": 0.2996,
+          "p_third": 0.1558,
+          "p_advance": 0.9713
         },
         {
           "team": "Morocco",
@@ -142,10 +142,10 @@
           "points": 1,
           "gd": 0,
           "gf": 1,
-          "p_win_group": 0.2604,
-          "p_runner_up": 0.4405,
-          "p_third": 0.2531,
-          "p_advance": 0.9072
+          "p_win_group": 0.2875,
+          "p_runner_up": 0.4318,
+          "p_third": 0.2341,
+          "p_advance": 0.9114
         },
         {
           "team": "Haiti",
@@ -154,10 +154,10 @@
           "points": 0,
           "gd": -1,
           "gf": 0,
-          "p_win_group": 0.0038,
-          "p_runner_up": 0.0079,
-          "p_third": 0.0732,
-          "p_advance": 0.0533
+          "p_win_group": 0.0024,
+          "p_runner_up": 0.0089,
+          "p_third": 0.0725,
+          "p_advance": 0.0527
         }
       ]
     },
@@ -166,15 +166,15 @@
       "teams": [
         {
           "team": "United States",
-          "elo": 1926.5,
+          "elo": 1926.6,
           "played": 1,
           "points": 3,
           "gd": 3,
           "gf": 4,
-          "p_win_group": 0.5716,
-          "p_runner_up": 0.2915,
-          "p_third": 0.126,
-          "p_advance": 0.977
+          "p_win_group": 0.5733,
+          "p_runner_up": 0.3007,
+          "p_third": 0.1183,
+          "p_advance": 0.9825
         },
         {
           "team": "Australia",
@@ -183,10 +183,10 @@
           "points": 3,
           "gd": 2,
           "gf": 2,
-          "p_win_group": 0.3812,
-          "p_runner_up": 0.4477,
-          "p_third": 0.151,
-          "p_advance": 0.9567
+          "p_win_group": 0.3798,
+          "p_runner_up": 0.4658,
+          "p_third": 0.1356,
+          "p_advance": 0.9618
         },
         {
           "team": "Turkey",
@@ -195,10 +195,10 @@
           "points": 0,
           "gd": -2,
           "gf": 0,
-          "p_win_group": 0.0343,
-          "p_runner_up": 0.1695,
-          "p_third": 0.4514,
-          "p_advance": 0.4841
+          "p_win_group": 0.0331,
+          "p_runner_up": 0.1512,
+          "p_third": 0.4551,
+          "p_advance": 0.4659
         },
         {
           "team": "Paraguay",
@@ -207,10 +207,10 @@
           "points": 0,
           "gd": -3,
           "gf": 1,
-          "p_win_group": 0.0129,
-          "p_runner_up": 0.0913,
-          "p_third": 0.2716,
-          "p_advance": 0.2716
+          "p_win_group": 0.0138,
+          "p_runner_up": 0.0823,
+          "p_third": 0.291,
+          "p_advance": 0.2713
         }
       ]
     },
@@ -224,10 +224,10 @@
           "points": 3,
           "gd": 6,
           "gf": 7,
-          "p_win_group": 0.6641,
-          "p_runner_up": 0.2254,
-          "p_third": 0.1091,
-          "p_advance": 0.9968
+          "p_win_group": 0.6564,
+          "p_runner_up": 0.2243,
+          "p_third": 0.1184,
+          "p_advance": 0.9973
         },
         {
           "team": "Ivory Coast",
@@ -236,10 +236,10 @@
           "points": 3,
           "gd": 1,
           "gf": 1,
-          "p_win_group": 0.2934,
-          "p_runner_up": 0.4907,
-          "p_third": 0.2119,
-          "p_advance": 0.9625
+          "p_win_group": 0.2947,
+          "p_runner_up": 0.4892,
+          "p_third": 0.2097,
+          "p_advance": 0.9594
         },
         {
           "team": "Ecuador",
@@ -248,10 +248,10 @@
           "points": 0,
           "gd": -1,
           "gf": 0,
-          "p_win_group": 0.0412,
-          "p_runner_up": 0.2693,
-          "p_third": 0.6199,
-          "p_advance": 0.8164
+          "p_win_group": 0.0466,
+          "p_runner_up": 0.2713,
+          "p_third": 0.611,
+          "p_advance": 0.8203
         },
         {
           "team": "Curaçao",
@@ -260,10 +260,10 @@
           "points": 0,
           "gd": -6,
           "gf": 1,
-          "p_win_group": 0.0013,
-          "p_runner_up": 0.0146,
-          "p_third": 0.0591,
-          "p_advance": 0.0427
+          "p_win_group": 0.0023,
+          "p_runner_up": 0.0152,
+          "p_third": 0.0609,
+          "p_advance": 0.0445
         }
       ]
     },
@@ -277,10 +277,10 @@
           "points": 3,
           "gd": 4,
           "gf": 5,
-          "p_win_group": 0.3301,
-          "p_runner_up": 0.2612,
-          "p_third": 0.3825,
-          "p_advance": 0.9421
+          "p_win_group": 0.3163,
+          "p_runner_up": 0.2573,
+          "p_third": 0.3995,
+          "p_advance": 0.9472
         },
         {
           "team": "Netherlands",
@@ -289,10 +289,10 @@
           "points": 1,
           "gd": 0,
           "gf": 2,
-          "p_win_group": 0.3617,
-          "p_runner_up": 0.3535,
-          "p_third": 0.2129,
-          "p_advance": 0.8826
+          "p_win_group": 0.3643,
+          "p_runner_up": 0.3547,
+          "p_third": 0.2102,
+          "p_advance": 0.8862
         },
         {
           "team": "Japan",
@@ -301,10 +301,10 @@
           "points": 1,
           "gd": 0,
           "gf": 2,
-          "p_win_group": 0.2942,
-          "p_runner_up": 0.3568,
-          "p_third": 0.2617,
-          "p_advance": 0.8512
+          "p_win_group": 0.3076,
+          "p_runner_up": 0.3598,
+          "p_third": 0.2479,
+          "p_advance": 0.8577
         },
         {
           "team": "Tunisia",
@@ -313,10 +313,10 @@
           "points": 0,
           "gd": -4,
           "gf": 1,
-          "p_win_group": 0.014,
-          "p_runner_up": 0.0285,
-          "p_third": 0.1429,
-          "p_advance": 0.125
+          "p_win_group": 0.0118,
+          "p_runner_up": 0.0282,
+          "p_third": 0.1424,
+          "p_advance": 0.1232
         }
       ]
     },
@@ -330,10 +330,10 @@
           "points": 1,
           "gd": 0,
           "gf": 2,
-          "p_win_group": 0.2474,
-          "p_runner_up": 0.2498,
-          "p_third": 0.2853,
-          "p_advance": 0.6468
+          "p_win_group": 0.2597,
+          "p_runner_up": 0.2472,
+          "p_third": 0.2781,
+          "p_advance": 0.6552
         },
         {
           "team": "New Zealand",
@@ -342,10 +342,10 @@
           "points": 1,
           "gd": 0,
           "gf": 2,
-          "p_win_group": 0.1317,
-          "p_runner_up": 0.1873,
-          "p_third": 0.2693,
-          "p_advance": 0.4634
+          "p_win_group": 0.1269,
+          "p_runner_up": 0.1953,
+          "p_third": 0.2695,
+          "p_advance": 0.4632
         },
         {
           "team": "Belgium",
@@ -354,10 +354,10 @@
           "points": 1,
           "gd": 0,
           "gf": 1,
-          "p_win_group": 0.3874,
-          "p_runner_up": 0.2795,
-          "p_third": 0.198,
-          "p_advance": 0.8065
+          "p_win_group": 0.3799,
+          "p_runner_up": 0.2684,
+          "p_third": 0.2062,
+          "p_advance": 0.7999
         },
         {
           "team": "Egypt",
@@ -367,9 +367,9 @@
           "gd": 0,
           "gf": 1,
           "p_win_group": 0.2335,
-          "p_runner_up": 0.2834,
-          "p_third": 0.2474,
-          "p_advance": 0.695
+          "p_runner_up": 0.2891,
+          "p_third": 0.2462,
+          "p_advance": 0.7048
         }
       ]
     },
@@ -383,10 +383,10 @@
           "points": 1,
           "gd": 0,
           "gf": 1,
-          "p_win_group": 0.2172,
-          "p_runner_up": 0.4064,
-          "p_third": 0.2655,
-          "p_advance": 0.768
+          "p_win_group": 0.2174,
+          "p_runner_up": 0.3977,
+          "p_third": 0.2666,
+          "p_advance": 0.7706
         },
         {
           "team": "Saudi Arabia",
@@ -395,10 +395,10 @@
           "points": 1,
           "gd": 0,
           "gf": 1,
-          "p_win_group": 0.0446,
-          "p_runner_up": 0.1712,
-          "p_third": 0.3587,
-          "p_advance": 0.4603
+          "p_win_group": 0.0449,
+          "p_runner_up": 0.1833,
+          "p_third": 0.356,
+          "p_advance": 0.4588
         },
         {
           "team": "Spain",
@@ -407,10 +407,10 @@
           "points": 1,
           "gd": 0,
           "gf": 0,
-          "p_win_group": 0.6952,
-          "p_runner_up": 0.2152,
-          "p_third": 0.0749,
-          "p_advance": 0.9679
+          "p_win_group": 0.6928,
+          "p_runner_up": 0.2086,
+          "p_third": 0.0814,
+          "p_advance": 0.9649
         },
         {
           "team": "Cape Verde",
@@ -419,10 +419,10 @@
           "points": 1,
           "gd": 0,
           "gf": 0,
-          "p_win_group": 0.043,
-          "p_runner_up": 0.2072,
-          "p_third": 0.3009,
-          "p_advance": 0.4443
+          "p_win_group": 0.0449,
+          "p_runner_up": 0.2104,
+          "p_third": 0.296,
+          "p_advance": 0.4465
         }
       ]
     },
@@ -436,10 +436,10 @@
           "points": 3,
           "gd": 3,
           "gf": 4,
-          "p_win_group": 0.2922,
-          "p_runner_up": 0.526,
-          "p_third": 0.1782,
-          "p_advance": 0.979
+          "p_win_group": 0.3058,
+          "p_runner_up": 0.5015,
+          "p_third": 0.1888,
+          "p_advance": 0.9777
         },
         {
           "team": "France",
@@ -448,10 +448,10 @@
           "points": 3,
           "gd": 2,
           "gf": 3,
-          "p_win_group": 0.6903,
-          "p_runner_up": 0.2813,
-          "p_third": 0.0272,
-          "p_advance": 0.9967
+          "p_win_group": 0.6759,
+          "p_runner_up": 0.2944,
+          "p_third": 0.0278,
+          "p_advance": 0.9957
         },
         {
           "team": "Senegal",
@@ -460,10 +460,10 @@
           "points": 0,
           "gd": -2,
           "gf": 1,
-          "p_win_group": 0.0154,
-          "p_runner_up": 0.1793,
-          "p_third": 0.6199,
-          "p_advance": 0.5447
+          "p_win_group": 0.0165,
+          "p_runner_up": 0.1897,
+          "p_third": 0.6141,
+          "p_advance": 0.5573
         },
         {
           "team": "Iraq",
@@ -472,10 +472,10 @@
           "points": 0,
           "gd": -3,
           "gf": 1,
-          "p_win_group": 0.0021,
-          "p_runner_up": 0.0134,
-          "p_third": 0.1747,
-          "p_advance": 0.0849
+          "p_win_group": 0.0018,
+          "p_runner_up": 0.0144,
+          "p_third": 0.1693,
+          "p_advance": 0.0872
         }
       ]
     },
@@ -489,10 +489,10 @@
           "points": 3,
           "gd": 3,
           "gf": 3,
-          "p_win_group": 0.8632,
-          "p_runner_up": 0.1245,
-          "p_third": 0.012,
-          "p_advance": 0.9991
+          "p_win_group": 0.8683,
+          "p_runner_up": 0.1209,
+          "p_third": 0.0106,
+          "p_advance": 0.9993
         },
         {
           "team": "Austria",
@@ -501,10 +501,10 @@
           "points": 3,
           "gd": 2,
           "gf": 3,
-          "p_win_group": 0.1245,
-          "p_runner_up": 0.6471,
-          "p_third": 0.2187,
-          "p_advance": 0.9379
+          "p_win_group": 0.1189,
+          "p_runner_up": 0.648,
+          "p_third": 0.2223,
+          "p_advance": 0.9368
         },
         {
           "team": "Jordan",
@@ -513,10 +513,10 @@
           "points": 0,
           "gd": -2,
           "gf": 1,
-          "p_win_group": 0.0022,
-          "p_runner_up": 0.0295,
-          "p_third": 0.271,
-          "p_advance": 0.1426
+          "p_win_group": 0.0025,
+          "p_runner_up": 0.0255,
+          "p_third": 0.2598,
+          "p_advance": 0.1335
         },
         {
           "team": "Algeria",
@@ -525,10 +525,10 @@
           "points": 0,
           "gd": -3,
           "gf": 0,
-          "p_win_group": 0.0101,
-          "p_runner_up": 0.1989,
-          "p_third": 0.4983,
-          "p_advance": 0.4763
+          "p_win_group": 0.0103,
+          "p_runner_up": 0.2056,
+          "p_third": 0.5073,
+          "p_advance": 0.5024
         }
       ]
     },
@@ -536,52 +536,52 @@
       "group": "K",
       "teams": [
         {
-          "team": "Portugal",
-          "elo": 2059.3,
-          "played": 0,
-          "points": 0,
-          "gd": 0,
-          "gf": 0,
-          "p_win_group": 0.5107,
-          "p_runner_up": 0.3162,
-          "p_third": 0.129,
-          "p_advance": 0.9232
-        },
-        {
           "team": "Colombia",
-          "elo": 2062.9,
-          "played": 0,
-          "points": 0,
-          "gd": 0,
-          "gf": 0,
-          "p_win_group": 0.3698,
-          "p_runner_up": 0.3777,
-          "p_third": 0.1787,
-          "p_advance": 0.8783
+          "elo": 2104.2,
+          "played": 1,
+          "points": 3,
+          "gd": 2,
+          "gf": 3,
+          "p_win_group": 0.6771,
+          "p_runner_up": 0.2531,
+          "p_third": 0.0635,
+          "p_advance": 0.9877
         },
         {
-          "team": "Uzbekistan",
-          "elo": 1818.5,
-          "played": 0,
-          "points": 0,
+          "team": "Portugal",
+          "elo": 2038.5,
+          "played": 1,
+          "points": 1,
           "gd": 0,
-          "gf": 0,
-          "p_win_group": 0.077,
-          "p_runner_up": 0.1818,
-          "p_third": 0.3734,
-          "p_advance": 0.4715
+          "gf": 1,
+          "p_win_group": 0.2704,
+          "p_runner_up": 0.4587,
+          "p_third": 0.2017,
+          "p_advance": 0.8477
         },
         {
           "team": "DR Congo",
-          "elo": 1762.4,
-          "played": 0,
-          "points": 0,
+          "elo": 1783.2,
+          "played": 1,
+          "points": 1,
           "gd": 0,
-          "gf": 0,
-          "p_win_group": 0.0425,
-          "p_runner_up": 0.1243,
-          "p_third": 0.3189,
-          "p_advance": 0.3353
+          "gf": 1,
+          "p_win_group": 0.0427,
+          "p_runner_up": 0.1831,
+          "p_third": 0.4375,
+          "p_advance": 0.4789
+        },
+        {
+          "team": "Uzbekistan",
+          "elo": 1777.2,
+          "played": 1,
+          "points": 0,
+          "gd": -2,
+          "gf": 1,
+          "p_win_group": 0.0098,
+          "p_runner_up": 0.1051,
+          "p_third": 0.2973,
+          "p_advance": 0.2673
         }
       ]
     },
@@ -590,51 +590,51 @@
       "teams": [
         {
           "team": "England",
-          "elo": 2094.2,
-          "played": 0,
-          "points": 0,
-          "gd": 0,
-          "gf": 0,
-          "p_win_group": 0.6359,
-          "p_runner_up": 0.2603,
-          "p_third": 0.0886,
-          "p_advance": 0.9702
-        },
-        {
-          "team": "Croatia",
-          "elo": 1973.6,
-          "played": 0,
-          "points": 0,
-          "gd": 0,
-          "gf": 0,
-          "p_win_group": 0.2665,
-          "p_runner_up": 0.4304,
-          "p_third": 0.2341,
-          "p_advance": 0.8648
-        },
-        {
-          "team": "Panama",
-          "elo": 1847.8,
-          "played": 0,
-          "points": 0,
-          "gd": 0,
-          "gf": 0,
-          "p_win_group": 0.0866,
-          "p_runner_up": 0.2453,
-          "p_third": 0.4593,
-          "p_advance": 0.6151
+          "elo": 2124.1,
+          "played": 1,
+          "points": 3,
+          "gd": 2,
+          "gf": 4,
+          "p_win_group": 0.9198,
+          "p_runner_up": 0.0637,
+          "p_third": 0.0143,
+          "p_advance": 0.997
         },
         {
           "team": "Ghana",
-          "elo": 1623.8,
-          "played": 0,
+          "elo": 1670.8,
+          "played": 1,
+          "points": 3,
+          "gd": 1,
+          "gf": 1,
+          "p_win_group": 0.0343,
+          "p_runner_up": 0.2291,
+          "p_third": 0.587,
+          "p_advance": 0.5853
+        },
+        {
+          "team": "Panama",
+          "elo": 1800.7,
+          "played": 1,
           "points": 0,
-          "gd": 0,
+          "gd": -1,
           "gf": 0,
-          "p_win_group": 0.011,
-          "p_runner_up": 0.064,
-          "p_third": 0.218,
-          "p_advance": 0.173
+          "p_win_group": 0.0082,
+          "p_runner_up": 0.1036,
+          "p_third": 0.1819,
+          "p_advance": 0.222
+        },
+        {
+          "team": "Croatia",
+          "elo": 1943.6,
+          "played": 1,
+          "points": 0,
+          "gd": -2,
+          "gf": 2,
+          "p_win_group": 0.0377,
+          "p_runner_up": 0.6036,
+          "p_third": 0.2168,
+          "p_advance": 0.7782
         }
       ]
     }

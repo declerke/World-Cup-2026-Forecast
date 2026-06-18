@@ -6,15 +6,15 @@
   "group": "H",
   "utc_date": "2026-06-27T00:00:00Z",
   "probs": {
-    "p_home": 0.1358,
-    "p_draw": 0.2559,
-    "p_away": 0.6083
+    "p_home": 0.1382,
+    "p_draw": 0.2538,
+    "p_away": 0.608
   },
   "top_scorelines": [
     {
       "home": 0,
       "away": 1,
-      "prob": 0.1691
+      "prob": 0.1447
     },
     {
       "home": 0,
@@ -24,44 +24,44 @@
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1187
+      "prob": 0.1186
     },
     {
       "home": 1,
       "away": 2,
-      "prob": 0.1065
+      "prob": 0.0954
     },
     {
       "home": 0,
       "away": 0,
-      "prob": 0.0942
+      "prob": 0.0899
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.6208,
+      "impact": 0.5992,
       "direction": "favors"
     },
     {
       "feature": "altitude vs home's norm",
-      "impact": 0.1054,
+      "impact": 0.1308,
       "direction": "favors"
     },
     {
       "feature": "neutral venue",
-      "impact": 0.0959,
-      "direction": "favors"
-    },
-    {
-      "feature": "away Elo",
-      "impact": 0.0738,
+      "impact": 0.0884,
       "direction": "favors"
     },
     {
       "feature": "altitude vs away's norm",
-      "impact": -0.0588,
+      "impact": -0.0634,
       "direction": "against"
+    },
+    {
+      "feature": "away Elo",
+      "impact": 0.057,
+      "direction": "favors"
     },
     {
       "feature": "home Elo",
@@ -121,11 +121,11 @@
       },
       {
         "date": "2022-12",
-        "elo": 1977.9
+        "elo": 1978.0
       },
       {
         "date": "2023-03",
-        "elo": 1990.0
+        "elo": 1990.1
       },
       {
         "date": "2023-06",
@@ -181,7 +181,7 @@
       },
       {
         "date": "2025-09",
-        "elo": 1985.4
+        "elo": 1985.5
       },
       {
         "date": "2025-10",
@@ -189,7 +189,7 @@
       },
       {
         "date": "2025-11",
-        "elo": 1971.6
+        "elo": 1971.7
       },
       {
         "date": "2026-03",

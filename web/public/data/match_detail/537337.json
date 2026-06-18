@@ -6,66 +6,66 @@
   "group": "B",
   "utc_date": "2026-06-24T19:00:00Z",
   "probs": {
-    "p_home": 0.3712,
-    "p_draw": 0.322,
-    "p_away": 0.3068
+    "p_home": 0.3647,
+    "p_draw": 0.3428,
+    "p_away": 0.2925
   },
   "top_scorelines": [
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1421
+      "prob": 0.1532
+    },
+    {
+      "home": 0,
+      "away": 0,
+      "prob": 0.1435
     },
     {
       "home": 1,
       "away": 0,
-      "prob": 0.1418
-    },
-    {
-      "home": 0,
-      "away": 0,
-      "prob": 0.1393
+      "prob": 0.128
     },
     {
       "home": 0,
       "away": 1,
-      "prob": 0.12
+      "prob": 0.1164
     },
     {
       "home": 2,
       "away": 0,
-      "prob": 0.0732
+      "prob": 0.0744
     }
   ],
   "shap": [
     {
       "feature": "neutral venue",
-      "impact": -0.1303,
+      "impact": -0.1339,
       "direction": "against"
     },
     {
       "feature": "head-to-head goal margin",
-      "impact": -0.126,
+      "impact": -0.1157,
       "direction": "against"
     },
     {
       "feature": "Elo rating gap",
-      "impact": 0.1096,
+      "impact": 0.0974,
       "direction": "favors"
     },
     {
       "feature": "away Elo",
-      "impact": -0.0701,
+      "impact": -0.0716,
       "direction": "against"
     },
     {
       "feature": "away strength of schedule",
-      "impact": -0.0551,
+      "impact": -0.0583,
       "direction": "against"
     },
     {
       "feature": "home Elo",
-      "impact": 0.0385,
+      "impact": 0.0469,
       "direction": "favors"
     }
   ],
@@ -149,7 +149,7 @@
       },
       {
         "date": "2024-06",
-        "elo": 1964.0
+        "elo": 1964.1
       },
       {
         "date": "2024-07",
@@ -177,7 +177,7 @@
       },
       {
         "date": "2025-09",
-        "elo": 1925.7
+        "elo": 1925.8
       },
       {
         "date": "2025-10",
@@ -255,7 +255,7 @@
       },
       {
         "date": "2024-07",
-        "elo": 1855.3
+        "elo": 1855.4
       },
       {
         "date": "2024-09",
