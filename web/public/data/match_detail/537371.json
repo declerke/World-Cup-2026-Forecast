@@ -6,66 +6,66 @@
   "group": "H",
   "utc_date": "2026-06-21T16:00:00Z",
   "probs": {
-    "p_home": 0.8477,
-    "p_draw": 0.1159,
-    "p_away": 0.0363
+    "p_home": 0.8565,
+    "p_draw": 0.1118,
+    "p_away": 0.0317
   },
   "top_scorelines": [
     {
       "home": 2,
       "away": 0,
-      "prob": 0.1667
-    },
-    {
-      "home": 1,
-      "away": 0,
-      "prob": 0.1367
+      "prob": 0.1471
     },
     {
       "home": 3,
       "away": 0,
-      "prob": 0.1356
+      "prob": 0.1362
     },
     {
-      "home": 2,
-      "away": 1,
-      "prob": 0.0828
+      "home": 1,
+      "away": 0,
+      "prob": 0.1059
     },
     {
       "home": 4,
       "away": 0,
-      "prob": 0.0827
+      "prob": 0.0946
+    },
+    {
+      "home": 2,
+      "away": 1,
+      "prob": 0.0741
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.9404,
+      "impact": 0.9471,
       "direction": "favors"
     },
     {
       "feature": "head-to-head goal margin",
-      "impact": 0.2473,
+      "impact": 0.2435,
       "direction": "favors"
     },
     {
       "feature": "neutral venue",
-      "impact": -0.1092,
+      "impact": -0.101,
       "direction": "against"
     },
     {
       "feature": "away strength of schedule",
-      "impact": -0.0858,
+      "impact": -0.072,
       "direction": "against"
     },
     {
       "feature": "away Elo",
-      "impact": -0.0542,
+      "impact": -0.0395,
       "direction": "against"
     },
     {
-      "feature": "home strength of schedule",
-      "impact": 0.0466,
+      "feature": "head-to-head record",
+      "impact": 0.0391,
       "direction": "favors"
     }
   ],
@@ -161,7 +161,7 @@
       },
       {
         "date": "2024-09",
-        "elo": 2222.9
+        "elo": 2222.8
       },
       {
         "date": "2024-10",
@@ -181,7 +181,7 @@
       },
       {
         "date": "2025-09",
-        "elo": 2248.0
+        "elo": 2247.9
       },
       {
         "date": "2025-10",
@@ -251,7 +251,7 @@
       },
       {
         "date": "2024-11",
-        "elo": 1656.6
+        "elo": 1656.5
       },
       {
         "date": "2024-12",

@@ -6,66 +6,66 @@
   "group": "H",
   "utc_date": "2026-06-21T22:00:00Z",
   "probs": {
-    "p_home": 0.6736,
-    "p_draw": 0.2141,
-    "p_away": 0.1123
+    "p_home": 0.6782,
+    "p_draw": 0.2136,
+    "p_away": 0.1082
   },
   "top_scorelines": [
     {
       "home": 2,
       "away": 0,
-      "prob": 0.1299
+      "prob": 0.119
     },
     {
       "home": 1,
       "away": 0,
-      "prob": 0.1299
+      "prob": 0.1093
     },
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1014
+      "prob": 0.1016
     },
     {
       "home": 2,
       "away": 1,
-      "prob": 0.0961
+      "prob": 0.0949
     },
     {
       "home": 3,
       "away": 0,
-      "prob": 0.0866
+      "prob": 0.0864
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.61,
+      "impact": 0.6117,
       "direction": "favors"
     },
     {
       "feature": "neutral venue",
-      "impact": -0.1108,
+      "impact": -0.1056,
       "direction": "against"
     },
     {
       "feature": "away strength of schedule",
-      "impact": -0.0752,
+      "impact": -0.0674,
       "direction": "against"
     },
     {
       "feature": "home strength of schedule",
-      "impact": 0.046,
+      "impact": 0.0463,
       "direction": "favors"
     },
     {
       "feature": "home Elo",
-      "impact": 0.0456,
+      "impact": 0.0422,
       "direction": "favors"
     },
     {
       "feature": "host nation at home",
-      "impact": -0.0339,
+      "impact": -0.033,
       "direction": "against"
     }
   ],
@@ -121,11 +121,11 @@
       },
       {
         "date": "2022-12",
-        "elo": 1978.0
+        "elo": 1977.9
       },
       {
         "date": "2023-03",
-        "elo": 1990.1
+        "elo": 1990.0
       },
       {
         "date": "2023-06",
@@ -181,7 +181,7 @@
       },
       {
         "date": "2025-09",
-        "elo": 1985.5
+        "elo": 1985.4
       },
       {
         "date": "2025-10",
@@ -189,7 +189,7 @@
       },
       {
         "date": "2025-11",
-        "elo": 1971.7
+        "elo": 1971.6
       },
       {
         "date": "2026-03",
@@ -235,7 +235,7 @@
       },
       {
         "date": "2024-01",
-        "elo": 1670.2
+        "elo": 1670.3
       },
       {
         "date": "2024-02",

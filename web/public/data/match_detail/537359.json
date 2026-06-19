@@ -6,66 +6,66 @@
   "group": "F",
   "utc_date": "2026-06-20T17:00:00Z",
   "probs": {
-    "p_home": 0.541,
-    "p_draw": 0.2741,
-    "p_away": 0.1849
+    "p_home": 0.5498,
+    "p_draw": 0.2746,
+    "p_away": 0.1757
   },
   "top_scorelines": [
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1299
+      "prob": 0.1296
     },
     {
       "home": 1,
       "away": 0,
-      "prob": 0.0997
-    },
-    {
-      "home": 2,
-      "away": 0,
-      "prob": 0.0932
+      "prob": 0.0957
     },
     {
       "home": 2,
       "away": 1,
-      "prob": 0.0927
+      "prob": 0.0926
+    },
+    {
+      "home": 2,
+      "away": 0,
+      "prob": 0.0924
     },
     {
       "home": 0,
       "away": 0,
-      "prob": 0.0699
+      "prob": 0.0669
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.2797,
+      "impact": 0.2809,
       "direction": "favors"
     },
     {
       "feature": "neutral venue",
-      "impact": -0.1328,
+      "impact": -0.1244,
       "direction": "against"
     },
     {
       "feature": "away strength of schedule",
-      "impact": -0.0714,
+      "impact": -0.0649,
       "direction": "against"
     },
     {
       "feature": "head-to-head goal margin",
-      "impact": 0.0594,
+      "impact": 0.0534,
       "direction": "favors"
     },
     {
       "feature": "away Elo",
-      "impact": -0.0426,
+      "impact": -0.0474,
       "direction": "against"
     },
     {
       "feature": "host nation at home",
-      "impact": -0.0414,
+      "impact": -0.041,
       "direction": "against"
     }
   ],
@@ -105,7 +105,7 @@
     "home": [
       {
         "date": "2021-11",
-        "elo": 1979.9
+        "elo": 1979.8
       },
       {
         "date": "2022-03",
@@ -121,7 +121,7 @@
       },
       {
         "date": "2022-11",
-        "elo": 2123.0
+        "elo": 2122.9
       },
       {
         "date": "2022-12",
@@ -185,7 +185,7 @@
       },
       {
         "date": "2025-10",
-        "elo": 2024.0
+        "elo": 2023.9
       },
       {
         "date": "2025-11",

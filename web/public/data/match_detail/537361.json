@@ -6,66 +6,66 @@
   "group": "F",
   "utc_date": "2026-06-25T23:00:00Z",
   "probs": {
-    "p_home": 0.1397,
-    "p_draw": 0.2425,
-    "p_away": 0.6178
+    "p_home": 0.1408,
+    "p_draw": 0.2382,
+    "p_away": 0.6209
   },
   "top_scorelines": [
     {
       "home": 0,
       "away": 1,
-      "prob": 0.1667
+      "prob": 0.156
     },
     {
       "home": 0,
       "away": 2,
-      "prob": 0.138
+      "prob": 0.134
     },
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1079
+      "prob": 0.1086
     },
     {
       "home": 0,
       "away": 0,
-      "prob": 0.1028
+      "prob": 0.0939
     },
     {
       "home": 1,
       "away": 2,
-      "prob": 0.0875
+      "prob": 0.0902
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.6719,
+      "impact": 0.6772,
       "direction": "favors"
     },
     {
       "feature": "home momentum (1yr Elo)",
-      "impact": -0.0882,
+      "impact": -0.081,
       "direction": "against"
     },
     {
       "feature": "neutral venue",
-      "impact": 0.0726,
+      "impact": 0.0756,
       "direction": "favors"
     },
     {
       "feature": "away Elo",
-      "impact": 0.0663,
-      "direction": "favors"
-    },
-    {
-      "feature": "head-to-head goal margin",
-      "impact": 0.0426,
+      "impact": 0.0611,
       "direction": "favors"
     },
     {
       "feature": "home last-5 defense",
-      "impact": 0.0351,
+      "impact": 0.0402,
+      "direction": "favors"
+    },
+    {
+      "feature": "head-to-head goal margin",
+      "impact": 0.04,
       "direction": "favors"
     }
   ],
@@ -203,7 +203,7 @@
     "away": [
       {
         "date": "2021-11",
-        "elo": 1979.9
+        "elo": 1979.8
       },
       {
         "date": "2022-03",
@@ -219,7 +219,7 @@
       },
       {
         "date": "2022-11",
-        "elo": 2123.0
+        "elo": 2122.9
       },
       {
         "date": "2022-12",
@@ -283,7 +283,7 @@
       },
       {
         "date": "2025-10",
-        "elo": 2024.0
+        "elo": 2023.9
       },
       {
         "date": "2025-11",

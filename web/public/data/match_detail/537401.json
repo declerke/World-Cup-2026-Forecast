@@ -6,67 +6,67 @@
   "group": "J",
   "utc_date": "2026-06-28T02:00:00Z",
   "probs": {
-    "p_home": 0.0915,
-    "p_draw": 0.1414,
-    "p_away": 0.7671
+    "p_home": 0.0938,
+    "p_draw": 0.1335,
+    "p_away": 0.7727
   },
   "top_scorelines": [
     {
       "home": 0,
       "away": 2,
-      "prob": 0.1476
-    },
-    {
-      "home": 0,
-      "away": 3,
-      "prob": 0.1273
+      "prob": 0.1646
     },
     {
       "home": 0,
       "away": 1,
-      "prob": 0.1141
+      "prob": 0.1397
+    },
+    {
+      "home": 0,
+      "away": 3,
+      "prob": 0.1293
     },
     {
       "home": 0,
       "away": 4,
-      "prob": 0.0823
+      "prob": 0.0762
     },
     {
       "home": 1,
       "away": 2,
-      "prob": 0.0668
+      "prob": 0.0698
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 1.1973,
+      "impact": 1.2264,
+      "direction": "favors"
+    },
+    {
+      "feature": "away Elo",
+      "impact": 0.0758,
       "direction": "favors"
     },
     {
       "feature": "home Elo",
-      "impact": -0.0843,
+      "impact": -0.0745,
       "direction": "against"
     },
     {
-      "feature": "away Elo",
-      "impact": 0.0666,
+      "feature": "neutral venue",
+      "impact": 0.0663,
       "direction": "favors"
     },
     {
-      "feature": "neutral venue",
-      "impact": 0.0583,
+      "feature": "home last-5 defense",
+      "impact": 0.0451,
       "direction": "favors"
     },
     {
       "feature": "home strength of schedule",
-      "impact": -0.0495,
+      "impact": -0.0341,
       "direction": "against"
-    },
-    {
-      "feature": "home last-5 defense",
-      "impact": 0.0337,
-      "direction": "favors"
     }
   ],
   "form": {
@@ -197,7 +197,7 @@
       },
       {
         "date": "2026-06",
-        "elo": 1727.3
+        "elo": 1727.2
       }
     ],
     "away": [
@@ -223,7 +223,7 @@
       },
       {
         "date": "2022-12",
-        "elo": 2204.6
+        "elo": 2204.5
       },
       {
         "date": "2023-03",
