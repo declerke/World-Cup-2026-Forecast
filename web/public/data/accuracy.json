@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-06-20T11:20:45.233266+00:00",
-  "model_version": "8276de3",
+  "generated_at_utc": "2026-06-20T21:37:11.100120+00:00",
+  "model_version": "20a00a6",
   "summary": {
-    "n_scored": 28,
-    "mean_brier": 0.5731,
-    "mean_logloss": 0.9501,
-    "favorite_accuracy": 0.5714,
-    "exact_accuracy": 0.2143
+    "n_scored": 29,
+    "mean_brier": 0.5644,
+    "mean_logloss": 0.9385,
+    "favorite_accuracy": 0.5862,
+    "exact_accuracy": 0.2069
   },
   "history": [
     {
@@ -176,6 +176,12 @@
       "kickoff": "2026-06-20T03:00:00Z",
       "cum_brier": 0.5731,
       "cum_favorite_accuracy": 0.5714
+    },
+    {
+      "match": 29,
+      "kickoff": "2026-06-20T17:00:00Z",
+      "cum_brier": 0.5644,
+      "cum_favorite_accuracy": 0.5862
     }
   ],
   "calibration": [
@@ -193,9 +199,9 @@
     },
     {
       "bin": 0.569,
-      "predicted": 0.5716,
-      "actual": 0.5714,
-      "count": 7
+      "predicted": 0.5678,
+      "actual": 0.625,
+      "count": 8
     },
     {
       "bin": 0.665,
@@ -602,6 +608,20 @@
       "actual_away": "1",
       "outcome": "away_win",
       "favorite_correct": 0
+    },
+    {
+      "match_id": "537359",
+      "home": "Netherlands",
+      "away": "Sweden",
+      "p_home": "0.541",
+      "p_draw": "0.2741",
+      "p_away": "0.1849",
+      "pred_score_home": "1",
+      "pred_score_away": "1",
+      "actual_home": "5",
+      "actual_away": "1",
+      "outcome": "home_win",
+      "favorite_correct": 1
     }
   ]
 }
