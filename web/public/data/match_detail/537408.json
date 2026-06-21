@@ -6,66 +6,66 @@
   "group": "K",
   "utc_date": "2026-06-27T23:30:00Z",
   "probs": {
-    "p_home": 0.3551,
-    "p_draw": 0.299,
-    "p_away": 0.3459
+    "p_home": 0.3488,
+    "p_draw": 0.2994,
+    "p_away": 0.3518
   },
   "top_scorelines": [
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1381
+      "prob": 0.1399
     },
     {
       "home": 1,
       "away": 0,
-      "prob": 0.123
+      "prob": 0.1155
     },
     {
       "home": 0,
       "away": 1,
-      "prob": 0.1147
+      "prob": 0.1103
     },
     {
       "home": 0,
       "away": 0,
-      "prob": 0.1119
+      "prob": 0.106
     },
     {
       "home": 2,
       "away": 1,
-      "prob": 0.0759
+      "prob": 0.0762
     }
   ],
   "shap": [
     {
-      "feature": "Elo rating gap",
-      "impact": -0.1632,
-      "direction": "against"
-    },
-    {
       "feature": "neutral venue",
-      "impact": -0.1363,
-      "direction": "against"
+      "impact": 0.1038,
+      "direction": "favors"
     },
     {
       "feature": "away strength of schedule",
-      "impact": -0.0589,
-      "direction": "against"
+      "impact": 0.0897,
+      "direction": "favors"
     },
     {
-      "feature": "host nation at home",
-      "impact": -0.0472,
+      "feature": "away momentum (1yr Elo)",
+      "impact": 0.0838,
+      "direction": "favors"
+    },
+    {
+      "feature": "home defensive form",
+      "impact": -0.0621,
       "direction": "against"
     },
     {
       "feature": "home Elo",
-      "impact": 0.0378,
-      "direction": "favors"
+      "impact": -0.042,
+      "direction": "against"
     },
     {
-      "feature": "away Elo",
-      "impact": -0.0377,
+      "feature": "home last-5 defense",
+      "impact": -0.037,
       "direction": "against"
     }
   ],
@@ -235,11 +235,11 @@
       },
       {
         "date": "2023-11",
-        "elo": 1748.4
+        "elo": 1748.3
       },
       {
         "date": "2024-01",
-        "elo": 1773.2
+        "elo": 1773.1
       },
       {
         "date": "2024-02",
