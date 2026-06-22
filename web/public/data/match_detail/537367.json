@@ -6,84 +6,83 @@
   "group": "G",
   "utc_date": "2026-06-27T03:00:00Z",
   "probs": {
-    "p_home": 0.1861,
-    "p_draw": 0.2874,
-    "p_away": 0.5265
+    "p_home": 0.1765,
+    "p_draw": 0.2435,
+    "p_away": 0.58
   },
   "top_scorelines": [
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1365
+      "prob": 0.115
+    },
+    {
+      "home": 0,
+      "away": 2,
+      "prob": 0.0964
     },
     {
       "home": 0,
       "away": 1,
-      "prob": 0.104
-    },
-    {
-      "home": 0,
-      "away": 2,
-      "prob": 0.0934
+      "prob": 0.0897
     },
     {
       "home": 1,
       "away": 2,
-      "prob": 0.0918
+      "prob": 0.0865
     },
     {
       "home": 0,
-      "away": 0,
-      "prob": 0.0774
+      "away": 3,
+      "prob": 0.0691
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.4619,
+      "impact": 0.6326,
       "direction": "favors"
     },
     {
       "feature": "neutral venue",
-      "impact": 0.1013,
+      "impact": 0.085,
       "direction": "favors"
     },
     {
       "feature": "away Elo",
-      "impact": 0.0696,
+      "impact": 0.0599,
       "direction": "favors"
     },
     {
-      "feature": "home Elo",
-      "impact": -0.0346,
+      "feature": "home momentum (1yr Elo)",
+      "impact": -0.032,
       "direction": "against"
-    },
-    {
-      "feature": "away scoring form",
-      "impact": 0.0317,
-      "direction": "favors"
     },
     {
       "feature": "home strength of schedule",
-      "impact": -0.0308,
+      "impact": -0.0284,
       "direction": "against"
+    },
+    {
+      "feature": "away strength of schedule",
+      "impact": 0.027,
+      "direction": "favors"
     }
   ],
   "form": {
     "home": [
       "L",
-      "D",
-      "L",
       "L",
       "L",
       "W",
       "L",
       "L",
       "D",
-      "D"
+      "D",
+      "L",
+      "L"
     ],
     "away": [
-      "W",
       "D",
       "W",
       "D",
@@ -92,6 +91,7 @@
       "D",
       "W",
       "W",
+      "D",
       "D"
     ]
   },
@@ -197,7 +197,7 @@
       },
       {
         "date": "2026-06",
-        "elo": 1749.9
+        "elo": 1674.3
       }
     ],
     "away": [
@@ -295,7 +295,7 @@
       },
       {
         "date": "2026-06",
-        "elo": 1932.9
+        "elo": 1926.9
       }
     ]
   },

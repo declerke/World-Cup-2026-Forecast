@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-06-21T11:47:06.853223+00:00",
-  "model_version": "2990496",
+  "generated_at_utc": "2026-06-22T14:42:06.819547+00:00",
+  "model_version": "d4cbd5d",
   "summary": {
-    "n_scored": 32,
-    "mean_brier": 0.5781,
-    "mean_logloss": 0.9562,
-    "favorite_accuracy": 0.5938,
-    "exact_accuracy": 0.1875
+    "n_scored": 36,
+    "mean_brier": 0.5789,
+    "mean_logloss": 0.9535,
+    "favorite_accuracy": 0.5833,
+    "exact_accuracy": 0.1667
   },
   "history": [
     {
@@ -200,6 +200,30 @@
       "kickoff": "2026-06-21T04:00:00Z",
       "cum_brier": 0.5781,
       "cum_favorite_accuracy": 0.5938
+    },
+    {
+      "match": 33,
+      "kickoff": "2026-06-21T16:00:00Z",
+      "cum_brier": 0.5616,
+      "cum_favorite_accuracy": 0.6061
+    },
+    {
+      "match": 34,
+      "kickoff": "2026-06-21T19:00:00Z",
+      "cum_brier": 0.5681,
+      "cum_favorite_accuracy": 0.5882
+    },
+    {
+      "match": 35,
+      "kickoff": "2026-06-21T22:00:00Z",
+      "cum_brier": 0.583,
+      "cum_favorite_accuracy": 0.5714
+    },
+    {
+      "match": 36,
+      "kickoff": "2026-06-22T01:00:00Z",
+      "cum_brier": 0.5789,
+      "cum_favorite_accuracy": 0.5833
     }
   ],
   "calibration": [
@@ -211,9 +235,9 @@
     },
     {
       "bin": 0.474,
-      "predicted": 0.4792,
+      "predicted": 0.4758,
       "actual": 0.5,
-      "count": 14
+      "count": 16
     },
     {
       "bin": 0.569,
@@ -223,15 +247,15 @@
     },
     {
       "bin": 0.665,
-      "predicted": 0.6356,
-      "actual": 0.6667,
-      "count": 3
+      "predicted": 0.6463,
+      "actual": 0.5,
+      "count": 4
     },
     {
       "bin": 0.856,
-      "predicted": 0.8518,
-      "actual": 0.6,
-      "count": 5
+      "predicted": 0.8526,
+      "actual": 0.6667,
+      "count": 6
     }
   ],
   "receipts": [
@@ -680,6 +704,62 @@
       "pred_score_away": "1",
       "actual_home": "0",
       "actual_away": "4",
+      "outcome": "away_win",
+      "favorite_correct": 1
+    },
+    {
+      "match_id": "537371",
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "p_home": "0.8565",
+      "p_draw": "0.1118",
+      "p_away": "0.0317",
+      "pred_score_home": "2",
+      "pred_score_away": "0",
+      "actual_home": "4",
+      "actual_away": "0",
+      "outcome": "home_win",
+      "favorite_correct": 1
+    },
+    {
+      "match_id": "537365",
+      "home": "Belgium",
+      "away": "Iran",
+      "p_home": "0.4424",
+      "p_draw": "0.2854",
+      "p_away": "0.2722",
+      "pred_score_home": "1",
+      "pred_score_away": "1",
+      "actual_home": "0",
+      "actual_away": "0",
+      "outcome": "draw",
+      "favorite_correct": 0
+    },
+    {
+      "match_id": "537372",
+      "home": "Uruguay",
+      "away": "Cape Verde",
+      "p_home": "0.6782",
+      "p_draw": "0.2136",
+      "p_away": "0.1082",
+      "pred_score_home": "2",
+      "pred_score_away": "0",
+      "actual_home": "2",
+      "actual_away": "2",
+      "outcome": "draw",
+      "favorite_correct": 0
+    },
+    {
+      "match_id": "537366",
+      "home": "New Zealand",
+      "away": "Egypt",
+      "p_home": "0.243",
+      "p_draw": "0.2953",
+      "p_away": "0.4617",
+      "pred_score_home": "1",
+      "pred_score_away": "1",
+      "actual_home": "1",
+      "actual_away": "3",
       "outcome": "away_win",
       "favorite_correct": 1
     }
