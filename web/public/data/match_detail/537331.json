@@ -6,66 +6,66 @@
   "group": "A",
   "utc_date": "2026-06-25T01:00:00Z",
   "probs": {
-    "p_home": 0.2104,
-    "p_draw": 0.2698,
-    "p_away": 0.5197
+    "p_home": 0.2361,
+    "p_draw": 0.2737,
+    "p_away": 0.4903
   },
   "top_scorelines": [
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1279
+      "prob": 0.128
     },
     {
       "home": 0,
       "away": 1,
-      "prob": 0.1231
+      "prob": 0.126
     },
     {
       "home": 0,
       "away": 2,
-      "prob": 0.0997
-    },
-    {
-      "home": 1,
-      "away": 2,
-      "prob": 0.0922
+      "prob": 0.099
     },
     {
       "home": 0,
       "away": 0,
-      "prob": 0.0853
+      "prob": 0.0961
+    },
+    {
+      "home": 1,
+      "away": 0,
+      "prob": 0.088
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.6298,
+      "impact": 0.6105,
       "direction": "favors"
     },
     {
       "feature": "head-to-head goal margin",
-      "impact": -0.1295,
+      "impact": -0.1384,
       "direction": "against"
     },
     {
       "feature": "neutral venue",
-      "impact": 0.0928,
-      "direction": "favors"
-    },
-    {
-      "feature": "away Elo",
-      "impact": 0.0767,
+      "impact": 0.082,
       "direction": "favors"
     },
     {
       "feature": "away momentum (1yr Elo)",
-      "impact": -0.0624,
+      "impact": -0.0719,
       "direction": "against"
     },
     {
+      "feature": "away Elo",
+      "impact": 0.0699,
+      "direction": "favors"
+    },
+    {
       "feature": "away strength of schedule",
-      "impact": 0.0604,
+      "impact": 0.0515,
       "direction": "favors"
     }
   ],
@@ -109,7 +109,7 @@
       },
       {
         "date": "2021-11",
-        "elo": 1883.0
+        "elo": 1883.1
       },
       {
         "date": "2022-03",

@@ -6,66 +6,66 @@
   "group": "L",
   "utc_date": "2026-06-27T21:00:00Z",
   "probs": {
-    "p_home": 0.6768,
-    "p_draw": 0.2297,
-    "p_away": 0.0935
+    "p_home": 0.6785,
+    "p_draw": 0.2269,
+    "p_away": 0.0946
   },
   "top_scorelines": [
     {
       "home": 2,
       "away": 0,
-      "prob": 0.1197
+      "prob": 0.124
     },
     {
       "home": 1,
       "away": 0,
-      "prob": 0.1107
+      "prob": 0.1165
     },
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1092
+      "prob": 0.1079
     },
     {
       "home": 2,
       "away": 1,
-      "prob": 0.0951
+      "prob": 0.0943
     },
     {
       "home": 3,
       "away": 0,
-      "prob": 0.0862
+      "prob": 0.088
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.6154,
+      "impact": 0.6131,
       "direction": "favors"
     },
     {
       "feature": "neutral venue",
-      "impact": -0.1203,
+      "impact": -0.1067,
       "direction": "against"
     },
     {
       "feature": "away strength of schedule",
-      "impact": -0.0788,
+      "impact": -0.0765,
       "direction": "against"
     },
     {
       "feature": "away momentum (1yr Elo)",
-      "impact": 0.0627,
+      "impact": 0.0615,
       "direction": "favors"
+    },
+    {
+      "feature": "host nation at home",
+      "impact": -0.036,
+      "direction": "against"
     },
     {
       "feature": "home Elo",
-      "impact": 0.0354,
-      "direction": "favors"
-    },
-    {
-      "feature": "home strength of schedule",
-      "impact": 0.0329,
+      "impact": 0.0346,
       "direction": "favors"
     }
   ],
@@ -211,7 +211,7 @@
       },
       {
         "date": "2022-09",
-        "elo": 1651.4
+        "elo": 1651.3
       },
       {
         "date": "2022-11",
