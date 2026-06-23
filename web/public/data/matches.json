@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-23T12:09:16.145690+00:00",
-  "model_version": "98d9534",
+  "generated_at_utc": "2026-06-23T16:01:10.791694+00:00",
+  "model_version": "f32780d",
   "matches": [
     {
       "match_id": 537327,
@@ -1197,7 +1197,7 @@
       "status": "TIMED",
       "group": null,
       "utc_date": "2026-06-29T20:30:00Z",
-      "home_team": "Germany",
+      "home_team": null,
       "away_team": null,
       "matchday": null
     },
@@ -1237,7 +1237,7 @@
       "status": "TIMED",
       "group": null,
       "utc_date": "2026-07-01T01:00:00Z",
-      "home_team": "Mexico",
+      "home_team": null,
       "away_team": null,
       "matchday": null
     },
@@ -1267,7 +1267,7 @@
       "status": "TIMED",
       "group": null,
       "utc_date": "2026-07-02T00:00:00Z",
-      "home_team": "United States",
+      "home_team": null,
       "away_team": null,
       "matchday": null
     },
