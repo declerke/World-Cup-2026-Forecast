@@ -1,0 +1,303 @@
+{
+  "match_id": 537421,
+  "home_team": "United States",
+  "away_team": "Bosnia and Herzegovina",
+  "stage": "R32",
+  "group": null,
+  "utc_date": "2026-07-02T00:00:00Z",
+  "probs": {
+    "p_home": 0.751,
+    "p_draw": 0.1725,
+    "p_away": 0.0765
+  },
+  "top_scorelines": [
+    {
+      "home": 2,
+      "away": 0,
+      "prob": 0.107
+    },
+    {
+      "home": 3,
+      "away": 0,
+      "prob": 0.0972
+    },
+    {
+      "home": 2,
+      "away": 1,
+      "prob": 0.0837
+    },
+    {
+      "home": 1,
+      "away": 1,
+      "prob": 0.0804
+    },
+    {
+      "home": 1,
+      "away": 0,
+      "prob": 0.0786
+    }
+  ],
+  "shap": [
+    {
+      "feature": "Elo rating gap",
+      "impact": 0.381,
+      "direction": "favors"
+    },
+    {
+      "feature": "home strength of schedule",
+      "impact": 0.1549,
+      "direction": "favors"
+    },
+    {
+      "feature": "away momentum (1yr Elo)",
+      "impact": 0.0937,
+      "direction": "favors"
+    },
+    {
+      "feature": "head-to-head goal margin",
+      "impact": 0.0571,
+      "direction": "favors"
+    },
+    {
+      "feature": "neutral venue",
+      "impact": 0.0555,
+      "direction": "favors"
+    },
+    {
+      "feature": "away strength of schedule",
+      "impact": -0.0509,
+      "direction": "against"
+    }
+  ],
+  "form": {
+    "home": [
+      "W",
+      "L",
+      "L",
+      "W",
+      "L",
+      "W",
+      "W",
+      "W",
+      "L",
+      "L"
+    ],
+    "away": [
+      "W",
+      "W",
+      "D",
+      "D",
+      "D",
+      "D",
+      "D",
+      "D",
+      "L",
+      "W"
+    ]
+  },
+  "h2h": {
+    "meetings": 3,
+    "home_wins": 2,
+    "away_wins": 0,
+    "draws": 1
+  },
+  "elo_history": {
+    "home": [
+      {
+        "date": "2023-03",
+        "elo": 1899.9
+      },
+      {
+        "date": "2023-04",
+        "elo": 1897.2
+      },
+      {
+        "date": "2023-06",
+        "elo": 1912.0
+      },
+      {
+        "date": "2023-07",
+        "elo": 1893.2
+      },
+      {
+        "date": "2023-09",
+        "elo": 1904.8
+      },
+      {
+        "date": "2023-10",
+        "elo": 1893.9
+      },
+      {
+        "date": "2023-11",
+        "elo": 1873.7
+      },
+      {
+        "date": "2024-01",
+        "elo": 1858.3
+      },
+      {
+        "date": "2024-03",
+        "elo": 1888.5
+      },
+      {
+        "date": "2024-06",
+        "elo": 1851.2
+      },
+      {
+        "date": "2024-07",
+        "elo": 1835.5
+      },
+      {
+        "date": "2024-09",
+        "elo": 1818.3
+      },
+      {
+        "date": "2024-10",
+        "elo": 1822.0
+      },
+      {
+        "date": "2024-11",
+        "elo": 1845.8
+      },
+      {
+        "date": "2025-01",
+        "elo": 1865.1
+      },
+      {
+        "date": "2025-03",
+        "elo": 1825.7
+      },
+      {
+        "date": "2025-06",
+        "elo": 1819.3
+      },
+      {
+        "date": "2025-07",
+        "elo": 1805.2
+      },
+      {
+        "date": "2025-09",
+        "elo": 1807.4
+      },
+      {
+        "date": "2025-10",
+        "elo": 1820.9
+      },
+      {
+        "date": "2025-11",
+        "elo": 1852.8
+      },
+      {
+        "date": "2026-03",
+        "elo": 1822.0
+      },
+      {
+        "date": "2026-05",
+        "elo": 1832.2
+      },
+      {
+        "date": "2026-06",
+        "elo": 1891.3
+      }
+    ],
+    "away": [
+      {
+        "date": "2021-10",
+        "elo": 1711.4
+      },
+      {
+        "date": "2021-11",
+        "elo": 1650.4
+      },
+      {
+        "date": "2021-12",
+        "elo": 1648.7
+      },
+      {
+        "date": "2022-03",
+        "elo": 1637.9
+      },
+      {
+        "date": "2022-06",
+        "elo": 1695.0
+      },
+      {
+        "date": "2022-09",
+        "elo": 1669.5
+      },
+      {
+        "date": "2023-03",
+        "elo": 1658.0
+      },
+      {
+        "date": "2023-06",
+        "elo": 1605.2
+      },
+      {
+        "date": "2023-09",
+        "elo": 1587.2
+      },
+      {
+        "date": "2023-10",
+        "elo": 1583.3
+      },
+      {
+        "date": "2023-11",
+        "elo": 1535.2
+      },
+      {
+        "date": "2024-03",
+        "elo": 1527.8
+      },
+      {
+        "date": "2024-06",
+        "elo": 1526.2
+      },
+      {
+        "date": "2024-09",
+        "elo": 1544.6
+      },
+      {
+        "date": "2024-10",
+        "elo": 1521.2
+      },
+      {
+        "date": "2024-11",
+        "elo": 1538.7
+      },
+      {
+        "date": "2025-03",
+        "elo": 1579.3
+      },
+      {
+        "date": "2025-06",
+        "elo": 1577.1
+      },
+      {
+        "date": "2025-09",
+        "elo": 1571.8
+      },
+      {
+        "date": "2025-10",
+        "elo": 1575.8
+      },
+      {
+        "date": "2025-11",
+        "elo": 1627.1
+      },
+      {
+        "date": "2026-03",
+        "elo": 1649.6
+      },
+      {
+        "date": "2026-05",
+        "elo": 1646.8
+      },
+      {
+        "date": "2026-06",
+        "elo": 1689.8
+      }
+    ]
+  },
+  "venue": null
+}

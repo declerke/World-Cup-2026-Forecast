@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-27T10:58:35.093494+00:00",
-  "model_version": "a092a90",
+  "generated_at_utc": "2026-06-28T11:08:44.735490+00:00",
+  "model_version": "1409a91",
   "groups": [
     {
       "group": "A",
@@ -39,11 +39,11 @@
           "p_win_group": 0.0,
           "p_runner_up": 0.0,
           "p_third": 1.0,
-          "p_advance": 0.3708
+          "p_advance": 0.0
         },
         {
           "team": "Czech Republic",
-          "elo": 1720.5,
+          "elo": 1720.6,
           "played": 3,
           "points": 1,
           "gd": -4,
@@ -60,7 +60,7 @@
       "teams": [
         {
           "team": "Switzerland",
-          "elo": 1994.0,
+          "elo": 1992.6,
           "played": 3,
           "points": 7,
           "gd": 4,
@@ -72,7 +72,7 @@
         },
         {
           "team": "Canada",
-          "elo": 1837.1,
+          "elo": 1838.4,
           "played": 3,
           "points": 4,
           "gd": 5,
@@ -145,7 +145,7 @@
           "p_win_group": 0.0,
           "p_runner_up": 0.0,
           "p_third": 1.0,
-          "p_advance": 0.0003
+          "p_advance": 0.0
         },
         {
           "team": "Haiti",
@@ -296,7 +296,7 @@
         },
         {
           "team": "Sweden",
-          "elo": 1831.9,
+          "elo": 1832.0,
           "played": 3,
           "points": 4,
           "gd": 0,
@@ -325,7 +325,7 @@
       "teams": [
         {
           "team": "Belgium",
-          "elo": 1959.9,
+          "elo": 1975.8,
           "played": 3,
           "points": 5,
           "gd": 4,
@@ -337,7 +337,7 @@
         },
         {
           "team": "Egypt",
-          "elo": 1885.3,
+          "elo": 1883.2,
           "played": 3,
           "points": 5,
           "gd": 2,
@@ -349,7 +349,7 @@
         },
         {
           "team": "Iran",
-          "elo": 1878.3,
+          "elo": 1880.4,
           "played": 3,
           "points": 3,
           "gd": 0,
@@ -357,11 +357,11 @@
           "p_win_group": 0.0,
           "p_runner_up": 0.0,
           "p_third": 1.0,
-          "p_advance": 0.8991
+          "p_advance": 0.0
         },
         {
           "team": "New Zealand",
-          "elo": 1641.3,
+          "elo": 1625.4,
           "played": 3,
           "points": 1,
           "gd": -6,
@@ -378,7 +378,7 @@
       "teams": [
         {
           "team": "Spain",
-          "elo": 2220.4,
+          "elo": 2229.5,
           "played": 3,
           "points": 7,
           "gd": 5,
@@ -390,7 +390,7 @@
         },
         {
           "team": "Cape Verde",
-          "elo": 1691.8,
+          "elo": 1692.2,
           "played": 3,
           "points": 3,
           "gd": 0,
@@ -402,7 +402,7 @@
         },
         {
           "team": "Uruguay",
-          "elo": 1917.8,
+          "elo": 1908.8,
           "played": 3,
           "points": 2,
           "gd": -1,
@@ -414,7 +414,7 @@
         },
         {
           "team": "Saudi Arabia",
-          "elo": 1712.8,
+          "elo": 1712.4,
           "played": 3,
           "points": 2,
           "gd": -4,
@@ -431,7 +431,7 @@
       "teams": [
         {
           "team": "France",
-          "elo": 2206.2,
+          "elo": 2191.8,
           "played": 3,
           "points": 9,
           "gd": 8,
@@ -443,7 +443,7 @@
         },
         {
           "team": "Norway",
-          "elo": 1986.4,
+          "elo": 2000.9,
           "played": 3,
           "points": 6,
           "gd": 1,
@@ -455,7 +455,7 @@
         },
         {
           "team": "Senegal",
-          "elo": 1883.1,
+          "elo": 1895.6,
           "played": 3,
           "points": 3,
           "gd": 2,
@@ -467,7 +467,7 @@
         },
         {
           "team": "Iraq",
-          "elo": 1685.4,
+          "elo": 1672.9,
           "played": 3,
           "points": 0,
           "gd": -11,
@@ -484,51 +484,51 @@
       "teams": [
         {
           "team": "Argentina",
-          "elo": 2227.4,
-          "played": 2,
-          "points": 6,
-          "gd": 5,
-          "gf": 5,
-          "p_win_group": 0.998,
-          "p_runner_up": 0.002,
+          "elo": 2237.4,
+          "played": 3,
+          "points": 9,
+          "gd": 7,
+          "gf": 8,
+          "p_win_group": 1.0,
+          "p_runner_up": 0.0,
           "p_third": 0.0,
           "p_advance": 1.0
         },
         {
           "team": "Austria",
-          "elo": 1916.3,
-          "played": 2,
-          "points": 3,
+          "elo": 1922.7,
+          "played": 3,
+          "points": 4,
           "gd": 0,
-          "gf": 3,
-          "p_win_group": 0.002,
-          "p_runner_up": 0.6831,
-          "p_third": 0.3056,
-          "p_advance": 0.8047
+          "gf": 6,
+          "p_win_group": 0.0,
+          "p_runner_up": 1.0,
+          "p_third": 0.0,
+          "p_advance": 1.0
         },
         {
           "team": "Algeria",
-          "elo": 1902.9,
-          "played": 2,
-          "points": 3,
+          "elo": 1896.6,
+          "played": 3,
+          "points": 4,
           "gd": -2,
-          "gf": 2,
+          "gf": 5,
           "p_win_group": 0.0,
-          "p_runner_up": 0.3149,
-          "p_third": 0.6485,
-          "p_advance": 0.5876
+          "p_runner_up": 0.0,
+          "p_third": 1.0,
+          "p_advance": 1.0
         },
         {
           "team": "Jordan",
-          "elo": 1684.2,
-          "played": 2,
+          "elo": 1674.2,
+          "played": 3,
           "points": 0,
-          "gd": -3,
-          "gf": 2,
+          "gd": -5,
+          "gf": 3,
           "p_win_group": 0.0,
           "p_runner_up": 0.0,
-          "p_third": 0.0459,
-          "p_advance": 0.0087
+          "p_third": 0.0,
+          "p_advance": 0.0
         }
       ]
     },
@@ -537,51 +537,51 @@
       "teams": [
         {
           "team": "Colombia",
-          "elo": 2116.9,
-          "played": 2,
-          "points": 6,
+          "elo": 2112.0,
+          "played": 3,
+          "points": 7,
           "gd": 3,
           "gf": 4,
-          "p_win_group": 0.6626,
-          "p_runner_up": 0.3374,
+          "p_win_group": 1.0,
+          "p_runner_up": 0.0,
           "p_third": 0.0,
           "p_advance": 1.0
         },
         {
           "team": "Portugal",
-          "elo": 2060.3,
-          "played": 2,
-          "points": 4,
+          "elo": 2065.2,
+          "played": 3,
+          "points": 5,
           "gd": 5,
           "gf": 6,
-          "p_win_group": 0.3374,
-          "p_runner_up": 0.6584,
-          "p_third": 0.0042,
+          "p_win_group": 0.0,
+          "p_runner_up": 1.0,
+          "p_third": 0.0,
           "p_advance": 1.0
         },
         {
           "team": "DR Congo",
-          "elo": 1770.6,
-          "played": 2,
-          "points": 1,
-          "gd": -1,
-          "gf": 1,
+          "elo": 1813.6,
+          "played": 3,
+          "points": 4,
+          "gd": 1,
+          "gf": 4,
           "p_win_group": 0.0,
-          "p_runner_up": 0.0042,
-          "p_third": 0.694,
-          "p_advance": 0.3973
+          "p_runner_up": 0.0,
+          "p_third": 1.0,
+          "p_advance": 1.0
         },
         {
           "team": "Uzbekistan",
-          "elo": 1755.4,
-          "played": 2,
+          "elo": 1712.4,
+          "played": 3,
           "points": 0,
-          "gd": -7,
-          "gf": 1,
+          "gd": -9,
+          "gf": 2,
           "p_win_group": 0.0,
           "p_runner_up": 0.0,
-          "p_third": 0.3018,
-          "p_advance": 0.0002
+          "p_third": 0.0,
+          "p_advance": 0.0
         }
       ]
     },
@@ -590,51 +590,51 @@
       "teams": [
         {
           "team": "England",
-          "elo": 2098.2,
-          "played": 2,
-          "points": 4,
-          "gd": 2,
-          "gf": 4,
-          "p_win_group": 0.7322,
-          "p_runner_up": 0.2668,
-          "p_third": 0.001,
-          "p_advance": 1.0
-        },
-        {
-          "team": "Ghana",
-          "elo": 1696.7,
-          "played": 2,
-          "points": 4,
-          "gd": 1,
-          "gf": 1,
-          "p_win_group": 0.0528,
-          "p_runner_up": 0.2571,
-          "p_third": 0.6901,
+          "elo": 2110.8,
+          "played": 3,
+          "points": 7,
+          "gd": 4,
+          "gf": 6,
+          "p_win_group": 1.0,
+          "p_runner_up": 0.0,
+          "p_third": 0.0,
           "p_advance": 1.0
         },
         {
           "team": "Croatia",
-          "elo": 1961.9,
-          "played": 2,
-          "points": 3,
-          "gd": -1,
-          "gf": 3,
-          "p_win_group": 0.215,
-          "p_runner_up": 0.4761,
-          "p_third": 0.2983,
-          "p_advance": 0.9247
+          "elo": 1972.6,
+          "played": 3,
+          "points": 6,
+          "gd": 0,
+          "gf": 5,
+          "p_win_group": 0.0,
+          "p_runner_up": 1.0,
+          "p_third": 0.0,
+          "p_advance": 1.0
+        },
+        {
+          "team": "Ghana",
+          "elo": 1686.0,
+          "played": 3,
+          "points": 4,
+          "gd": 0,
+          "gf": 2,
+          "p_win_group": 0.0,
+          "p_runner_up": 0.0,
+          "p_third": 1.0,
+          "p_advance": 1.0
         },
         {
           "team": "Panama",
-          "elo": 1782.4,
-          "played": 2,
+          "elo": 1769.8,
+          "played": 3,
           "points": 0,
-          "gd": -2,
+          "gd": -4,
           "gf": 0,
           "p_win_group": 0.0,
           "p_runner_up": 0.0,
-          "p_third": 0.0106,
-          "p_advance": 0.0066
+          "p_third": 0.0,
+          "p_advance": 0.0
         }
       ]
     }
