@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-28T11:08:44.776859+00:00",
-  "model_version": "1409a91",
+  "generated_at_utc": "2026-06-29T13:08:01.567621+00:00",
+  "model_version": "d51240b",
   "matches": [
     {
       "match_id": 537327,
@@ -1013,18 +1013,13 @@
     {
       "match_id": 537417,
       "stage": "R32",
-      "status": "TIMED",
+      "status": "FINISHED",
       "group": null,
       "utc_date": "2026-06-28T19:00:00Z",
       "home_team": "South Africa",
       "away_team": "Canada",
       "matchday": null,
-      "probs": {
-        "p_home": 0.327,
-        "p_draw": 0.2346,
-        "p_away": 0.4384
-      },
-      "most_likely_score": {
+      "score": {
         "home": 0,
         "away": 1
       }
@@ -1039,9 +1034,9 @@
       "away_team": "Japan",
       "matchday": null,
       "probs": {
-        "p_home": 0.4788,
-        "p_draw": 0.2787,
-        "p_away": 0.2425
+        "p_home": 0.4766,
+        "p_draw": 0.2832,
+        "p_away": 0.2402
       },
       "most_likely_score": {
         "home": 1,
@@ -1058,9 +1053,9 @@
       "away_team": "Paraguay",
       "matchday": null,
       "probs": {
-        "p_home": 0.5244,
-        "p_draw": 0.2612,
-        "p_away": 0.2144
+        "p_home": 0.5214,
+        "p_draw": 0.2633,
+        "p_away": 0.2153
       },
       "most_likely_score": {
         "home": 1,
@@ -1077,9 +1072,9 @@
       "away_team": "Morocco",
       "matchday": null,
       "probs": {
-        "p_home": 0.3641,
-        "p_draw": 0.3249,
-        "p_away": 0.311
+        "p_home": 0.3547,
+        "p_draw": 0.3224,
+        "p_away": 0.3229
       },
       "most_likely_score": {
         "home": 1,
@@ -1096,9 +1091,9 @@
       "away_team": "Norway",
       "matchday": null,
       "probs": {
-        "p_home": 0.2392,
-        "p_draw": 0.2667,
-        "p_away": 0.4941
+        "p_home": 0.2364,
+        "p_draw": 0.2798,
+        "p_away": 0.4837
       },
       "most_likely_score": {
         "home": 1,
@@ -1115,9 +1110,9 @@
       "away_team": "Sweden",
       "matchday": null,
       "probs": {
-        "p_home": 0.7264,
-        "p_draw": 0.2001,
-        "p_away": 0.0736
+        "p_home": 0.7183,
+        "p_draw": 0.2045,
+        "p_away": 0.0772
       },
       "most_likely_score": {
         "home": 2,
@@ -1134,9 +1129,9 @@
       "away_team": "Ecuador",
       "matchday": null,
       "probs": {
-        "p_home": 0.5024,
-        "p_draw": 0.3065,
-        "p_away": 0.1911
+        "p_home": 0.4954,
+        "p_draw": 0.3082,
+        "p_away": 0.1964
       },
       "most_likely_score": {
         "home": 1,
@@ -1153,9 +1148,9 @@
       "away_team": "DR Congo",
       "matchday": null,
       "probs": {
-        "p_home": 0.6805,
-        "p_draw": 0.2257,
-        "p_away": 0.0937
+        "p_home": 0.6818,
+        "p_draw": 0.2233,
+        "p_away": 0.0949
       },
       "most_likely_score": {
         "home": 1,
@@ -1172,9 +1167,9 @@
       "away_team": "Senegal",
       "matchday": null,
       "probs": {
-        "p_home": 0.4745,
-        "p_draw": 0.286,
-        "p_away": 0.2394
+        "p_home": 0.4746,
+        "p_draw": 0.2765,
+        "p_away": 0.2489
       },
       "most_likely_score": {
         "home": 1,
@@ -1191,9 +1186,9 @@
       "away_team": "Bosnia and Herzegovina",
       "matchday": null,
       "probs": {
-        "p_home": 0.751,
-        "p_draw": 0.1725,
-        "p_away": 0.0765
+        "p_home": 0.7621,
+        "p_draw": 0.1627,
+        "p_away": 0.0752
       },
       "most_likely_score": {
         "home": 2,
@@ -1210,9 +1205,9 @@
       "away_team": "Austria",
       "matchday": null,
       "probs": {
-        "p_home": 0.7446,
-        "p_draw": 0.1841,
-        "p_away": 0.0712
+        "p_home": 0.7375,
+        "p_draw": 0.1903,
+        "p_away": 0.0722
       },
       "most_likely_score": {
         "home": 2,
@@ -1229,9 +1224,9 @@
       "away_team": "Croatia",
       "matchday": null,
       "probs": {
-        "p_home": 0.5081,
-        "p_draw": 0.2646,
-        "p_away": 0.2273
+        "p_home": 0.5073,
+        "p_draw": 0.2562,
+        "p_away": 0.2365
       },
       "most_likely_score": {
         "home": 1,
@@ -1248,9 +1243,9 @@
       "away_team": "Algeria",
       "matchday": null,
       "probs": {
-        "p_home": 0.5562,
-        "p_draw": 0.2434,
-        "p_away": 0.2004
+        "p_home": 0.5583,
+        "p_draw": 0.242,
+        "p_away": 0.1997
       },
       "most_likely_score": {
         "home": 1,
@@ -1267,9 +1262,9 @@
       "away_team": "Egypt",
       "matchday": null,
       "probs": {
-        "p_home": 0.4242,
-        "p_draw": 0.3272,
-        "p_away": 0.2486
+        "p_home": 0.4298,
+        "p_draw": 0.316,
+        "p_away": 0.2542
       },
       "most_likely_score": {
         "home": 1,
@@ -1286,9 +1281,9 @@
       "away_team": "Cape Verde",
       "matchday": null,
       "probs": {
-        "p_home": 0.725,
-        "p_draw": 0.2306,
-        "p_away": 0.0443
+        "p_home": 0.74,
+        "p_draw": 0.2151,
+        "p_away": 0.045
       },
       "most_likely_score": {
         "home": 2,
@@ -1305,9 +1300,9 @@
       "away_team": "Ghana",
       "matchday": null,
       "probs": {
-        "p_home": 0.7877,
-        "p_draw": 0.1662,
-        "p_away": 0.0461
+        "p_home": 0.7921,
+        "p_draw": 0.1609,
+        "p_away": 0.047
       },
       "most_likely_score": {
         "home": 2,
@@ -1320,7 +1315,7 @@
       "status": "TIMED",
       "group": null,
       "utc_date": "2026-07-04T17:00:00Z",
-      "home_team": null,
+      "home_team": "Canada",
       "away_team": null,
       "matchday": null
     },
