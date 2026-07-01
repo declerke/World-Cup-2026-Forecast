@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-06-30T11:45:43.416614+00:00",
-  "model_version": "4b80989",
+  "generated_at_utc": "2026-07-01T12:09:40.031617+00:00",
+  "model_version": "b1ff9df",
   "groups": [
     {
       "group": "A",
       "teams": [
         {
           "team": "Mexico",
-          "elo": 2059.7,
+          "elo": 2110.4,
           "played": 3,
           "points": 9,
           "gd": 6,
@@ -19,7 +19,7 @@
         },
         {
           "team": "South Africa",
-          "elo": 1720.0,
+          "elo": 1719.9,
           "played": 3,
           "points": 4,
           "gd": -1,
@@ -60,7 +60,7 @@
       "teams": [
         {
           "team": "Switzerland",
-          "elo": 1992.6,
+          "elo": 1994.0,
           "played": 3,
           "points": 7,
           "gd": 4,
@@ -72,7 +72,7 @@
         },
         {
           "team": "Canada",
-          "elo": 1860.3,
+          "elo": 1859.1,
           "played": 3,
           "points": 4,
           "gd": 5,
@@ -231,7 +231,7 @@
         },
         {
           "team": "Ivory Coast",
-          "elo": 1863.9,
+          "elo": 1845.2,
           "played": 3,
           "points": 6,
           "gd": 2,
@@ -243,7 +243,7 @@
         },
         {
           "team": "Ecuador",
-          "elo": 1968.3,
+          "elo": 1917.6,
           "played": 3,
           "points": 4,
           "gd": 0,
@@ -296,7 +296,7 @@
         },
         {
           "team": "Sweden",
-          "elo": 1831.9,
+          "elo": 1820.2,
           "played": 3,
           "points": 4,
           "gd": 0,
@@ -431,7 +431,7 @@
       "teams": [
         {
           "team": "France",
-          "elo": 2191.8,
+          "elo": 2203.6,
           "played": 3,
           "points": 9,
           "gd": 8,
@@ -443,7 +443,7 @@
         },
         {
           "team": "Norway",
-          "elo": 2000.9,
+          "elo": 2019.6,
           "played": 3,
           "points": 6,
           "gd": 1,
