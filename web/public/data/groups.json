@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-02T11:34:38.275664+00:00",
-  "model_version": "d5febc8",
+  "generated_at_utc": "2026-07-02T22:50:51.114954+00:00",
+  "model_version": "ee5aee4",
   "groups": [
     {
       "group": "A",
@@ -19,7 +19,7 @@
         },
         {
           "team": "South Africa",
-          "elo": 1719.9,
+          "elo": 1720.0,
           "played": 3,
           "points": 4,
           "gd": -1,
@@ -60,7 +60,7 @@
       "teams": [
         {
           "team": "Switzerland",
-          "elo": 1994.0,
+          "elo": 1992.6,
           "played": 3,
           "points": 7,
           "gd": 4,
@@ -72,7 +72,7 @@
         },
         {
           "team": "Canada",
-          "elo": 1859.1,
+          "elo": 1860.3,
           "played": 3,
           "points": 4,
           "gd": 5,
@@ -378,7 +378,7 @@
       "teams": [
         {
           "team": "Spain",
-          "elo": 2229.5,
+          "elo": 2238.7,
           "played": 3,
           "points": 7,
           "gd": 5,
@@ -496,7 +496,7 @@
         },
         {
           "team": "Austria",
-          "elo": 1922.7,
+          "elo": 1913.5,
           "played": 3,
           "points": 4,
           "gd": 0,
