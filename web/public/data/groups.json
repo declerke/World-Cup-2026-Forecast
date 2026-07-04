@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-03T11:33:11.036919+00:00",
-  "model_version": "acf476e",
+  "generated_at_utc": "2026-07-04T10:54:51.610102+00:00",
+  "model_version": "1abd87e",
   "groups": [
     {
       "group": "A",
@@ -19,7 +19,7 @@
         },
         {
           "team": "South Africa",
-          "elo": 1720.0,
+          "elo": 1719.9,
           "played": 3,
           "points": 4,
           "gd": -1,
@@ -60,7 +60,7 @@
       "teams": [
         {
           "team": "Switzerland",
-          "elo": 2041.8,
+          "elo": 2042.9,
           "played": 3,
           "points": 7,
           "gd": 4,
@@ -72,7 +72,7 @@
         },
         {
           "team": "Canada",
-          "elo": 1860.3,
+          "elo": 1859.1,
           "played": 3,
           "points": 4,
           "gd": 5,
@@ -178,7 +178,7 @@
         },
         {
           "team": "Australia",
-          "elo": 1942.9,
+          "elo": 1884.5,
           "played": 3,
           "points": 4,
           "gd": 0,
@@ -337,7 +337,7 @@
         },
         {
           "team": "Egypt",
-          "elo": 1883.2,
+          "elo": 1941.7,
           "played": 3,
           "points": 5,
           "gd": 2,
@@ -390,7 +390,7 @@
         },
         {
           "team": "Cape Verde",
-          "elo": 1692.1,
+          "elo": 1689.7,
           "played": 3,
           "points": 3,
           "gd": 0,
@@ -484,7 +484,7 @@
       "teams": [
         {
           "team": "Argentina",
-          "elo": 2237.4,
+          "elo": 2239.9,
           "played": 3,
           "points": 9,
           "gd": 7,
@@ -508,7 +508,7 @@
         },
         {
           "team": "Algeria",
-          "elo": 1847.4,
+          "elo": 1847.6,
           "played": 3,
           "points": 4,
           "gd": -2,
@@ -537,7 +537,7 @@
       "teams": [
         {
           "team": "Colombia",
-          "elo": 2112.0,
+          "elo": 2119.4,
           "played": 3,
           "points": 7,
           "gd": 3,
@@ -614,7 +614,7 @@
         },
         {
           "team": "Ghana",
-          "elo": 1686.0,
+          "elo": 1678.6,
           "played": 3,
           "points": 4,
           "gd": 0,
