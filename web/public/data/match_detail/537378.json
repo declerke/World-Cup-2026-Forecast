@@ -6,66 +6,66 @@
   "group": null,
   "utc_date": "2026-07-06T00:00:00Z",
   "probs": {
-    "p_home": 0.3716,
-    "p_draw": 0.32,
-    "p_away": 0.3084
+    "p_home": 0.3631,
+    "p_draw": 0.3322,
+    "p_away": 0.3047
   },
   "top_scorelines": [
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1451
+      "prob": 0.1502
     },
     {
       "home": 0,
       "away": 0,
-      "prob": 0.1282
+      "prob": 0.1344
     },
     {
       "home": 1,
       "away": 0,
-      "prob": 0.1248
+      "prob": 0.1247
     },
     {
       "home": 0,
       "away": 1,
-      "prob": 0.1182
+      "prob": 0.1167
     },
     {
       "home": 2,
       "away": 0,
-      "prob": 0.0749
+      "prob": 0.0728
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": -0.2024,
-      "direction": "against"
-    },
-    {
-      "feature": "home defensive form",
-      "impact": 0.1522,
-      "direction": "favors"
-    },
-    {
-      "feature": "head-to-head goal margin",
-      "impact": -0.148,
+      "impact": -0.2053,
       "direction": "against"
     },
     {
       "feature": "away Elo",
-      "impact": -0.1046,
+      "impact": -0.1315,
       "direction": "against"
     },
     {
+      "feature": "head-to-head goal margin",
+      "impact": -0.1294,
+      "direction": "against"
+    },
+    {
+      "feature": "home defensive form",
+      "impact": 0.1201,
+      "direction": "favors"
+    },
+    {
       "feature": "neutral venue",
-      "impact": 0.0638,
+      "impact": 0.0665,
       "direction": "favors"
     },
     {
       "feature": "head-to-head record",
-      "impact": -0.0556,
+      "impact": -0.0526,
       "direction": "against"
     }
   ],
@@ -207,7 +207,7 @@
       },
       {
         "date": "2022-06",
-        "elo": 1969.5
+        "elo": 1969.6
       },
       {
         "date": "2022-09",
@@ -271,7 +271,7 @@
       },
       {
         "date": "2025-06",
-        "elo": 2050.2
+        "elo": 2050.3
       },
       {
         "date": "2025-09",
