@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-07-05T11:05:35.473690+00:00",
-  "model_version": "fc0ad98",
+  "generated_at_utc": "2026-07-06T12:48:50.335257+00:00",
+  "model_version": "ba1bc5e",
   "groups": [
     {
       "group": "A",
       "teams": [
         {
           "team": "Mexico",
-          "elo": 2110.4,
+          "elo": 2049.9,
           "played": 3,
           "points": 9,
           "gd": 6,
@@ -113,7 +113,7 @@
       "teams": [
         {
           "team": "Brazil",
-          "elo": 2122.8,
+          "elo": 2027.4,
           "played": 3,
           "points": 7,
           "gd": 6,
@@ -178,7 +178,7 @@
         },
         {
           "team": "Australia",
-          "elo": 1874.6,
+          "elo": 1884.5,
           "played": 3,
           "points": 4,
           "gd": 0,
@@ -337,7 +337,7 @@
         },
         {
           "team": "Egypt",
-          "elo": 1951.6,
+          "elo": 1941.7,
           "played": 3,
           "points": 5,
           "gd": 2,
@@ -443,7 +443,7 @@
         },
         {
           "team": "Norway",
-          "elo": 2019.6,
+          "elo": 2115.0,
           "played": 3,
           "points": 6,
           "gd": 1,
@@ -590,7 +590,7 @@
       "teams": [
         {
           "team": "England",
-          "elo": 2120.0,
+          "elo": 2180.4,
           "played": 3,
           "points": 7,
           "gd": 4,

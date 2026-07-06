@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-05T11:05:35.497137+00:00",
-  "model_version": "fc0ad98",
+  "generated_at_utc": "2026-07-06T12:48:50.356282+00:00",
+  "model_version": "ba1bc5e",
   "matches": [
     {
       "match_id": 537327,
@@ -1265,39 +1265,29 @@
     {
       "match_id": 537377,
       "stage": "R16",
-      "status": "TIMED",
+      "status": "FINISHED",
       "group": null,
       "utc_date": "2026-07-05T20:00:00Z",
       "home_team": "Brazil",
       "away_team": "Norway",
       "matchday": null,
-      "probs": {
-        "p_home": 0.4467,
-        "p_draw": 0.2716,
-        "p_away": 0.2817
-      },
-      "most_likely_score": {
+      "score": {
         "home": 1,
-        "away": 1
+        "away": 2
       }
     },
     {
       "match_id": 537378,
       "stage": "R16",
-      "status": "TIMED",
+      "status": "FINISHED",
       "group": null,
-      "utc_date": "2026-07-06T00:00:00Z",
+      "utc_date": "2026-07-06T01:00:00Z",
       "home_team": "Mexico",
       "away_team": "England",
       "matchday": null,
-      "probs": {
-        "p_home": 0.3631,
-        "p_draw": 0.3322,
-        "p_away": 0.3047
-      },
-      "most_likely_score": {
-        "home": 1,
-        "away": 1
+      "score": {
+        "home": 2,
+        "away": 3
       }
     },
     {
@@ -1310,12 +1300,12 @@
       "away_team": "Spain",
       "matchday": null,
       "probs": {
-        "p_home": 0.2078,
-        "p_draw": 0.2978,
-        "p_away": 0.4944
+        "p_home": 0.1998,
+        "p_draw": 0.2886,
+        "p_away": 0.5115
       },
       "most_likely_score": {
-        "home": 1,
+        "home": 0,
         "away": 1
       }
     },
@@ -1329,9 +1319,9 @@
       "away_team": "Belgium",
       "matchday": null,
       "probs": {
-        "p_home": 0.3092,
-        "p_draw": 0.305,
-        "p_away": 0.3858
+        "p_home": 0.3027,
+        "p_draw": 0.2781,
+        "p_away": 0.4192
       },
       "most_likely_score": {
         "home": 1,
@@ -1348,9 +1338,9 @@
       "away_team": "Egypt",
       "matchday": null,
       "probs": {
-        "p_home": 0.7722,
-        "p_draw": 0.1656,
-        "p_away": 0.0623
+        "p_home": 0.7777,
+        "p_draw": 0.157,
+        "p_away": 0.0653
       },
       "most_likely_score": {
         "home": 2,
@@ -1367,9 +1357,9 @@
       "away_team": "Colombia",
       "matchday": null,
       "probs": {
-        "p_home": 0.2177,
-        "p_draw": 0.3371,
-        "p_away": 0.4451
+        "p_home": 0.2091,
+        "p_draw": 0.2993,
+        "p_away": 0.4916
       },
       "most_likely_score": {
         "home": 1,
@@ -1386,9 +1376,9 @@
       "away_team": "Morocco",
       "matchday": null,
       "probs": {
-        "p_home": 0.4734,
-        "p_draw": 0.3172,
-        "p_away": 0.2094
+        "p_home": 0.4624,
+        "p_draw": 0.2846,
+        "p_away": 0.253
       },
       "most_likely_score": {
         "home": 1,
@@ -1411,9 +1401,18 @@
       "status": "TIMED",
       "group": null,
       "utc_date": "2026-07-11T21:00:00Z",
-      "home_team": null,
-      "away_team": null,
-      "matchday": null
+      "home_team": "Norway",
+      "away_team": "England",
+      "matchday": null,
+      "probs": {
+        "p_home": 0.2326,
+        "p_draw": 0.2714,
+        "p_away": 0.496
+      },
+      "most_likely_score": {
+        "home": 1,
+        "away": 1
+      }
     },
     {
       "match_id": 537386,
