@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-06T12:48:50.335257+00:00",
-  "model_version": "ba1bc5e",
+  "generated_at_utc": "2026-07-07T11:51:44.631831+00:00",
+  "model_version": "4dfb129",
   "groups": [
     {
       "group": "A",
@@ -19,7 +19,7 @@
         },
         {
           "team": "South Africa",
-          "elo": 1719.9,
+          "elo": 1720.0,
           "played": 3,
           "points": 4,
           "gd": -1,
@@ -43,7 +43,7 @@
         },
         {
           "team": "Czech Republic",
-          "elo": 1720.6,
+          "elo": 1720.5,
           "played": 3,
           "points": 1,
           "gd": -4,
@@ -60,7 +60,7 @@
       "teams": [
         {
           "team": "Switzerland",
-          "elo": 2042.9,
+          "elo": 2041.8,
           "played": 3,
           "points": 7,
           "gd": 4,
@@ -72,7 +72,7 @@
         },
         {
           "team": "Canada",
-          "elo": 1834.5,
+          "elo": 1835.6,
           "played": 3,
           "points": 4,
           "gd": 5,
@@ -113,7 +113,7 @@
       "teams": [
         {
           "team": "Brazil",
-          "elo": 2027.4,
+          "elo": 2084.1,
           "played": 3,
           "points": 7,
           "gd": 6,
@@ -125,7 +125,7 @@
         },
         {
           "team": "Morocco",
-          "elo": 2089.5,
+          "elo": 2089.6,
           "played": 3,
           "points": 7,
           "gd": 3,
@@ -166,7 +166,7 @@
       "teams": [
         {
           "team": "United States",
-          "elo": 1923.8,
+          "elo": 1841.0,
           "played": 3,
           "points": 6,
           "gd": 4,
@@ -325,7 +325,7 @@
       "teams": [
         {
           "team": "Belgium",
-          "elo": 1999.0,
+          "elo": 2081.8,
           "played": 3,
           "points": 5,
           "gd": 4,
@@ -378,7 +378,7 @@
       "teams": [
         {
           "team": "Spain",
-          "elo": 2244.8,
+          "elo": 2262.1,
           "played": 3,
           "points": 7,
           "gd": 5,
@@ -443,7 +443,7 @@
         },
         {
           "team": "Norway",
-          "elo": 2115.0,
+          "elo": 2058.3,
           "played": 3,
           "points": 6,
           "gd": 1,
@@ -508,7 +508,7 @@
         },
         {
           "team": "Algeria",
-          "elo": 1847.6,
+          "elo": 1847.4,
           "played": 3,
           "points": 4,
           "gd": -2,
@@ -549,7 +549,7 @@
         },
         {
           "team": "Portugal",
-          "elo": 2087.3,
+          "elo": 2070.1,
           "played": 3,
           "points": 5,
           "gd": 5,
