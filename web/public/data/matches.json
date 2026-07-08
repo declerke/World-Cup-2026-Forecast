@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-07T11:51:44.651496+00:00",
-  "model_version": "4dfb129",
+  "generated_at_utc": "2026-07-08T11:05:39.082522+00:00",
+  "model_version": "d80de95",
   "matches": [
     {
       "match_id": 537327,
@@ -1321,39 +1321,29 @@
     {
       "match_id": 537381,
       "stage": "R16",
-      "status": "TIMED",
+      "status": "FINISHED",
       "group": null,
       "utc_date": "2026-07-07T16:00:00Z",
       "home_team": "Argentina",
       "away_team": "Egypt",
       "matchday": null,
-      "probs": {
-        "p_home": 0.7788,
-        "p_draw": 0.1605,
-        "p_away": 0.0607
-      },
-      "most_likely_score": {
-        "home": 2,
-        "away": 0
+      "score": {
+        "home": 3,
+        "away": 2
       }
     },
     {
       "match_id": 537382,
       "stage": "R16",
-      "status": "TIMED",
+      "status": "FINISHED",
       "group": null,
       "utc_date": "2026-07-07T20:00:00Z",
       "home_team": "Switzerland",
       "away_team": "Colombia",
       "matchday": null,
-      "probs": {
-        "p_home": 0.2021,
-        "p_draw": 0.2911,
-        "p_away": 0.5068
-      },
-      "most_likely_score": {
-        "home": 1,
-        "away": 1
+      "score": {
+        "home": 4,
+        "away": 3
       }
     },
     {
@@ -1366,9 +1356,9 @@
       "away_team": "Morocco",
       "matchday": null,
       "probs": {
-        "p_home": 0.4686,
-        "p_draw": 0.3016,
-        "p_away": 0.2298
+        "p_home": 0.4927,
+        "p_draw": 0.27,
+        "p_away": 0.2372
       },
       "most_likely_score": {
         "home": 1,
@@ -1385,9 +1375,9 @@
       "away_team": "Belgium",
       "matchday": null,
       "probs": {
-        "p_home": 0.5947,
-        "p_draw": 0.259,
-        "p_away": 0.1463
+        "p_home": 0.6272,
+        "p_draw": 0.2333,
+        "p_away": 0.1395
       },
       "most_likely_score": {
         "home": 1,
@@ -1404,9 +1394,9 @@
       "away_team": "England",
       "matchday": null,
       "probs": {
-        "p_home": 0.2056,
-        "p_draw": 0.2429,
-        "p_away": 0.5515
+        "p_home": 0.2125,
+        "p_draw": 0.2419,
+        "p_away": 0.5456
       },
       "most_likely_score": {
         "home": 1,
@@ -1419,9 +1409,18 @@
       "status": "TIMED",
       "group": null,
       "utc_date": "2026-07-12T01:00:00Z",
-      "home_team": null,
-      "away_team": null,
-      "matchday": null
+      "home_team": "Argentina",
+      "away_team": "Switzerland",
+      "matchday": null,
+      "probs": {
+        "p_home": 0.5799,
+        "p_draw": 0.2402,
+        "p_away": 0.1799
+      },
+      "most_likely_score": {
+        "home": 2,
+        "away": 1
+      }
     },
     {
       "match_id": 537387,

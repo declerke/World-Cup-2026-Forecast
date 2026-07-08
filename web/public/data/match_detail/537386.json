@@ -1,71 +1,71 @@
 {
-  "match_id": 537383,
-  "home_team": "France",
-  "away_team": "Morocco",
+  "match_id": 537386,
+  "home_team": "Argentina",
+  "away_team": "Switzerland",
   "stage": "QF",
   "group": null,
-  "utc_date": "2026-07-09T20:00:00Z",
+  "utc_date": "2026-07-12T01:00:00Z",
   "probs": {
-    "p_home": 0.4927,
-    "p_draw": 0.27,
-    "p_away": 0.2372
+    "p_home": 0.5799,
+    "p_draw": 0.2402,
+    "p_away": 0.1799
   },
   "top_scorelines": [
     {
+      "home": 2,
+      "away": 1,
+      "prob": 0.114
+    },
+    {
       "home": 1,
       "away": 1,
-      "prob": 0.1282
+      "prob": 0.1108
     },
     {
       "home": 1,
       "away": 0,
-      "prob": 0.1198
+      "prob": 0.1016
     },
     {
       "home": 2,
       "away": 0,
-      "prob": 0.0927
+      "prob": 0.0883
     },
     {
-      "home": 2,
+      "home": 3,
       "away": 1,
-      "prob": 0.092
-    },
-    {
-      "home": 0,
-      "away": 0,
-      "prob": 0.0834
+      "prob": 0.0661
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.2274,
+      "impact": 0.3389,
       "direction": "favors"
     },
     {
       "feature": "away Elo",
-      "impact": -0.1217,
-      "direction": "against"
-    },
-    {
-      "feature": "neutral venue",
-      "impact": -0.1088,
+      "impact": -0.1344,
       "direction": "against"
     },
     {
       "feature": "head-to-head goal margin",
-      "impact": 0.0876,
+      "impact": 0.1341,
       "direction": "favors"
     },
     {
+      "feature": "neutral venue",
+      "impact": -0.1021,
+      "direction": "against"
+    },
+    {
       "feature": "away momentum (1yr Elo)",
-      "impact": 0.0851,
+      "impact": 0.0894,
       "direction": "favors"
     },
     {
       "feature": "away strength of schedule",
-      "impact": -0.0576,
+      "impact": -0.055,
       "direction": "against"
     }
   ],
@@ -74,7 +74,7 @@
       "W",
       "W",
       "W",
-      "L",
+      "W",
       "W",
       "W",
       "W",
@@ -84,20 +84,20 @@
     ],
     "away": [
       "W",
-      "W",
-      "W",
       "D",
       "D",
       "W",
       "W",
-      "D",
       "W",
+      "W",
+      "W",
+      "D",
       "W"
     ]
   },
   "h2h": {
-    "meetings": 6,
-    "home_wins": 4,
+    "meetings": 7,
+    "home_wins": 5,
     "away_wins": 0,
     "draws": 2
   },
@@ -105,109 +105,117 @@
     "home": [
       {
         "date": "2022-03",
-        "elo": 2173.9
+        "elo": 2172.4
       },
       {
         "date": "2022-06",
-        "elo": 2062.3
+        "elo": 2190.5
       },
       {
         "date": "2022-09",
-        "elo": 2036.5
+        "elo": 2193.1
       },
       {
         "date": "2022-11",
-        "elo": 2036.5
+        "elo": 2175.5
       },
       {
         "date": "2022-12",
-        "elo": 2134.0
+        "elo": 2204.5
       },
       {
         "date": "2023-03",
-        "elo": 2167.5
+        "elo": 2206.3
       },
       {
         "date": "2023-06",
-        "elo": 2169.7
+        "elo": 2210.7
       },
       {
         "date": "2023-09",
-        "elo": 2158.7
+        "elo": 2219.8
       },
       {
         "date": "2023-10",
-        "elo": 2180.9
+        "elo": 2233.0
       },
       {
         "date": "2023-11",
-        "elo": 2167.0
+        "elo": 2202.8
       },
       {
         "date": "2024-03",
-        "elo": 2142.6
+        "elo": 2205.4
       },
       {
         "date": "2024-06",
-        "elo": 2119.5
+        "elo": 2227.9
       },
       {
         "date": "2024-07",
-        "elo": 2106.4
+        "elo": 2238.9
       },
       {
         "date": "2024-09",
-        "elo": 2068.0
+        "elo": 2220.3
       },
       {
         "date": "2024-10",
-        "elo": 2099.6
+        "elo": 2210.8
       },
       {
         "date": "2024-11",
-        "elo": 2120.8
+        "elo": 2179.4
       },
       {
         "date": "2025-03",
-        "elo": 2094.8
+        "elo": 2212.3
       },
       {
         "date": "2025-06",
-        "elo": 2121.2
+        "elo": 2203.8
       },
       {
         "date": "2025-09",
-        "elo": 2133.0
+        "elo": 2181.5
       },
       {
         "date": "2025-10",
-        "elo": 2116.5
+        "elo": 2183.8
       },
       {
         "date": "2025-11",
-        "elo": 2126.2
+        "elo": 2185.5
       },
       {
         "date": "2026-03",
-        "elo": 2146.3
+        "elo": 2186.2
       },
       {
         "date": "2026-06",
-        "elo": 2203.6
+        "elo": 2237.4
       },
       {
         "date": "2026-07",
-        "elo": 2214.2
+        "elo": 2249.5
       }
     ],
     "away": [
       {
+        "date": "2022-06",
+        "elo": 1949.0
+      },
+      {
+        "date": "2022-09",
+        "elo": 1999.6
+      },
+      {
         "date": "2022-11",
-        "elo": 1937.4
+        "elo": 1973.4
       },
       {
         "date": "2022-12",
-        "elo": 1947.5
+        "elo": 1949.4
       },
       {
         "date": "2023-03",
@@ -215,87 +223,79 @@
       },
       {
         "date": "2023-06",
-        "elo": 1921.0
+        "elo": 1945.2
       },
       {
         "date": "2023-09",
-        "elo": 1924.6
+        "elo": 1931.4
       },
       {
         "date": "2023-10",
-        "elo": 1924.2
+        "elo": 1912.8
       },
       {
         "date": "2023-11",
-        "elo": 1931.1
-      },
-      {
-        "date": "2024-01",
-        "elo": 1863.4
+        "elo": 1859.2
       },
       {
         "date": "2024-03",
-        "elo": 1857.3
+        "elo": 1870.0
       },
       {
         "date": "2024-06",
-        "elo": 1864.7
+        "elo": 1964.0
+      },
+      {
+        "date": "2024-07",
+        "elo": 1968.9
       },
       {
         "date": "2024-09",
-        "elo": 1871.6
+        "elo": 1908.1
       },
       {
         "date": "2024-10",
-        "elo": 1879.4
+        "elo": 1872.6
       },
       {
         "date": "2024-11",
-        "elo": 1898.5
+        "elo": 1863.2
       },
       {
         "date": "2025-03",
-        "elo": 1902.8
+        "elo": 1861.0
       },
       {
         "date": "2025-06",
-        "elo": 1909.3
+        "elo": 1899.3
       },
       {
         "date": "2025-09",
-        "elo": 1925.4
+        "elo": 1925.7
       },
       {
         "date": "2025-10",
-        "elo": 1927.4
+        "elo": 1949.1
       },
       {
         "date": "2025-11",
-        "elo": 1930.7
-      },
-      {
-        "date": "2025-12",
-        "elo": 1941.0
-      },
-      {
-        "date": "2026-01",
-        "elo": 1972.7
+        "elo": 1954.5
       },
       {
         "date": "2026-03",
-        "elo": 1982.6
+        "elo": 1946.1
       },
       {
         "date": "2026-05",
-        "elo": 1983.3
+        "elo": 1952.5
       },
       {
         "date": "2026-06",
-        "elo": 2064.9
+        "elo": 1994.0
       },
       {
         "date": "2026-07",
-        "elo": 2089.5
+        "elo": 2076.3
       }
     ]
   },
