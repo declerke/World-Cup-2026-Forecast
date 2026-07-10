@@ -6,66 +6,66 @@
   "group": null,
   "utc_date": "2026-07-12T01:00:00Z",
   "probs": {
-    "p_home": 0.5799,
-    "p_draw": 0.2402,
-    "p_away": 0.1799
+    "p_home": 0.5874,
+    "p_draw": 0.2409,
+    "p_away": 0.1717
   },
   "top_scorelines": [
     {
-      "home": 2,
-      "away": 1,
-      "prob": 0.114
-    },
-    {
       "home": 1,
       "away": 1,
-      "prob": 0.1108
+      "prob": 0.11
+    },
+    {
+      "home": 2,
+      "away": 1,
+      "prob": 0.1094
     },
     {
       "home": 1,
       "away": 0,
-      "prob": 0.1016
+      "prob": 0.0932
     },
     {
       "home": 2,
       "away": 0,
-      "prob": 0.0883
+      "prob": 0.0871
     },
     {
       "home": 3,
       "away": 1,
-      "prob": 0.0661
+      "prob": 0.0682
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.3389,
+      "impact": 0.3469,
+      "direction": "favors"
+    },
+    {
+      "feature": "head-to-head goal margin",
+      "impact": 0.1301,
       "direction": "favors"
     },
     {
       "feature": "away Elo",
-      "impact": -0.1344,
+      "impact": -0.1269,
       "direction": "against"
     },
     {
-      "feature": "head-to-head goal margin",
-      "impact": 0.1341,
-      "direction": "favors"
-    },
-    {
       "feature": "neutral venue",
-      "impact": -0.1021,
+      "impact": -0.1023,
       "direction": "against"
     },
     {
       "feature": "away momentum (1yr Elo)",
-      "impact": 0.0894,
+      "impact": 0.1,
       "direction": "favors"
     },
     {
       "feature": "away strength of schedule",
-      "impact": -0.055,
+      "impact": -0.0595,
       "direction": "against"
     }
   ],
@@ -197,7 +197,7 @@
       },
       {
         "date": "2026-07",
-        "elo": 2249.5
+        "elo": 2249.0
       }
     ],
     "away": [
@@ -291,11 +291,11 @@
       },
       {
         "date": "2026-06",
-        "elo": 1994.0
+        "elo": 1992.6
       },
       {
         "date": "2026-07",
-        "elo": 2076.3
+        "elo": 2075.3
       }
     ]
   },

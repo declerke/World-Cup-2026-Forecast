@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-08T11:05:39.082522+00:00",
-  "model_version": "d80de95",
+  "generated_at_utc": "2026-07-10T11:52:58.393486+00:00",
+  "model_version": "1f73fbb",
   "matches": [
     {
       "match_id": 537327,
@@ -1349,20 +1349,15 @@
     {
       "match_id": 537383,
       "stage": "QF",
-      "status": "TIMED",
+      "status": "FINISHED",
       "group": null,
       "utc_date": "2026-07-09T20:00:00Z",
       "home_team": "France",
       "away_team": "Morocco",
       "matchday": null,
-      "probs": {
-        "p_home": 0.4927,
-        "p_draw": 0.27,
-        "p_away": 0.2372
-      },
-      "most_likely_score": {
-        "home": 1,
-        "away": 1
+      "score": {
+        "home": 2,
+        "away": 0
       }
     },
     {
@@ -1375,9 +1370,9 @@
       "away_team": "Belgium",
       "matchday": null,
       "probs": {
-        "p_home": 0.6272,
-        "p_draw": 0.2333,
-        "p_away": 0.1395
+        "p_home": 0.6309,
+        "p_draw": 0.2356,
+        "p_away": 0.1335
       },
       "most_likely_score": {
         "home": 1,
@@ -1394,9 +1389,9 @@
       "away_team": "England",
       "matchday": null,
       "probs": {
-        "p_home": 0.2125,
-        "p_draw": 0.2419,
-        "p_away": 0.5456
+        "p_home": 0.2236,
+        "p_draw": 0.252,
+        "p_away": 0.5244
       },
       "most_likely_score": {
         "home": 1,
@@ -1413,12 +1408,12 @@
       "away_team": "Switzerland",
       "matchday": null,
       "probs": {
-        "p_home": 0.5799,
-        "p_draw": 0.2402,
-        "p_away": 0.1799
+        "p_home": 0.5874,
+        "p_draw": 0.2409,
+        "p_away": 0.1717
       },
       "most_likely_score": {
-        "home": 2,
+        "home": 1,
         "away": 1
       }
     },
@@ -1428,7 +1423,7 @@
       "status": "TIMED",
       "group": null,
       "utc_date": "2026-07-14T19:00:00Z",
-      "home_team": null,
+      "home_team": "France",
       "away_team": null,
       "matchday": null
     },
