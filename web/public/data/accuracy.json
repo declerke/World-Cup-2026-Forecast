@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-07-10T11:52:58.418911+00:00",
-  "model_version": "1f73fbb",
+  "generated_at_utc": "2026-07-11T10:15:49.697129+00:00",
+  "model_version": "c3d1570",
   "summary": {
-    "n_scored": 93,
-    "mean_brier": 0.495,
-    "mean_logloss": 0.847,
-    "favorite_accuracy": 0.6667,
-    "exact_accuracy": 0.1398
+    "n_scored": 94,
+    "mean_brier": 0.492,
+    "mean_logloss": 0.8429,
+    "favorite_accuracy": 0.6702,
+    "exact_accuracy": 0.1383
   },
   "history": [
     {
@@ -566,6 +566,12 @@
       "kickoff": "2026-07-09T20:00:00Z",
       "cum_brier": 0.495,
       "cum_favorite_accuracy": 0.6667
+    },
+    {
+      "match": 94,
+      "kickoff": "2026-07-10T19:00:00Z",
+      "cum_brier": 0.492,
+      "cum_favorite_accuracy": 0.6702
     }
   ],
   "calibration": [
@@ -589,9 +595,9 @@
     },
     {
       "bin": 0.665,
-      "predicted": 0.6607,
-      "actual": 0.75,
-      "count": 12
+      "predicted": 0.6581,
+      "actual": 0.7692,
+      "count": 13
     },
     {
       "bin": 0.761,
@@ -607,20 +613,6 @@
     }
   ],
   "receipts": [
-    {
-      "match_id": "537406",
-      "home": "Colombia",
-      "away": "DR Congo",
-      "p_home": "0.7264",
-      "p_draw": "0.1698",
-      "p_away": "0.1037",
-      "pred_score_home": "1",
-      "pred_score_away": "0",
-      "actual_home": "1",
-      "actual_away": "0",
-      "outcome": "home_win",
-      "favorite_correct": 1
-    },
     {
       "match_id": "537337",
       "home": "Switzerland",
@@ -1304,6 +1296,20 @@
       "pred_score_away": "1",
       "actual_home": "2",
       "actual_away": "0",
+      "outcome": "home_win",
+      "favorite_correct": 1
+    },
+    {
+      "match_id": "537384",
+      "home": "Spain",
+      "away": "Belgium",
+      "p_home": "0.6272",
+      "p_draw": "0.2333",
+      "p_away": "0.1395",
+      "pred_score_home": "1",
+      "pred_score_away": "0",
+      "actual_home": "2",
+      "actual_away": "1",
       "outcome": "home_win",
       "favorite_correct": 1
     }
