@@ -4,69 +4,69 @@
   "away_team": "England",
   "stage": "R16",
   "group": null,
-  "utc_date": "2026-07-06T00:00:00Z",
+  "utc_date": "2026-07-06T01:00:00Z",
   "probs": {
-    "p_home": 0.3631,
-    "p_draw": 0.3322,
-    "p_away": 0.3047
+    "p_home": 0.272,
+    "p_draw": 0.2579,
+    "p_away": 0.4701
   },
   "top_scorelines": [
     {
       "home": 1,
       "away": 1,
-      "prob": 0.1502
-    },
-    {
-      "home": 0,
-      "away": 0,
-      "prob": 0.1344
+      "prob": 0.1198
     },
     {
       "home": 1,
-      "away": 0,
-      "prob": 0.1247
+      "away": 2,
+      "prob": 0.0861
     },
     {
       "home": 0,
       "away": 1,
-      "prob": 0.1167
+      "prob": 0.0794
+    },
+    {
+      "home": 0,
+      "away": 2,
+      "prob": 0.0736
     },
     {
       "home": 2,
-      "away": 0,
-      "prob": 0.0728
+      "away": 1,
+      "prob": 0.0701
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": -0.2053,
+      "impact": 0.238,
+      "direction": "favors"
+    },
+    {
+      "feature": "head-to-head goal margin",
+      "impact": 0.1458,
+      "direction": "favors"
+    },
+    {
+      "feature": "home defensive form",
+      "impact": -0.0801,
       "direction": "against"
     },
     {
       "feature": "away Elo",
-      "impact": -0.1315,
-      "direction": "against"
-    },
-    {
-      "feature": "head-to-head goal margin",
-      "impact": -0.1294,
-      "direction": "against"
-    },
-    {
-      "feature": "home defensive form",
-      "impact": 0.1201,
+      "impact": 0.0784,
       "direction": "favors"
     },
     {
-      "feature": "neutral venue",
-      "impact": 0.0665,
+      "feature": "away strength of schedule",
+      "impact": 0.0775,
       "direction": "favors"
     },
     {
-      "feature": "head-to-head record",
-      "impact": -0.0526,
-      "direction": "against"
+      "feature": "home Elo",
+      "impact": 0.0541,
+      "direction": "favors"
     }
   ],
   "form": {
@@ -80,10 +80,9 @@
       "W",
       "W",
       "W",
-      "W"
+      "L"
     ],
     "away": [
-      "W",
       "W",
       "D",
       "L",
@@ -92,13 +91,14 @@
       "W",
       "D",
       "W",
+      "W",
       "W"
     ]
   },
   "h2h": {
     "meetings": 10,
-    "home_wins": 2,
-    "away_wins": 7,
+    "home_wins": 1,
+    "away_wins": 8,
     "draws": 1
   },
   "elo_history": {
@@ -125,7 +125,7 @@
       },
       {
         "date": "2023-12",
-        "elo": 1911.9
+        "elo": 1911.8
       },
       {
         "date": "2024-03",
@@ -197,7 +197,7 @@
       },
       {
         "date": "2026-07",
-        "elo": 2110.4
+        "elo": 2072.7
       }
     ],
     "away": [
@@ -295,7 +295,7 @@
       },
       {
         "date": "2026-07",
-        "elo": 2120.0
+        "elo": 2157.6
       }
     ]
   },

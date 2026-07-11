@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-11T10:15:49.674079+00:00",
-  "model_version": "c3d1570",
+  "generated_at_utc": "2026-07-11T23:05:12.559955+00:00",
+  "model_version": "99a96b0",
   "matches": [
     {
       "match_id": 537327,
@@ -1279,15 +1279,20 @@
     {
       "match_id": 537378,
       "stage": "R16",
-      "status": "FINISHED",
+      "status": "2026-07-06 01:00:00Z",
       "group": null,
       "utc_date": "2026-07-06T01:00:00Z",
       "home_team": "Mexico",
       "away_team": "England",
       "matchday": null,
-      "score": {
-        "home": 2,
-        "away": 3
+      "probs": {
+        "p_home": 0.272,
+        "p_draw": 0.2579,
+        "p_away": 0.4701
+      },
+      "most_likely_score": {
+        "home": 1,
+        "away": 1
       }
     },
     {
@@ -1377,16 +1382,16 @@
     {
       "match_id": 537385,
       "stage": "QF",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "group": null,
       "utc_date": "2026-07-11T21:00:00Z",
       "home_team": "Norway",
       "away_team": "England",
       "matchday": null,
       "probs": {
-        "p_home": 0.2121,
-        "p_draw": 0.2556,
-        "p_away": 0.5323
+        "p_home": 0.2184,
+        "p_draw": 0.2625,
+        "p_away": 0.5191
       },
       "most_likely_score": {
         "home": 1,
@@ -1403,13 +1408,13 @@
       "away_team": "Switzerland",
       "matchday": null,
       "probs": {
-        "p_home": 0.6083,
-        "p_draw": 0.2325,
-        "p_away": 0.1592
+        "p_home": 0.6124,
+        "p_draw": 0.2309,
+        "p_away": 0.1566
       },
       "most_likely_score": {
-        "home": 1,
-        "away": 0
+        "home": 2,
+        "away": 1
       }
     },
     {
@@ -1422,9 +1427,9 @@
       "away_team": "Spain",
       "matchday": null,
       "probs": {
-        "p_home": 0.2484,
-        "p_draw": 0.3449,
-        "p_away": 0.4067
+        "p_home": 0.2637,
+        "p_draw": 0.3326,
+        "p_away": 0.4037
       },
       "most_likely_score": {
         "home": 1,

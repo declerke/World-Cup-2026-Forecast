@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-07-11T10:15:49.661085+00:00",
-  "model_version": "c3d1570",
+  "generated_at_utc": "2026-07-11T23:05:12.542969+00:00",
+  "model_version": "99a96b0",
   "groups": [
     {
       "group": "A",
       "teams": [
         {
           "team": "Mexico",
-          "elo": 2049.9,
+          "elo": 2072.7,
           "played": 3,
           "points": 9,
           "gd": 6,
@@ -19,7 +19,7 @@
         },
         {
           "team": "South Africa",
-          "elo": 1720.0,
+          "elo": 1719.9,
           "played": 3,
           "points": 4,
           "gd": -1,
@@ -60,7 +60,7 @@
       "teams": [
         {
           "team": "Switzerland",
-          "elo": 2075.3,
+          "elo": 2076.3,
           "played": 3,
           "points": 7,
           "gd": 4,
@@ -72,7 +72,7 @@
         },
         {
           "team": "Canada",
-          "elo": 1835.6,
+          "elo": 1834.5,
           "played": 3,
           "points": 4,
           "gd": 5,
@@ -125,7 +125,7 @@
         },
         {
           "team": "Morocco",
-          "elo": 2060.1,
+          "elo": 2060.0,
           "played": 3,
           "points": 7,
           "gd": 3,
@@ -178,7 +178,7 @@
         },
         {
           "team": "Australia",
-          "elo": 1874.6,
+          "elo": 1884.5,
           "played": 3,
           "points": 4,
           "gd": 0,
@@ -325,7 +325,7 @@
       "teams": [
         {
           "team": "Belgium",
-          "elo": 2066.2,
+          "elo": 2066.1,
           "played": 3,
           "points": 5,
           "gd": 4,
@@ -337,7 +337,7 @@
         },
         {
           "team": "Egypt",
-          "elo": 1942.0,
+          "elo": 1932.6,
           "played": 3,
           "points": 5,
           "gd": 2,
@@ -402,7 +402,7 @@
         },
         {
           "team": "Uruguay",
-          "elo": 1908.8,
+          "elo": 1908.7,
           "played": 3,
           "points": 2,
           "gd": -1,
@@ -484,7 +484,7 @@
       "teams": [
         {
           "team": "Argentina",
-          "elo": 2249.5,
+          "elo": 2249.0,
           "played": 3,
           "points": 9,
           "gd": 7,
@@ -508,7 +508,7 @@
         },
         {
           "team": "Algeria",
-          "elo": 1847.4,
+          "elo": 1847.6,
           "played": 3,
           "points": 4,
           "gd": -2,
@@ -537,7 +537,7 @@
       "teams": [
         {
           "team": "Colombia",
-          "elo": 2085.9,
+          "elo": 2086.0,
           "played": 3,
           "points": 7,
           "gd": 3,
@@ -590,7 +590,7 @@
       "teams": [
         {
           "team": "England",
-          "elo": 2180.4,
+          "elo": 2157.6,
           "played": 3,
           "points": 7,
           "gd": 4,
