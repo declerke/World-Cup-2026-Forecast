@@ -6,66 +6,66 @@
   "group": null,
   "utc_date": "2026-07-15T19:00:00Z",
   "probs": {
-    "p_home": 0.3289,
-    "p_draw": 0.231,
-    "p_away": 0.4401
+    "p_home": 0.3026,
+    "p_draw": 0.2154,
+    "p_away": 0.482
   },
   "top_scorelines": [
     {
+      "home": 0,
+      "away": 1,
+      "prob": 0.1034
+    },
+    {
       "home": 1,
       "away": 1,
-      "prob": 0.1081
+      "prob": 0.102
     },
     {
       "home": 1,
       "away": 2,
-      "prob": 0.0849
-    },
-    {
-      "home": 2,
-      "away": 1,
-      "prob": 0.0825
+      "prob": 0.0967
     },
     {
       "home": 0,
-      "away": 1,
-      "prob": 0.0819
+      "away": 2,
+      "prob": 0.0815
     },
     {
       "home": 1,
       "away": 0,
-      "prob": 0.0796
+      "prob": 0.0789
     }
   ],
   "shap": [
     {
       "feature": "Elo rating gap",
-      "impact": 0.1679,
-      "direction": "favors"
-    },
-    {
-      "feature": "away Elo",
-      "impact": 0.0923,
+      "impact": 0.3051,
       "direction": "favors"
     },
     {
       "feature": "neutral venue",
-      "impact": 0.0705,
+      "impact": 0.0909,
       "direction": "favors"
     },
     {
-      "feature": "away strength of schedule",
-      "impact": 0.0666,
-      "direction": "favors"
-    },
-    {
-      "feature": "home Elo",
-      "impact": 0.0564,
+      "feature": "away Elo",
+      "impact": 0.0798,
       "direction": "favors"
     },
     {
       "feature": "match importance",
-      "impact": 0.0551,
+      "impact": 0.066,
+      "direction": "favors"
+    },
+    {
+      "feature": "home Elo",
+      "impact": 0.0655,
+      "direction": "favors"
+    },
+    {
+      "feature": "away strength of schedule",
+      "impact": 0.0651,
       "direction": "favors"
     }
   ],
@@ -197,7 +197,7 @@
       },
       {
         "date": "2026-07",
-        "elo": 2208.5
+        "elo": 2200.3
       }
     ],
     "away": [
@@ -295,7 +295,7 @@
       },
       {
         "date": "2026-07",
-        "elo": 2264.3
+        "elo": 2285.4
       }
     ]
   },

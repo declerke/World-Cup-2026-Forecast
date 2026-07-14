@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-13T12:07:23.030578+00:00",
-  "model_version": "79c9832",
+  "generated_at_utc": "2026-07-14T10:47:00.783577+00:00",
+  "model_version": "a6f2d26",
   "matches": [
     {
       "match_id": 537327,
@@ -1412,9 +1412,9 @@
       "away_team": "Spain",
       "matchday": null,
       "probs": {
-        "p_home": 0.2454,
-        "p_draw": 0.3409,
-        "p_away": 0.4137
+        "p_home": 0.2518,
+        "p_draw": 0.319,
+        "p_away": 0.4292
       },
       "most_likely_score": {
         "home": 1,
@@ -1431,12 +1431,12 @@
       "away_team": "Argentina",
       "matchday": null,
       "probs": {
-        "p_home": 0.3289,
-        "p_draw": 0.231,
-        "p_away": 0.4401
+        "p_home": 0.3026,
+        "p_draw": 0.2154,
+        "p_away": 0.482
       },
       "most_likely_score": {
-        "home": 1,
+        "home": 0,
         "away": 1
       }
     },
