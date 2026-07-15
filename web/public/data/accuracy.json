@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-07-14T10:47:00.807425+00:00",
-  "model_version": "a6f2d26",
+  "generated_at_utc": "2026-07-15T10:50:50.620371+00:00",
+  "model_version": "528fd92",
   "summary": {
-    "n_scored": 96,
-    "mean_brier": 0.4879,
-    "mean_logloss": 0.8376,
-    "favorite_accuracy": 0.6771,
-    "exact_accuracy": 0.1354
+    "n_scored": 97,
+    "mean_brier": 0.4884,
+    "mean_logloss": 0.8384,
+    "favorite_accuracy": 0.6804,
+    "exact_accuracy": 0.134
   },
   "history": [
     {
@@ -288,7 +288,7 @@
     {
       "match": 47,
       "kickoff": "2026-06-24T22:00:00Z",
-      "cum_brier": 0.5317,
+      "cum_brier": 0.5354,
       "cum_favorite_accuracy": 0.6596
     },
     {
@@ -300,8 +300,8 @@
     {
       "match": 49,
       "kickoff": "2026-06-25T01:00:00Z",
-      "cum_brier": 0.5223,
-      "cum_favorite_accuracy": 0.6735
+      "cum_brier": 0.5363,
+      "cum_favorite_accuracy": 0.6531
     },
     {
       "match": 50,
@@ -360,8 +360,8 @@
     {
       "match": 59,
       "kickoff": "2026-06-27T00:00:00Z",
-      "cum_brier": 0.5436,
-      "cum_favorite_accuracy": 0.6271
+      "cum_brier": 0.5351,
+      "cum_favorite_accuracy": 0.6441
     },
     {
       "match": 60,
@@ -372,8 +372,8 @@
     {
       "match": 61,
       "kickoff": "2026-06-27T03:00:00Z",
-      "cum_brier": 0.5333,
-      "cum_favorite_accuracy": 0.6393
+      "cum_brier": 0.5405,
+      "cum_favorite_accuracy": 0.623
     },
     {
       "match": 62,
@@ -584,14 +584,20 @@
       "kickoff": "2026-07-12T01:00:00Z",
       "cum_brier": 0.4879,
       "cum_favorite_accuracy": 0.6771
+    },
+    {
+      "match": 97,
+      "kickoff": "2026-07-14T19:00:00Z",
+      "cum_brier": 0.4884,
+      "cum_favorite_accuracy": 0.6804
     }
   ],
   "calibration": [
     {
       "bin": 0.378,
-      "predicted": 0.3899,
-      "actual": 0.4167,
-      "count": 12
+      "predicted": 0.391,
+      "actual": 0.4615,
+      "count": 13
     },
     {
       "bin": 0.474,
@@ -640,18 +646,18 @@
       "favorite_correct": 1
     },
     {
-      "match_id": "537343",
-      "home": "Scotland",
-      "away": "Brazil",
-      "p_home": "0.1522",
-      "p_draw": "0.2577",
-      "p_away": "0.5901",
+      "match_id": "537332",
+      "home": "South Africa",
+      "away": "South Korea",
+      "p_home": "0.1851",
+      "p_draw": "0.2708",
+      "p_away": "0.5441",
       "pred_score_home": "0",
       "pred_score_away": "1",
-      "actual_home": "0",
-      "actual_away": "3",
-      "outcome": "away_win",
-      "favorite_correct": 1
+      "actual_home": "1",
+      "actual_away": "0",
+      "outcome": "home_win",
+      "favorite_correct": 0
     },
     {
       "match_id": "537331",
@@ -666,20 +672,6 @@
       "actual_away": "3",
       "outcome": "away_win",
       "favorite_correct": 1
-    },
-    {
-      "match_id": "537332",
-      "home": "South Africa",
-      "away": "South Korea",
-      "p_home": "0.1851",
-      "p_draw": "0.2708",
-      "p_away": "0.5441",
-      "pred_score_home": "0",
-      "pred_score_away": "1",
-      "actual_home": "1",
-      "actual_away": "0",
-      "outcome": "home_win",
-      "favorite_correct": 0
     },
     {
       "match_id": "537355",
@@ -794,20 +786,6 @@
       "favorite_correct": 1
     },
     {
-      "match_id": "537374",
-      "home": "Cape Verde",
-      "away": "Saudi Arabia",
-      "p_home": "0.3332",
-      "p_draw": "0.3157",
-      "p_away": "0.3511",
-      "pred_score_home": "1",
-      "pred_score_away": "1",
-      "actual_home": "0",
-      "actual_away": "0",
-      "outcome": "draw",
-      "favorite_correct": 0
-    },
-    {
       "match_id": "537373",
       "home": "Uruguay",
       "away": "Spain",
@@ -822,18 +800,18 @@
       "favorite_correct": 1
     },
     {
-      "match_id": "537367",
-      "home": "New Zealand",
-      "away": "Belgium",
-      "p_home": "0.1813",
-      "p_draw": "0.2306",
-      "p_away": "0.5881",
+      "match_id": "537374",
+      "home": "Cape Verde",
+      "away": "Saudi Arabia",
+      "p_home": "0.3332",
+      "p_draw": "0.3157",
+      "p_away": "0.3511",
       "pred_score_home": "1",
       "pred_score_away": "1",
-      "actual_home": "1",
-      "actual_away": "5",
-      "outcome": "away_win",
-      "favorite_correct": 1
+      "actual_home": "0",
+      "actual_away": "0",
+      "outcome": "draw",
+      "favorite_correct": 0
     },
     {
       "match_id": "537368",
@@ -848,6 +826,20 @@
       "actual_away": "1",
       "outcome": "draw",
       "favorite_correct": 0
+    },
+    {
+      "match_id": "537367",
+      "home": "New Zealand",
+      "away": "Belgium",
+      "p_home": "0.1813",
+      "p_draw": "0.2306",
+      "p_away": "0.5881",
+      "pred_score_home": "1",
+      "pred_score_away": "1",
+      "actual_home": "1",
+      "actual_away": "5",
+      "outcome": "away_win",
+      "favorite_correct": 1
     },
     {
       "match_id": "537413",
@@ -1323,6 +1315,20 @@
       "actual_home": "3",
       "actual_away": "1",
       "outcome": "home_win",
+      "favorite_correct": 1
+    },
+    {
+      "match_id": "537387",
+      "home": "France",
+      "away": "Spain",
+      "p_home": "0.2637",
+      "p_draw": "0.3326",
+      "p_away": "0.4037",
+      "pred_score_home": "1",
+      "pred_score_away": "1",
+      "actual_home": "0",
+      "actual_away": "2",
+      "outcome": "away_win",
       "favorite_correct": 1
     }
   ]
