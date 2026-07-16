@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-07-15T10:50:50.620371+00:00",
-  "model_version": "528fd92",
+  "generated_at_utc": "2026-07-16T11:01:17.505162+00:00",
+  "model_version": "61a668a",
   "summary": {
-    "n_scored": 97,
-    "mean_brier": 0.4884,
-    "mean_logloss": 0.8384,
-    "favorite_accuracy": 0.6804,
-    "exact_accuracy": 0.134
+    "n_scored": 98,
+    "mean_brier": 0.4883,
+    "mean_logloss": 0.8382,
+    "favorite_accuracy": 0.6837,
+    "exact_accuracy": 0.1327
   },
   "history": [
     {
@@ -590,6 +590,12 @@
       "kickoff": "2026-07-14T19:00:00Z",
       "cum_brier": 0.4884,
       "cum_favorite_accuracy": 0.6804
+    },
+    {
+      "match": 98,
+      "kickoff": "2026-07-15T19:00:00Z",
+      "cum_brier": 0.4883,
+      "cum_favorite_accuracy": 0.6837
     }
   ],
   "calibration": [
@@ -601,9 +607,9 @@
     },
     {
       "bin": 0.474,
-      "predicted": 0.4812,
-      "actual": 0.6286,
-      "count": 35
+      "predicted": 0.4801,
+      "actual": 0.6389,
+      "count": 36
     },
     {
       "bin": 0.569,
@@ -631,20 +637,6 @@
     }
   ],
   "receipts": [
-    {
-      "match_id": "537344",
-      "home": "Morocco",
-      "away": "Haiti",
-      "p_home": "0.7756",
-      "p_draw": "0.1681",
-      "p_away": "0.0564",
-      "pred_score_home": "2",
-      "pred_score_away": "0",
-      "actual_home": "4",
-      "actual_away": "2",
-      "outcome": "home_win",
-      "favorite_correct": 1
-    },
     {
       "match_id": "537332",
       "home": "South Africa",
@@ -1327,6 +1319,20 @@
       "pred_score_home": "1",
       "pred_score_away": "1",
       "actual_home": "0",
+      "actual_away": "2",
+      "outcome": "away_win",
+      "favorite_correct": 1
+    },
+    {
+      "match_id": "537388",
+      "home": "England",
+      "away": "Argentina",
+      "p_home": "0.3289",
+      "p_draw": "0.231",
+      "p_away": "0.4401",
+      "pred_score_home": "1",
+      "pred_score_away": "1",
+      "actual_home": "1",
       "actual_away": "2",
       "outcome": "away_win",
       "favorite_correct": 1

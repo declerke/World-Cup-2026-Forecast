@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-15T10:50:50.595213+00:00",
-  "model_version": "528fd92",
+  "generated_at_utc": "2026-07-16T11:01:17.479762+00:00",
+  "model_version": "61a668a",
   "matches": [
     {
       "match_id": 537327,
@@ -1419,18 +1419,13 @@
     {
       "match_id": 537388,
       "stage": "SF",
-      "status": "TIMED",
+      "status": "FINISHED",
       "group": null,
       "utc_date": "2026-07-15T19:00:00Z",
       "home_team": "England",
       "away_team": "Argentina",
       "matchday": null,
-      "probs": {
-        "p_home": 0.2774,
-        "p_draw": 0.204,
-        "p_away": 0.5186
-      },
-      "most_likely_score": {
+      "score": {
         "home": 1,
         "away": 2
       }
@@ -1442,8 +1437,17 @@
       "group": null,
       "utc_date": "2026-07-18T21:00:00Z",
       "home_team": "France",
-      "away_team": null,
-      "matchday": null
+      "away_team": "England",
+      "matchday": null,
+      "probs": {
+        "p_home": 0.4265,
+        "p_draw": 0.249,
+        "p_away": 0.3244
+      },
+      "most_likely_score": {
+        "home": 1,
+        "away": 1
+      }
     },
     {
       "match_id": 537390,
@@ -1452,8 +1456,17 @@
       "group": null,
       "utc_date": "2026-07-19T19:00:00Z",
       "home_team": "Spain",
-      "away_team": null,
-      "matchday": null
+      "away_team": "Argentina",
+      "matchday": null,
+      "probs": {
+        "p_home": 0.3392,
+        "p_draw": 0.2433,
+        "p_away": 0.4175
+      },
+      "most_likely_score": {
+        "home": 0,
+        "away": 1
+      }
     }
   ]
 }
