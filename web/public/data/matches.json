@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-18T10:19:16.230968+00:00",
-  "model_version": "5d82202",
+  "generated_at_utc": "2026-07-18T21:22:10.030197+00:00",
+  "model_version": "6ec6751",
   "matches": [
     {
       "match_id": 537327,
@@ -1433,7 +1433,7 @@
     {
       "match_id": 537389,
       "stage": "3RD",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "group": null,
       "utc_date": "2026-07-18T21:00:00Z",
       "home_team": "France",
