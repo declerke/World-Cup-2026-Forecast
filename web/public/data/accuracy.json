@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-07-18T21:22:10.053671+00:00",
-  "model_version": "6ec6751",
+  "generated_at_utc": "2026-07-19T10:35:06.822062+00:00",
+  "model_version": "ce7ab8f",
   "summary": {
-    "n_scored": 98,
-    "mean_brier": 0.4883,
-    "mean_logloss": 0.8382,
-    "favorite_accuracy": 0.6837,
-    "exact_accuracy": 0.1327
+    "n_scored": 99,
+    "mean_brier": 0.4904,
+    "mean_logloss": 0.8411,
+    "favorite_accuracy": 0.6768,
+    "exact_accuracy": 0.1313
   },
   "history": [
     {
@@ -596,6 +596,12 @@
       "kickoff": "2026-07-15T19:00:00Z",
       "cum_brier": 0.4883,
       "cum_favorite_accuracy": 0.6837
+    },
+    {
+      "match": 99,
+      "kickoff": "2026-07-18T21:00:00Z",
+      "cum_brier": 0.4904,
+      "cum_favorite_accuracy": 0.6768
     }
   ],
   "calibration": [
@@ -607,9 +613,9 @@
     },
     {
       "bin": 0.474,
-      "predicted": 0.4801,
-      "actual": 0.6389,
-      "count": 36
+      "predicted": 0.4786,
+      "actual": 0.6216,
+      "count": 37
     },
     {
       "bin": 0.569,
@@ -637,20 +643,6 @@
     }
   ],
   "receipts": [
-    {
-      "match_id": "537332",
-      "home": "South Africa",
-      "away": "South Korea",
-      "p_home": "0.1851",
-      "p_draw": "0.2708",
-      "p_away": "0.5441",
-      "pred_score_home": "0",
-      "pred_score_away": "1",
-      "actual_home": "1",
-      "actual_away": "0",
-      "outcome": "home_win",
-      "favorite_correct": 0
-    },
     {
       "match_id": "537331",
       "home": "Czech Republic",
@@ -1336,6 +1328,20 @@
       "actual_away": "2",
       "outcome": "away_win",
       "favorite_correct": 1
+    },
+    {
+      "match_id": "537389",
+      "home": "France",
+      "away": "England",
+      "p_home": "0.4265",
+      "p_draw": "0.249",
+      "p_away": "0.3244",
+      "pred_score_home": "1",
+      "pred_score_away": "1",
+      "actual_home": "4",
+      "actual_away": "6",
+      "outcome": "away_win",
+      "favorite_correct": 0
     }
   ]
 }
