@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-19T10:35:06.796000+00:00",
-  "model_version": "ce7ab8f",
+  "generated_at_utc": "2026-07-20T11:46:16.298439+00:00",
+  "model_version": "5c2afb5",
   "matches": [
     {
       "match_id": 537327,
@@ -1447,20 +1447,15 @@
     {
       "match_id": 537390,
       "stage": "FINAL",
-      "status": "TIMED",
+      "status": "FINISHED",
       "group": null,
       "utc_date": "2026-07-19T19:00:00Z",
       "home_team": "Spain",
       "away_team": "Argentina",
       "matchday": null,
-      "probs": {
-        "p_home": 0.3342,
-        "p_draw": 0.2318,
-        "p_away": 0.434
-      },
-      "most_likely_score": {
-        "home": 0,
-        "away": 1
+      "score": {
+        "home": 1,
+        "away": 0
       }
     }
   ]

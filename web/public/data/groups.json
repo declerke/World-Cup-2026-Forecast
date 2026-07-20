@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-19T10:35:06.785808+00:00",
-  "model_version": "ce7ab8f",
+  "generated_at_utc": "2026-07-20T11:46:16.292240+00:00",
+  "model_version": "5c2afb5",
   "groups": [
     {
       "group": "A",
@@ -190,7 +190,7 @@
         },
         {
           "team": "Paraguay",
-          "elo": 1925.8,
+          "elo": 1932.0,
           "played": 3,
           "points": 4,
           "gd": -2,
@@ -219,7 +219,7 @@
       "teams": [
         {
           "team": "Germany",
-          "elo": 1944.6,
+          "elo": 1938.0,
           "played": 3,
           "points": 6,
           "gd": 6,
@@ -378,7 +378,7 @@
       "teams": [
         {
           "team": "Spain",
-          "elo": 2318.5,
+          "elo": 2347.7,
           "played": 3,
           "points": 7,
           "gd": 5,
@@ -431,7 +431,7 @@
       "teams": [
         {
           "team": "France",
-          "elo": 2154.9,
+          "elo": 2155.1,
           "played": 3,
           "points": 9,
           "gd": 8,
@@ -484,7 +484,7 @@
       "teams": [
         {
           "team": "Argentina",
-          "elo": 2308.3,
+          "elo": 2279.2,
           "played": 3,
           "points": 9,
           "gd": 7,

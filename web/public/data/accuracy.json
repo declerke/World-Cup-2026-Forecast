@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-07-19T10:35:06.822062+00:00",
-  "model_version": "ce7ab8f",
+  "generated_at_utc": "2026-07-20T11:46:16.319207+00:00",
+  "model_version": "5c2afb5",
   "summary": {
-    "n_scored": 99,
-    "mean_brier": 0.4904,
-    "mean_logloss": 0.8411,
-    "favorite_accuracy": 0.6768,
-    "exact_accuracy": 0.1313
+    "n_scored": 100,
+    "mean_brier": 0.4922,
+    "mean_logloss": 0.8435,
+    "favorite_accuracy": 0.67,
+    "exact_accuracy": 0.13
   },
   "history": [
     {
@@ -602,14 +602,20 @@
       "kickoff": "2026-07-18T21:00:00Z",
       "cum_brier": 0.4904,
       "cum_favorite_accuracy": 0.6768
+    },
+    {
+      "match": 100,
+      "kickoff": "2026-07-19T19:00:00Z",
+      "cum_brier": 0.4922,
+      "cum_favorite_accuracy": 0.67
     }
   ],
   "calibration": [
     {
       "bin": 0.378,
-      "predicted": 0.391,
-      "actual": 0.4615,
-      "count": 13
+      "predicted": 0.3929,
+      "actual": 0.4286,
+      "count": 14
     },
     {
       "bin": 0.474,
@@ -643,20 +649,6 @@
     }
   ],
   "receipts": [
-    {
-      "match_id": "537331",
-      "home": "Czech Republic",
-      "away": "Mexico",
-      "p_home": "0.2104",
-      "p_draw": "0.2698",
-      "p_away": "0.5197",
-      "pred_score_home": "1",
-      "pred_score_away": "1",
-      "actual_home": "0",
-      "actual_away": "3",
-      "outcome": "away_win",
-      "favorite_correct": 1
-    },
     {
       "match_id": "537355",
       "home": "Ecuador",
@@ -1341,6 +1333,20 @@
       "actual_home": "4",
       "actual_away": "6",
       "outcome": "away_win",
+      "favorite_correct": 0
+    },
+    {
+      "match_id": "537390",
+      "home": "Spain",
+      "away": "Argentina",
+      "p_home": "0.3392",
+      "p_draw": "0.2433",
+      "p_away": "0.4175",
+      "pred_score_home": "0",
+      "pred_score_away": "1",
+      "actual_home": "1",
+      "actual_away": "0",
+      "outcome": "home_win",
       "favorite_correct": 0
     }
   ]
