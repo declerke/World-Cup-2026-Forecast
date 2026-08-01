@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-31T11:30:14.503756+00:00",
-  "model_version": "ba6bf16",
+  "generated_at_utc": "2026-08-01T10:41:17.603472+00:00",
+  "model_version": "765b486",
   "groups": [
     {
       "group": "A",
@@ -31,7 +31,7 @@
         },
         {
           "team": "South Korea",
-          "elo": 1799.8,
+          "elo": 1799.7,
           "played": 3,
           "points": 3,
           "gd": -1,
@@ -202,7 +202,7 @@
         },
         {
           "team": "Turkey",
-          "elo": 1890.2,
+          "elo": 1890.3,
           "played": 3,
           "points": 3,
           "gd": -2,
@@ -231,7 +231,7 @@
         },
         {
           "team": "Ivory Coast",
-          "elo": 1845.2,
+          "elo": 1845.3,
           "played": 3,
           "points": 6,
           "gd": 2,
@@ -349,7 +349,7 @@
         },
         {
           "team": "Iran",
-          "elo": 1880.5,
+          "elo": 1880.4,
           "played": 3,
           "points": 3,
           "gd": 0,
@@ -431,7 +431,7 @@
       "teams": [
         {
           "team": "France",
-          "elo": 2155.1,
+          "elo": 2155.2,
           "played": 3,
           "points": 9,
           "gd": 8,
@@ -467,7 +467,7 @@
         },
         {
           "team": "Iraq",
-          "elo": 1673.0,
+          "elo": 1672.9,
           "played": 3,
           "points": 0,
           "gd": -11,
@@ -520,7 +520,7 @@
         },
         {
           "team": "Jordan",
-          "elo": 1674.3,
+          "elo": 1674.2,
           "played": 3,
           "points": 0,
           "gd": -5,
@@ -537,7 +537,7 @@
       "teams": [
         {
           "team": "Colombia",
-          "elo": 2089.7,
+          "elo": 2089.8,
           "played": 3,
           "points": 7,
           "gd": 3,
@@ -573,7 +573,7 @@
         },
         {
           "team": "Uzbekistan",
-          "elo": 1712.5,
+          "elo": 1712.4,
           "played": 3,
           "points": 0,
           "gd": -9,
