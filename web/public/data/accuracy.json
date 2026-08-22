@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-21T09:37:03.219363+00:00",
-  "model_version": "09b4b8b",
+  "generated_at_utc": "2026-08-22T09:26:36.043168+00:00",
+  "model_version": "36e47df",
   "summary": {
     "n_scored": 100,
     "mean_brier": 0.4922,
