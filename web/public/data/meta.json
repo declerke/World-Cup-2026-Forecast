@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-24T09:48:14.674610+00:00",
-  "model_version": "a62dac4",
+  "generated_at_utc": "2026-08-25T09:35:37.020829+00:00",
+  "model_version": "b3661ab",
   "n_sims": 10000,
   "training_rows": 32442,
   "metrics": {
