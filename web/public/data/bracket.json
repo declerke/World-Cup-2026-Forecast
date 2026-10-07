@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-06T15:43:43.639910+00:00",
-  "model_version": "e3fe3bf",
+  "generated_at_utc": "2026-10-07T16:08:32.487253+00:00",
+  "model_version": "3cb4292",
   "structure": {
     "89": [
       [
@@ -377,19 +377,19 @@
       "top": [
         {
           "team": "France",
-          "p": 0.8466
+          "p": 0.8547
         },
         {
           "team": "Germany",
-          "p": 0.745
+          "p": 0.6547
         },
         {
           "team": "Sweden",
-          "p": 0.255
+          "p": 0.3453
         },
         {
           "team": "Paraguay",
-          "p": 0.1534
+          "p": 0.1453
         }
       ]
     },
@@ -398,19 +398,19 @@
       "top": [
         {
           "team": "Canada",
-          "p": 0.6776
+          "p": 0.6413
         },
         {
           "team": "Morocco",
-          "p": 0.5825
+          "p": 0.5689
         },
         {
           "team": "Netherlands",
-          "p": 0.4175
+          "p": 0.4311
         },
         {
           "team": "South Africa",
-          "p": 0.3224
+          "p": 0.3587
         }
       ]
     },
@@ -419,19 +419,19 @@
       "top": [
         {
           "team": "Norway",
-          "p": 0.817
+          "p": 0.7215
         },
         {
           "team": "Brazil",
-          "p": 0.6956
+          "p": 0.7003
         },
         {
           "team": "Japan",
-          "p": 0.3044
+          "p": 0.2997
         },
         {
           "team": "Ivory Coast",
-          "p": 0.183
+          "p": 0.2785
         }
       ]
     },
@@ -440,19 +440,19 @@
       "top": [
         {
           "team": "England",
-          "p": 0.9077
+          "p": 0.9159
         },
         {
           "team": "Mexico",
-          "p": 0.6959
+          "p": 0.6746
         },
         {
           "team": "Ecuador",
-          "p": 0.3041
+          "p": 0.3254
         },
         {
           "team": "DR Congo",
-          "p": 0.0923
+          "p": 0.0841
         }
       ]
     },
@@ -461,19 +461,19 @@
       "top": [
         {
           "team": "Spain",
-          "p": 0.9341
+          "p": 0.9342
         },
         {
           "team": "Portugal",
-          "p": 0.7173
+          "p": 0.8462
         },
         {
           "team": "Croatia",
-          "p": 0.2827
+          "p": 0.1538
         },
         {
           "team": "Austria",
-          "p": 0.0659
+          "p": 0.0658
         }
       ]
     },
@@ -482,19 +482,19 @@
       "top": [
         {
           "team": "Belgium",
-          "p": 0.8214
+          "p": 0.8222
         },
         {
           "team": "United States",
-          "p": 0.8081
+          "p": 0.7525
         },
         {
           "team": "Bosnia and Herzegovina",
-          "p": 0.1919
+          "p": 0.2475
         },
         {
           "team": "Algeria",
-          "p": 0.1786
+          "p": 0.1778
         }
       ]
     },
@@ -503,19 +503,19 @@
       "top": [
         {
           "team": "Argentina",
-          "p": 0.9499
+          "p": 0.961
         },
         {
           "team": "Egypt",
-          "p": 0.6617
+          "p": 0.5914
         },
         {
           "team": "Australia",
-          "p": 0.3383
+          "p": 0.4086
         },
         {
           "team": "Cape Verde",
-          "p": 0.0501
+          "p": 0.039
         }
       ]
     },
@@ -524,19 +524,19 @@
       "top": [
         {
           "team": "Colombia",
-          "p": 0.9012
+          "p": 0.9297
         },
         {
           "team": "Switzerland",
-          "p": 0.7348
+          "p": 0.7886
         },
         {
           "team": "Senegal",
-          "p": 0.2652
+          "p": 0.2114
         },
         {
           "team": "Ghana",
-          "p": 0.0988
+          "p": 0.0703
         }
       ]
     },
@@ -545,27 +545,27 @@
       "top": [
         {
           "team": "France",
-          "p": 0.6824
+          "p": 0.7336
         },
         {
           "team": "Morocco",
-          "p": 0.4879
+          "p": 0.4636
         },
         {
           "team": "Netherlands",
-          "p": 0.3488
+          "p": 0.3558
         },
         {
           "team": "Germany",
-          "p": 0.1986
+          "p": 0.126
         },
         {
           "team": "Canada",
-          "p": 0.1182
+          "p": 0.1224
         },
         {
           "team": "Paraguay",
-          "p": 0.0798
+          "p": 0.0872
         }
       ]
     },
@@ -574,27 +574,27 @@
       "top": [
         {
           "team": "Spain",
-          "p": 0.7983
+          "p": 0.7585
         },
         {
           "team": "Belgium",
-          "p": 0.7125
-        },
-        {
-          "team": "United States",
-          "p": 0.1719
+          "p": 0.6778
         },
         {
           "team": "Portugal",
-          "p": 0.1448
+          "p": 0.2119
+        },
+        {
+          "team": "United States",
+          "p": 0.2028
         },
         {
           "team": "Algeria",
-          "p": 0.0919
+          "p": 0.075
         },
         {
-          "team": "Croatia",
-          "p": 0.0345
+          "team": "Bosnia and Herzegovina",
+          "p": 0.0444
         }
       ]
     },
@@ -603,27 +603,27 @@
       "top": [
         {
           "team": "England",
-          "p": 0.7409
-        },
-        {
-          "team": "Norway",
-          "p": 0.4326
+          "p": 0.7883
         },
         {
           "team": "Brazil",
-          "p": 0.4085
+          "p": 0.4907
         },
         {
-          "team": "Mexico",
-          "p": 0.1816
+          "team": "Norway",
+          "p": 0.2848
         },
         {
           "team": "Japan",
-          "p": 0.1272
+          "p": 0.1717
+        },
+        {
+          "team": "Mexico",
+          "p": 0.1369
         },
         {
           "team": "Ecuador",
-          "p": 0.0597
+          "p": 0.0571
         }
       ]
     },
@@ -632,27 +632,27 @@
       "top": [
         {
           "team": "Argentina",
-          "p": 0.8602
+          "p": 0.8851
         },
         {
           "team": "Colombia",
-          "p": 0.6034
+          "p": 0.5319
         },
         {
           "team": "Switzerland",
-          "p": 0.3226
+          "p": 0.4113
         },
         {
           "team": "Egypt",
-          "p": 0.0914
+          "p": 0.0656
         },
         {
           "team": "Senegal",
-          "p": 0.0553
+          "p": 0.0482
         },
         {
           "team": "Australia",
-          "p": 0.0392
+          "p": 0.0418
         }
       ]
     },
@@ -661,27 +661,27 @@
       "top": [
         {
           "team": "Spain",
-          "p": 0.717
+          "p": 0.6818
         },
         {
           "team": "France",
-          "p": 0.5183
+          "p": 0.5858
         },
         {
           "team": "Morocco",
-          "p": 0.1939
-        },
-        {
-          "team": "Belgium",
-          "p": 0.1401
-        },
-        {
-          "team": "Netherlands",
-          "p": 0.133
+          "p": 0.1633
         },
         {
           "team": "Portugal",
-          "p": 0.0906
+          "p": 0.1629
+        },
+        {
+          "team": "Netherlands",
+          "p": 0.1207
+        },
+        {
+          "team": "Belgium",
+          "p": 0.1165
         }
       ]
     },
@@ -690,27 +690,27 @@
       "top": [
         {
           "team": "Argentina",
-          "p": 0.6995
+          "p": 0.7171
         },
         {
           "team": "England",
-          "p": 0.5589
-        },
-        {
-          "team": "Colombia",
-          "p": 0.1797
+          "p": 0.5917
         },
         {
           "team": "Brazil",
-          "p": 0.1749
+          "p": 0.209
+        },
+        {
+          "team": "Colombia",
+          "p": 0.1487
+        },
+        {
+          "team": "Switzerland",
+          "p": 0.0986
         },
         {
           "team": "Norway",
-          "p": 0.1199
-        },
-        {
-          "team": "Mexico",
-          "p": 0.0885
+          "p": 0.0642
         }
       ]
     },
@@ -719,27 +719,27 @@
       "top": [
         {
           "team": "France",
-          "p": 0.3436
+          "p": 0.356
         },
         {
           "team": "England",
-          "p": 0.2624
+          "p": 0.2813
         },
         {
           "team": "Argentina",
-          "p": 0.2221
-        },
-        {
-          "team": "Morocco",
-          "p": 0.1458
+          "p": 0.2323
         },
         {
           "team": "Brazil",
-          "p": 0.1189
+          "p": 0.1404
         },
         {
           "team": "Spain",
-          "p": 0.1118
+          "p": 0.128
+        },
+        {
+          "team": "Morocco",
+          "p": 0.1229
         }
       ]
     },
@@ -748,27 +748,27 @@
       "top": [
         {
           "team": "Spain",
-          "p": 0.6052
+          "p": 0.5538
         },
         {
           "team": "Argentina",
-          "p": 0.4774
+          "p": 0.4848
         },
         {
           "team": "England",
-          "p": 0.2965
+          "p": 0.3104
         },
         {
           "team": "France",
-          "p": 0.1747
+          "p": 0.2298
         },
         {
-          "team": "Colombia",
-          "p": 0.0727
+          "team": "Portugal",
+          "p": 0.0789
         },
         {
-          "team": "Belgium",
-          "p": 0.0615
+          "team": "Brazil",
+          "p": 0.0686
         }
       ]
     }
