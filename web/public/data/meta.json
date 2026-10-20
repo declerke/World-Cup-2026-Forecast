@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-19T16:15:10.052318+00:00",
-  "model_version": "86efab3",
+  "generated_at_utc": "2026-10-20T14:08:52.293271+00:00",
+  "model_version": "1899a84",
   "n_sims": 10000,
   "training_rows": 32861,
   "metrics": {
@@ -10,7 +10,7 @@
     "n_test": 2564,
     "n_dev": 29787,
     "base_rate_logloss": 1.054089517572688,
-    "elo_only_logloss": 0.8685716701168535,
+    "elo_only_logloss": 0.8685716701168537,
     "beats_elo_only": true,
     "beats_base_rate": true
   }
