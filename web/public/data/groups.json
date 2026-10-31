@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-30T15:37:14.998708+00:00",
-  "model_version": "c9da1b7",
+  "generated_at_utc": "2026-10-31T15:07:17.792681+00:00",
+  "model_version": "8be396a",
   "groups": [
     {
       "group": "A",
@@ -125,7 +125,7 @@
         },
         {
           "team": "Morocco",
-          "elo": 2055.1,
+          "elo": 2055.0,
           "played": 3,
           "points": 7,
           "gd": 3,
@@ -308,7 +308,7 @@
         },
         {
           "team": "Tunisia",
-          "elo": 1596.1,
+          "elo": 1596.0,
           "played": 3,
           "points": 0,
           "gd": -10,
@@ -390,7 +390,7 @@
         },
         {
           "team": "Cape Verde",
-          "elo": 1635.8,
+          "elo": 1635.7,
           "played": 3,
           "points": 3,
           "gd": 0,
@@ -467,7 +467,7 @@
         },
         {
           "team": "Iraq",
-          "elo": 1663.0,
+          "elo": 1662.9,
           "played": 3,
           "points": 0,
           "gd": -11,
@@ -561,7 +561,7 @@
         },
         {
           "team": "DR Congo",
-          "elo": 1787.1,
+          "elo": 1787.0,
           "played": 3,
           "points": 4,
           "gd": 1,
@@ -614,7 +614,7 @@
         },
         {
           "team": "Ghana",
-          "elo": 1621.1,
+          "elo": 1621.0,
           "played": 3,
           "points": 4,
           "gd": 0,
