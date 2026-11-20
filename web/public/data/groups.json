@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-11-19T17:59:55.430691+00:00",
-  "model_version": "1551fcd",
+  "generated_at_utc": "2026-11-20T17:35:34.059761+00:00",
+  "model_version": "3306e04",
   "groups": [
     {
       "group": "A",
       "teams": [
         {
           "team": "Mexico",
-          "elo": 1978.4,
+          "elo": 1978.2,
           "played": 3,
           "points": 9,
           "gd": 6,
@@ -31,7 +31,7 @@
         },
         {
           "team": "South Korea",
-          "elo": 1801.1,
+          "elo": 1801.0,
           "played": 3,
           "points": 3,
           "gd": -1,
@@ -43,7 +43,7 @@
         },
         {
           "team": "Czech Republic",
-          "elo": 1686.2,
+          "elo": 1685.9,
           "played": 3,
           "points": 1,
           "gd": -4,
@@ -60,7 +60,7 @@
       "teams": [
         {
           "team": "Switzerland",
-          "elo": 2086.4,
+          "elo": 2085.6,
           "played": 3,
           "points": 7,
           "gd": 4,
@@ -72,7 +72,7 @@
         },
         {
           "team": "Canada",
-          "elo": 1862.2,
+          "elo": 1862.9,
           "played": 3,
           "points": 4,
           "gd": 5,
@@ -84,7 +84,7 @@
         },
         {
           "team": "Bosnia and Herzegovina",
-          "elo": 1744.7,
+          "elo": 1744.5,
           "played": 3,
           "points": 4,
           "gd": -1,
@@ -113,7 +113,7 @@
       "teams": [
         {
           "team": "Brazil",
-          "elo": 2075.0,
+          "elo": 2074.8,
           "played": 3,
           "points": 7,
           "gd": 6,
@@ -125,7 +125,7 @@
         },
         {
           "team": "Morocco",
-          "elo": 2057.4,
+          "elo": 2057.3,
           "played": 3,
           "points": 7,
           "gd": 3,
@@ -137,7 +137,7 @@
         },
         {
           "team": "Scotland",
-          "elo": 1801.3,
+          "elo": 1800.9,
           "played": 3,
           "points": 3,
           "gd": -3,
@@ -149,7 +149,7 @@
         },
         {
           "team": "Haiti",
-          "elo": 1660.7,
+          "elo": 1660.6,
           "played": 3,
           "points": 0,
           "gd": -6,
@@ -166,7 +166,7 @@
       "teams": [
         {
           "team": "United States",
-          "elo": 1902.8,
+          "elo": 1902.7,
           "played": 3,
           "points": 6,
           "gd": 4,
@@ -178,7 +178,7 @@
         },
         {
           "team": "Australia",
-          "elo": 1853.3,
+          "elo": 1853.2,
           "played": 3,
           "points": 4,
           "gd": 0,
@@ -190,7 +190,7 @@
         },
         {
           "team": "Paraguay",
-          "elo": 1972.8,
+          "elo": 1972.6,
           "played": 3,
           "points": 4,
           "gd": -2,
@@ -202,7 +202,7 @@
         },
         {
           "team": "Turkey",
-          "elo": 1782.4,
+          "elo": 1782.2,
           "played": 3,
           "points": 3,
           "gd": -2,
@@ -219,7 +219,7 @@
       "teams": [
         {
           "team": "Germany",
-          "elo": 2005.9,
+          "elo": 2005.7,
           "played": 3,
           "points": 6,
           "gd": 6,
@@ -231,7 +231,7 @@
         },
         {
           "team": "Ivory Coast",
-          "elo": 1836.8,
+          "elo": 1836.6,
           "played": 3,
           "points": 6,
           "gd": 2,
@@ -243,7 +243,7 @@
         },
         {
           "team": "Ecuador",
-          "elo": 1910.7,
+          "elo": 1910.5,
           "played": 3,
           "points": 4,
           "gd": 0,
@@ -255,7 +255,7 @@
         },
         {
           "team": "Curaçao",
-          "elo": 1645.4,
+          "elo": 1645.2,
           "played": 3,
           "points": 1,
           "gd": -8,
@@ -272,7 +272,7 @@
       "teams": [
         {
           "team": "Netherlands",
-          "elo": 1991.7,
+          "elo": 1991.4,
           "played": 3,
           "points": 7,
           "gd": 6,
@@ -284,7 +284,7 @@
         },
         {
           "team": "Japan",
-          "elo": 1990.8,
+          "elo": 1990.7,
           "played": 3,
           "points": 5,
           "gd": 4,
@@ -296,7 +296,7 @@
         },
         {
           "team": "Sweden",
-          "elo": 1871.5,
+          "elo": 1871.3,
           "played": 3,
           "points": 4,
           "gd": 0,
@@ -308,7 +308,7 @@
         },
         {
           "team": "Tunisia",
-          "elo": 1556.4,
+          "elo": 1556.2,
           "played": 3,
           "points": 0,
           "gd": -10,
@@ -325,7 +325,7 @@
       "teams": [
         {
           "team": "Belgium",
-          "elo": 2103.7,
+          "elo": 2103.5,
           "played": 3,
           "points": 5,
           "gd": 4,
@@ -337,7 +337,7 @@
         },
         {
           "team": "Egypt",
-          "elo": 1898.4,
+          "elo": 1898.3,
           "played": 3,
           "points": 5,
           "gd": 2,
@@ -349,7 +349,7 @@
         },
         {
           "team": "Iran",
-          "elo": 1862.3,
+          "elo": 1862.2,
           "played": 3,
           "points": 3,
           "gd": 0,
@@ -361,7 +361,7 @@
         },
         {
           "team": "New Zealand",
-          "elo": 1650.3,
+          "elo": 1650.2,
           "played": 3,
           "points": 1,
           "gd": -6,
@@ -378,7 +378,7 @@
       "teams": [
         {
           "team": "Spain",
-          "elo": 2345.8,
+          "elo": 2345.5,
           "played": 3,
           "points": 7,
           "gd": 5,
@@ -390,7 +390,7 @@
         },
         {
           "team": "Cape Verde",
-          "elo": 1601.7,
+          "elo": 1601.6,
           "played": 3,
           "points": 3,
           "gd": 0,
@@ -402,7 +402,7 @@
         },
         {
           "team": "Uruguay",
-          "elo": 1949.3,
+          "elo": 1949.1,
           "played": 3,
           "points": 2,
           "gd": -1,
@@ -414,7 +414,7 @@
         },
         {
           "team": "Saudi Arabia",
-          "elo": 1745.0,
+          "elo": 1744.9,
           "played": 3,
           "points": 2,
           "gd": -4,
@@ -431,7 +431,7 @@
       "teams": [
         {
           "team": "France",
-          "elo": 2153.6,
+          "elo": 2153.4,
           "played": 3,
           "points": 9,
           "gd": 8,
@@ -443,7 +443,7 @@
         },
         {
           "team": "Norway",
-          "elo": 2016.9,
+          "elo": 2016.6,
           "played": 3,
           "points": 6,
           "gd": 1,
@@ -455,7 +455,7 @@
         },
         {
           "team": "Senegal",
-          "elo": 1875.1,
+          "elo": 1874.9,
           "played": 3,
           "points": 3,
           "gd": 2,
@@ -484,7 +484,7 @@
       "teams": [
         {
           "team": "Argentina",
-          "elo": 2264.8,
+          "elo": 2264.5,
           "played": 3,
           "points": 9,
           "gd": 7,
@@ -496,7 +496,7 @@
         },
         {
           "team": "Austria",
-          "elo": 1922.1,
+          "elo": 1921.9,
           "played": 3,
           "points": 4,
           "gd": 0,
@@ -508,7 +508,7 @@
         },
         {
           "team": "Algeria",
-          "elo": 1785.7,
+          "elo": 1785.3,
           "played": 3,
           "points": 4,
           "gd": -2,
@@ -520,7 +520,7 @@
         },
         {
           "team": "Jordan",
-          "elo": 1693.6,
+          "elo": 1693.5,
           "played": 3,
           "points": 0,
           "gd": -5,
@@ -537,7 +537,7 @@
       "teams": [
         {
           "team": "Colombia",
-          "elo": 2077.2,
+          "elo": 2076.8,
           "played": 3,
           "points": 7,
           "gd": 3,
@@ -549,7 +549,7 @@
         },
         {
           "team": "Portugal",
-          "elo": 2080.3,
+          "elo": 2080.1,
           "played": 3,
           "points": 5,
           "gd": 5,
@@ -561,7 +561,7 @@
         },
         {
           "team": "DR Congo",
-          "elo": 1775.3,
+          "elo": 1775.2,
           "played": 3,
           "points": 4,
           "gd": 1,
@@ -573,7 +573,7 @@
         },
         {
           "team": "Uzbekistan",
-          "elo": 1732.8,
+          "elo": 1732.7,
           "played": 3,
           "points": 0,
           "gd": -9,
@@ -590,7 +590,7 @@
       "teams": [
         {
           "team": "England",
-          "elo": 2289.5,
+          "elo": 2289.3,
           "played": 3,
           "points": 7,
           "gd": 4,
@@ -602,7 +602,7 @@
         },
         {
           "team": "Croatia",
-          "elo": 1925.6,
+          "elo": 1925.3,
           "played": 3,
           "points": 6,
           "gd": 0,
@@ -614,7 +614,7 @@
         },
         {
           "team": "Ghana",
-          "elo": 1623.4,
+          "elo": 1623.3,
           "played": 3,
           "points": 4,
           "gd": 0,
@@ -626,7 +626,7 @@
         },
         {
           "team": "Panama",
-          "elo": 1773.3,
+          "elo": 1773.1,
           "played": 3,
           "points": 0,
           "gd": -4,
